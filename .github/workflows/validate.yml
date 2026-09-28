@@ -8,3 +8,22 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: python scripts/validate_release.py
+
+  verify-damos-asset:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download pinned DAMOS-derived asset
+        run: |
+          curl --fail --location --retry 4 --retry-delay 2             --output /tmp/damos-corpus.json             https://github.com/ryanpavlicek/pyaegean/releases/download/damos-corpus-v2/damos-corpus.json
+      - name: Verify exact bytes
+        run: |
+          echo "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2  /tmp/damos-corpus.json" | sha256sum --check
+          test "$(stat -c%s /tmp/damos-corpus.json)" = "3104186"
+      - name: Record non-redistributive verification summary
+        run: |
+          python - <<'PY'
+          import hashlib,json,pathlib
+          p=pathlib.Path('/tmp/damos-corpus.json')
+          print(json.dumps({"asset_id":445059579,"bytes":p.stat().st_size,"sha256":hashlib.sha256(p.read_bytes()).hexdigest(),"verified":True}))
+          PY
