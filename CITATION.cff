@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this project, cite the project release and the upstream scholarly sources materially used."
+title: "Linear B Open Control Corpus"
+type: dataset
+version: 0.1.0
+date-released: 2026-09-28
+license: MIT
+repository-code: "https://github.com/hawkinsnick/Linear-B"
