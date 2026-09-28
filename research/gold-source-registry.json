@@ -1,0 +1,42 @@
+{
+  "version": "4.9.3",
+  "sources": [
+    {
+      "source_id": "DAMOS-LINGUISTIC-ANNOTATION",
+      "title": "DĀMOS — Database of Mycenaean at Oslo",
+      "role": "preferred_primary_machine_readable_gold",
+      "license": "CC BY-NC-SA 4.0",
+      "public_documentation_supports": [
+        "morphology",
+        "syntax",
+        "translation",
+        "lexical information",
+        "multiple simultaneous analyses",
+        "probability/uncertainty ranking"
+      ],
+      "acquisition_state": "DOCUMENTED_BUT_BULK_ENDPOINT_NOT_VERIFIED",
+      "acceptable_acquisition": [
+        "documented public export/API",
+        "maintainer-supplied research export"
+      ],
+      "unacceptable_acquisition": [
+        "undocumented private endpoint circumvention",
+        "synthetic model-generated gold"
+      ]
+    },
+    {
+      "source_id": "LIBER",
+      "title": "LiBER — Linear B Electronic Resources",
+      "role": "epigraphic_and_bibliographic_witness",
+      "acquisition_state": "NOT_YET_POPULATED",
+      "independence_rule": "Do not count as independent confirmation when ultimately reproducing the same upstream edition."
+    }
+  ],
+  "gold_policy": {
+    "single_source_truth": false,
+    "competing_analyses_allowed": true,
+    "source_lineage_required": true,
+    "uncertainty_required": true,
+    "model_generated_gold_allowed": false
+  }
+}

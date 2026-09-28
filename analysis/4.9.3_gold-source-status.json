@@ -1,0 +1,23 @@
+{
+  "version": "4.9.3",
+  "observation_layer": {
+    "records": 5932,
+    "authenticated": true,
+    "leakage_field_audit": "PASS"
+  },
+  "gold_layer": {
+    "schema_frozen": true,
+    "preferred_source": "DĀMOS linguistic annotation",
+    "linguistic_assertions_populated": 0,
+    "acquisition_gate": "BLOCKED_PENDING_LEGITIMATE_ANNOTATION_EXPORT"
+  },
+  "known_answer_calibration": {
+    "executed": false,
+    "result": null
+  },
+  "degradation": {
+    "executed": false,
+    "result": null
+  },
+  "release_5_0_allowed": false
+}

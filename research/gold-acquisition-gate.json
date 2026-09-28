@@ -1,0 +1,38 @@
+{
+  "version": "4.9.3",
+  "state": "BLOCKED_PENDING_LEGITIMATE_ANNOTATION_EXPORT",
+  "requirements": [
+    {
+      "id": "documented_or_maintainer_supplied_access",
+      "satisfied": false
+    },
+    {
+      "id": "license_and_attribution_recorded",
+      "satisfied": true,
+      "evidence": "DĀMOS content CC BY-NC-SA 4.0; citation documented by DĀMOS."
+    },
+    {
+      "id": "record_word_alignment_reproducible",
+      "satisfied": false
+    },
+    {
+      "id": "multiple_analyses_preserved",
+      "satisfied": false
+    },
+    {
+      "id": "lineage_to_scholarly_sources_preserved_where_available",
+      "satisfied": false
+    },
+    {
+      "id": "gold_frozen_before_prediction_reveal",
+      "satisfied": false
+    }
+  ],
+  "prohibited_shortcuts": [
+    "infer gold from model knowledge",
+    "collapse ambiguity to one answer",
+    "treat duplicated editions as independent witnesses",
+    "scrape around access controls"
+  ],
+  "release_5_0_allowed": false
+}
