@@ -1,0 +1,35 @@
+{
+  "version": "0.1",
+  "name": "Matched Information Environment Degradation",
+  "rules": [
+    "Targets come from corpus evidence, not desired results.",
+    "Unknown target dimensions are omitted, never imputed.",
+    "Every draw records seed, target vector and realized vector.",
+    "Detector and scoring are frozen before gold reveal.",
+    "Failure to match a target is reported.",
+    "Matching information environments implies no historical/sign equivalence."
+  ],
+  "targets": [
+    {
+      "id": "LA-MATCH",
+      "state": "PARTIAL",
+      "eligible": [
+        "document_count"
+      ]
+    },
+    {
+      "id": "CM-MATCH",
+      "state": "BLOCKED_FOR_FINE_MATCH",
+      "eligible": [
+        "bounded object scale"
+      ]
+    },
+    {
+      "id": "CH-MATCH",
+      "state": "BLOCKED_FOR_FINE_MATCH",
+      "eligible": [
+        "catalogue/object scale"
+      ]
+    }
+  ]
+}

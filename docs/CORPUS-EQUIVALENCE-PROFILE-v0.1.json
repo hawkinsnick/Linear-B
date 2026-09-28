@@ -1,0 +1,112 @@
+{
+  "profile_version": "0.1",
+  "as_of": "2026-09-28",
+  "purpose": "Cross-corpus information-environment characterization for matched Linear B degradation controls.",
+  "comparison_rule": "Only compatible measured dimensions may drive degradation; unknown is never encoded as zero.",
+  "corpora": {
+    "linear-a": {
+      "documents": {
+        "value": 802,
+        "status": "measured"
+      },
+      "source_defined_words": {
+        "nonempty": 1283,
+        "status": "measured"
+      },
+      "sign_attestations": {
+        "value": 5144,
+        "status": "measured"
+      },
+      "sites": {
+        "value": 19,
+        "status": "measured_identifier_derived"
+      },
+      "hand_profile": {
+        "status": "unknown"
+      }
+    },
+    "cypro-minoan": {
+      "catalogue_control_slots": {
+        "value": 254,
+        "status": "bounded"
+      },
+      "rich_object_records": {
+        "value": 21,
+        "status": "measured_open_denominator"
+      },
+      "source_verified_occurrences": {
+        "value": 3,
+        "status": "measured_sparse"
+      },
+      "exact_siglum_reconciliation": {
+        "covered": 68,
+        "known": 254,
+        "status": "measured"
+      },
+      "sign_density": {
+        "status": "unknown"
+      }
+    },
+    "cretan-hieroglyphic": {
+      "catalogue_spine": {
+        "value": 331,
+        "status": "measured"
+      },
+      "source_checked_occurrences": {
+        "value": 0,
+        "status": "measured"
+      },
+      "independently_reviewed_objects": {
+        "value": 0,
+        "status": "measured"
+      },
+      "core_numbered_repertoire": {
+        "value": 96,
+        "status": "measured_catalogue"
+      },
+      "sign_density": {
+        "status": "unknown"
+      }
+    },
+    "linear-b": {
+      "documents": {
+        "value": 5932,
+        "status": "measured"
+      },
+      "documents_with_text": {
+        "value": 5890,
+        "status": "measured"
+      },
+      "documents_with_scribe": {
+        "value": 3945,
+        "status": "measured"
+      },
+      "documents_with_find_area": {
+        "value": 3262,
+        "status": "measured"
+      },
+      "documents_with_find_spot": {
+        "value": 732,
+        "status": "measured"
+      },
+      "lost_documents": {
+        "value": 111,
+        "status": "measured"
+      },
+      "warning": "observation export uses conventional transliteration, not raw visual signs"
+    }
+  },
+  "eligible_v0_1_degradation_dimensions": [
+    "document_count",
+    "document_loss",
+    "site concentration when compatible metadata exists",
+    "hand concentration only when target hand profile is measured"
+  ],
+  "blocked_fine_dimensions": [
+    "CM/CH sign density",
+    "CM/CH damage",
+    "CM/CH hapax inflation",
+    "CM/CH segmentation uncertainty"
+  ],
+  "next_gate": "Populate CM and CH occurrence evidence and compute metrics from versioned snapshots."
+}
