@@ -1,0 +1,15 @@
+{
+  "contract_version": "1.0",
+  "repository": "hawkinsnick/Linear-B",
+  "repository_version": "4.9.4",
+  "script": "linear-b",
+  "dimensions": {
+    "architecture": "STABLE_CONTROL_PLATFORM",
+    "authenticated_evidence": "5932_OBSERVATION_RECORDS",
+    "source_checked_coverage": "DAMOS_V2_AUTHENTICATED",
+    "executed_analysis": "OBSERVATION_INTEGRITY_EXECUTED_CALIBRATION_BLOCKED",
+    "external_control_validation": "SELF_KNOWN_ANSWER_GOLD_PENDING",
+    "rights_provenance": "MATURE"
+  },
+  "global_ready_claim": false
+}

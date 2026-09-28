@@ -1,5 +1,5 @@
 {
-  "version": "4.9.2",
+  "version": "4.9.4",
   "experiments": [
     {
       "experiment_id": "linear-b-known-answer-v1",
@@ -18,17 +18,17 @@
         {
           "id": "observation_export_populated_and_leakage_clean",
           "satisfied": true,
-          "evidence": "5932 records; SHA-256 2659e15884d3a36af8df3b98080e18941c2bd6cde48270cabe473c9be1027eaf; zero forbidden field-name hits"
+          "evidence": "5932 records; SHA-256 2659e15884d3a36af8df3b98080e18941c2bd6cde48270cabe473c9be1027eaf"
         },
         {
-          "id": "gold_layer_populated",
+          "id": "authoritative_linguistic_gold_export",
           "satisfied": false,
-          "evidence": "DAMOS-derived v2 asset does not contain the required lemma/morphology/syntax/semantic gold layer."
+          "evidence": "research/gold-acquisition-gate.json"
         },
         {
           "id": "predictions_frozen_before_gold_join",
           "satisfied": false,
-          "evidence": "Known-answer experiment has not yet run."
+          "evidence": "Experiment unexecuted."
         }
       ],
       "claim_allowed": false,
@@ -46,7 +46,7 @@
         {
           "id": "known_answer_baseline_frozen",
           "satisfied": false,
-          "evidence": "Known-answer gold scoring remains blocked."
+          "evidence": "Known-answer linguistic gold scoring remains blocked."
         }
       ],
       "claim_allowed": false,
