@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Linear B gold layer v1","type":"object","required":["document_id","assertions"],"properties":{"document_id":{"type":"string"},"assertions":{"type":"array","items":{"$ref":"gold-assertion-v1.schema.json"}},"source_lineage_ids":{"type":"array","items":{"type":"string"}}},"additionalProperties":false}
