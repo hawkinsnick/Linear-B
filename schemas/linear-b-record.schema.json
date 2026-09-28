@@ -1,0 +1,14 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Linear B control-corpus record 0.1",
+  "type":"object",
+  "required":["id","record_version","observation","gold","rights"],
+  "properties":{
+    "id":{"type":"string"},
+    "record_version":{"type":"string"},
+    "observation":{"type":"object","description":"Detector-visible evidence only."},
+    "gold":{"type":"object","description":"Deciphered/linguistic assertions; excluded from blind observation exports."},
+    "rights":{"type":"object","required":["record_license","third_party_material"],"properties":{"record_license":{"type":"string"},"third_party_material":{"type":"array","items":{"type":"object"}},"additionalProperties":false}
+  },
+  "additionalProperties":false
+}
