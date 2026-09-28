@@ -1,10 +1,13 @@
 # Changelog
 
+## 4.3.0 — 2026-09-28
+Freezes the source-attributed physical/context layer. Population remains blocked pending exact locally verified DĀMOS bytes.
+
 ## 4.2.0 — 2026-09-28
-Freezes the executable observation-only derivation contract and recursive gold-leakage audit. Exact local DĀMOS bytes remain unavailable, so zero observation records are claimed and calibration remains blocked.
+Observation-only derivation and gold-leakage contracts.
 
 ## 4.1.0 — 2026-09-28
-Authenticated upstream DĀMOS-derived release asset identity and digest; local re-hash pending.
+Authenticated upstream asset metadata.
 
 ## 4.0.0
-Architecture-stable known-answer research platform.
+Architecture-stable known-answer platform.
