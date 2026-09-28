@@ -1,0 +1,14 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Experiment gate v1",
+  "type":"object",
+  "required":["experiment_id","state","prerequisites","claim_allowed"],
+  "properties":{
+    "experiment_id":{"type":"string"},
+    "state":{"enum":["READY","BLOCKED","RUNNING","FROZEN_RESULT","SUPERSEDED"]},
+    "prerequisites":{"type":"array","items":{"type":"object","required":["id","satisfied"],"properties":{"id":{"type":"string"},"satisfied":{"type":"boolean"},"evidence":{"type":["string","null"]}},"additionalProperties":false}},
+    "claim_allowed":{"type":"boolean"},
+    "result_ref":{"type":["string","null"]}
+  },
+  "additionalProperties":false
+}
