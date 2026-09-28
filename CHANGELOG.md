@@ -1,7 +1,10 @@
 # Changelog
 
+## 4.2.0 — 2026-09-28
+Freezes the executable observation-only derivation contract and recursive gold-leakage audit. Exact local DĀMOS bytes remain unavailable, so zero observation records are claimed and calibration remains blocked.
+
 ## 4.1.0 — 2026-09-28
-Authenticated acquisition metadata. Confirms the pinned DĀMOS-derived release asset against GitHub's published SHA-256 digest, size and asset ID; adds a fail-closed exact-byte acquisition script. Local byte re-hash remains pending and calibration remains blocked.
+Authenticated upstream DĀMOS-derived release asset identity and digest; local re-hash pending.
 
 ## 4.0.0
 Architecture-stable known-answer research platform.
