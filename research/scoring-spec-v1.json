@@ -1,0 +1,1 @@
+{"spec_version":"1.0","state":"FROZEN_UNEXECUTED","principles":["predeclare target units","report denominators","report uncertainty","report null and failure results","separate discovery from evaluation","no post-reveal target redefinition"],"metrics_to_define_per_experiment":["precision","recall","coverage","null comparison"],"result":null}
