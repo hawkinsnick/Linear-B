@@ -1,31 +1,31 @@
-# Roadmap
+# Roadmap after 4.0
 
-## 0.1 — foundation
-Architecture, ethics, provenance, rights, source registry, interoperability and experiment gates.
+## 4.1 — authenticated DĀMOS acquisition
+Materialize exact pinned bytes outside the repository, verify SHA-256, record retrieval metadata and rights, and inspect structure.
 
-## 0.2 — authenticated acquisition
-Materialize the exact pinned DĀMOS v2 derivative, verify SHA-256, inspect structure and document upstream/derivative rights. Raw bytes remain uncommitted unless redistribution is clearly permitted and intentional.
+## 4.2 — observational corpus
+Produce detector-visible document/sign/sequence exports with explicit leakage audit.
 
-## 0.3 — observational corpus
-Build document/sign/structural-unit observation exports without linguistic gold leakage.
+## 4.3 — physical/context evidence
+Populate site, support, chronology, hand/scribe and layout where sourced.
 
-## 0.4 — physical/context model
-Add site, support, chronology, scribe/hand and physical layout with provenance.
+## 4.4 — gold layer
+Encode source-attributed readings, lexical forms, morphology, syntax and competing analyses.
 
-## 0.5 — Aegean adapter
-Validate interchange exports against Linear A and Cypro-Minoan neutral contracts.
+## 4.5 — blind known-answer harness
+Freeze observation-only detector inputs and predictions before gold join.
 
-## 0.6 — gold layer
-Add versioned, source-attributed deciphered readings and linguistic annotations without contaminating observation exports.
+## 4.6 — scored calibration
+Score recovery against gold; publish null/failure results as readily as positive results.
 
-## 0.7 — blind harness
-Run frozen detectors on observation-only data and freeze predictions before gold reveal.
+## 4.7 — degraded-control experiments
+Reduce size, increase damage/uncertainty/fragmentation and measure recoverability.
 
-## 0.8 — Linear A calibration compatibility
-Execute the detector family used by the Linear A project under the same declared observational constraints.
+## 4.8 — multi-witness population
+Add editions/analyses with lineage-aware disagreement.
 
-## 0.9 — hostile audit
-Audit leakage, source dependence, scoring, multiplicity, clustering, coverage and rights.
+## 4.9 — hostile audit
+Audit leakage, rights, pseudo-replication, clustering, multiplicity, coverage and scoring.
 
-## 1.0 — known-answer control corpus
-Freeze a reproducible control corpus and scored calibration suitable for downstream Linear A degradation experiments.
+## 5.0 — integrated comparative platform
+Join mature Linear B evidence and calibration outputs to the shared Aegean laboratory without making Linear B the template for undeciphered scripts.

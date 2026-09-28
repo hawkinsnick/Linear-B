@@ -1,21 +1,14 @@
-# Cross-project conformance
+# Cross-project conformance — 4.0
 
-Linear B 0.1.0 joins Linear A and Cypro-Minoan as a separate repository and script adapter.
+Linear B is the deciphered known-answer control in the same project family as Linear A, Cypro-Minoan and Cretan Hieroglyphic.
 
-Shared invariants:
-- assertion-level provenance;
-- explicit uncertainty;
-- source/evidence lineage;
-- rights-aware redistribution;
-- physical-locus support;
-- versioned corrections;
-- experiment gates;
-- no silent promotion of interpretation into observation.
+Shared abstractions: record, identifier, assertion, provenance, lineage, uncertainty, rights, physical locus, representation, disagreement, claim, experiment, errata and release manifest.
 
 Explicit non-equivalences:
-- Linear A SigLA source-defined Word objects are not universal word units.
-- Cypro-Minoan CMSIGN concepts and CM classifications do not map automatically to Linear B signs/categories.
-- Linear B phonetic values, lemmas, morphology and syntax are **extensions**, not shared-core fields.
-- deciphered status does not make a modern scholarly analysis provenance-free.
+- Linear A source-defined Word objects are not universal.
+- Cypro-Minoan CMSIGN and CM classifications are not Linear B categories.
+- Cretan Hieroglyphic repertoire labels are not Linear B sign identities.
+- Linear B phonetic values, lemmas, morphology and syntax are gold-layer extensions, not neutral-core requirements.
+- deciphered status does not make modern scholarship provenance-free.
 
-The historical Cypro-Minoan 2.0 conformance document deferred Linear B. This repository records the subsequent transition: Linear B is now admitted as a control adapter without changing the neutral-core semantics.
+The neutral core may constrain Linear B. Linear B may not redefine the neutral core.

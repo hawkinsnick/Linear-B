@@ -1,7 +1,9 @@
 # Rights policy
 
-Project-authored code is MIT unless otherwise stated. Project-authored schemas/docs may later receive explicit documentation/data licenses.
+Project-authored software is MIT-licensed unless otherwise stated. The MIT license does not purport to license third-party scholarly corpus content.
 
-Third-party corpus data keeps its upstream license. Version 0.1.0 stores only source identity/provenance metadata for the planned DĀMOS derivative and does not commit its corpus bytes.
+Third-party transcriptions, editions, lexical/morphological analyses, photographs, facsimiles, drawings and database compilations retain upstream attribution and applicable rights. Ancient inscriptions are distinct from modern scholarly representations.
 
-Do not add photographs, facsimiles, modern editions, substantial transcriptions, annotations or database dumps without a documented redistribution basis.
+The pinned DĀMOS derivative is recorded as CC BY-NC-SA 4.0 in project provenance. Exact bytes are not committed in 4.0.0. Redistribution must follow applicable upstream terms and attribution requirements.
+
+Transformation or normalization does not erase upstream rights.
