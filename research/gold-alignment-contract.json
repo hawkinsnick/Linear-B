@@ -1,0 +1,28 @@
+{
+  "version": "4.9.6",
+  "purpose": "Prevent post-hoc/manual answer alignment from contaminating known-answer scoring.",
+  "join_keys_preference": [
+    "stable DĀMOS document identifier",
+    "line identifier where available",
+    "token ordinal within source-defined line/word segmentation",
+    "actual surface form as validation, not sole identity"
+  ],
+  "rules": [
+    "No fuzzy alignment may silently become gold.",
+    "Ambiguous alignments are retained as unresolved.",
+    "Normalized form may validate an alignment but may not replace stable identity.",
+    "One observation token may map to multiple competing analyses within one analysis group.",
+    "Every gold assertion retains source and lineage.",
+    "Alignment code and unmatched/ambiguous counts must be released before scoring."
+  ],
+  "required_report_fields": [
+    "observation_tokens",
+    "gold_units",
+    "exact_matches",
+    "ambiguous_matches",
+    "unmatched_observation",
+    "unmatched_gold",
+    "manual_overrides"
+  ],
+  "manual_overrides_policy": "default zero; any exception must be preregistered and separately scored"
+}

@@ -1,0 +1,46 @@
+{
+  "manifest_version": "1.0",
+  "project": "Linear B",
+  "target_milestone": "5.0.0",
+  "authenticated_observations": 5932,
+  "blockers": [
+    {
+      "id": "DAMOS_LINGUISTIC_EXPORT",
+      "state": "BLOCKED_EXTERNAL_ACCESS",
+      "acceptable_resolution": [
+        "documented public export/API",
+        "maintainer-supplied research export"
+      ]
+    },
+    {
+      "id": "TOKEN_ALIGNMENT",
+      "state": "BLOCKED_BY_GOLD_EXPORT"
+    },
+    {
+      "id": "BLIND_PREDICTIONS",
+      "state": "UNEXECUTED"
+    },
+    {
+      "id": "SCORING",
+      "state": "UNEXECUTED"
+    },
+    {
+      "id": "DEGRADATION",
+      "state": "UNEXECUTED"
+    },
+    {
+      "id": "HOSTILE_AUDIT",
+      "state": "INCOMPLETE"
+    }
+  ],
+  "unlock_conditions": [
+    "gold obtained legitimately",
+    "competing analyses preserved",
+    "token alignment deterministic and audited",
+    "observation predictions frozen before gold reveal",
+    "scoring executed under frozen spec",
+    "degradation executed",
+    "hostile audit has no unresolved critical failure"
+  ],
+  "release_5_0_allowed": false
+}

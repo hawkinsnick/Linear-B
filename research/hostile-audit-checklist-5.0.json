@@ -1,0 +1,51 @@
+{
+  "version": "4.9.6",
+  "checks": [
+    {
+      "id": "byte_integrity",
+      "state": "PASS"
+    },
+    {
+      "id": "observation_field_leakage",
+      "state": "PASS_WITH_SCOPE_FIELD_NAMES"
+    },
+    {
+      "id": "phonetic_transliteration_leakage",
+      "state": "OPEN_LIMITATION",
+      "note": "Transliteration embodies deciphered sign readings; experiments must state whether this representation is detector-visible."
+    },
+    {
+      "id": "gold_access_legitimacy",
+      "state": "BLOCKED"
+    },
+    {
+      "id": "gold_alignment",
+      "state": "BLOCKED"
+    },
+    {
+      "id": "prediction_freeze",
+      "state": "BLOCKED"
+    },
+    {
+      "id": "scoring_precommitment",
+      "state": "READY"
+    },
+    {
+      "id": "degradation_precommitment",
+      "state": "READY"
+    },
+    {
+      "id": "source_lineage",
+      "state": "READY"
+    },
+    {
+      "id": "pseudo_replication",
+      "state": "READY"
+    },
+    {
+      "id": "null_failure_reporting",
+      "state": "READY"
+    }
+  ],
+  "release_5_0_allowed": false
+}
