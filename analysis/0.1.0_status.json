@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "release_state": "ARCHITECTURE_AND_PROVENANCE_FOUNDATION",
+  "primary_role": "deciphered_known_answer_control_corpus",
+  "aligned_projects": [
+    "hawkinsnick/Linear-A",
+    "hawkinsnick/Cypro-Minoan"
+  ],
+  "interchange": "Aegean Epigraphy Interchange v0.1",
+  "observation_gold_separation": true,
+  "damos_identity_pinned": true,
+  "damos_bytes_materialized": false,
+  "calibration_result": null,
+  "comprehensive_linear_b_corpus_claim": false
+}
