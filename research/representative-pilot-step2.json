@@ -1,0 +1,13 @@
+{
+  "step": 2,
+  "name": "representative-pilot",
+  "corpus": "Linear-B",
+  "version": "4.9.8",
+  "role": "deciphered known-answer control",
+  "state": "DESIGN_READY_EXECUTION_BLOCKED",
+  "selection_rule": "Define a representative control pilot by site/context/document-size strata, but keep observation/gold execution blocked until checksum-pinned DĀMOS bytes pass the existing acquisition gate.",
+  "scientific_boundary": "No known-answer performance claim before materialization, hashing and blind execution.",
+  "freeze_policy": "Membership and selection rules freeze before target-result inspection.",
+  "cross_corpus_rule": "Pilot strata remain native; cross-script identity is never inferred by inclusion.",
+  "results": []
+}
