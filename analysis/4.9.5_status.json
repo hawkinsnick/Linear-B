@@ -1,0 +1,12 @@
+{
+  "version": "4.9.5",
+  "milestone_target": "5.0.0",
+  "state": "GOLD_ACCESS_REQUEST_READY",
+  "authenticated_observation_records": 5932,
+  "linguistic_gold_assertions": 0,
+  "known_answer_calibration_executed": false,
+  "degradation_executed": false,
+  "request_artifact": "docs/DAMOS-RESEARCH-REQUEST.md",
+  "request_sent": false,
+  "release_5_0_allowed": false
+}

@@ -1,0 +1,25 @@
+{
+  "version": "4.9.5",
+  "recipient_role": "DĀMOS maintainer / University of Oslo",
+  "purpose": "request legitimate research access to machine-readable linguistic annotations for reproducible known-answer calibration",
+  "requested_fields": [
+    "stable document identifier",
+    "word/token locator",
+    "actual and/or normalized word form",
+    "lemma or lexical identifier if available",
+    "part of speech",
+    "morphology including case where available",
+    "syntax/dependency or case-syntax annotation where available",
+    "translation/meaning analyses",
+    "probability/uncertainty ranking",
+    "analysis/source/bibliographic lineage"
+  ],
+  "requirements": [
+    "bulk or reproducibly queryable research export",
+    "CC BY-NC-SA attribution retained",
+    "multiple competing analyses preserved",
+    "no requirement for images",
+    "no unpublished/private material requested unless maintainer elects to provide it"
+  ],
+  "status": "READY_TO_SEND_NOT_SENT"
+}
