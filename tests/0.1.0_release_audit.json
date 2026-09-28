@@ -1,0 +1,22 @@
+{
+  "passed": 16,
+  "total": 16,
+  "checks": {
+    "version": true,
+    "readme_scope": true,
+    "research_ethics": true,
+    "rights_policy": true,
+    "observation_gold_separation": true,
+    "aegean_interop_v01": true,
+    "experiment_gate_v1": true,
+    "linear_b_extension_boundary": true,
+    "damos_identity_pinned": true,
+    "damos_hash_pinned": true,
+    "damos_bytes_not_committed": true,
+    "known_answer_gate_blocked": true,
+    "no_calibration_result": true,
+    "no_comprehensive_corpus_claim": true,
+    "linear_a_alignment": true,
+    "cypro_minoan_alignment": true
+  }
+}
