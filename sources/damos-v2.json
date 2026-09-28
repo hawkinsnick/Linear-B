@@ -1,0 +1,17 @@
+{
+  "source_id": "DAMOS-DERIVATIVE-V2",
+  "role": "planned_initial_control_corpus_input",
+  "scholarly_source": "DĀMOS — Database of Mycenaean at Oslo",
+  "derivative_provider": "ryanpavlicek/pyaegean",
+  "release_tag": "damos-corpus-v2",
+  "asset": "damos-corpus.json",
+  "asset_id": 445059579,
+  "size_bytes": 3104186,
+  "sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "license": "CC BY-NC-SA 4.0",
+  "reported_documents": 5932,
+  "reported_documents_with_transliterated_text": 5890,
+  "bytes_committed": false,
+  "local_verification_state": "IDENTITY_PINNED_BYTES_NOT_MATERIALIZED",
+  "notes": "Metadata inherited from the verified Linear A calibration provenance work. Reverify exact bytes and upstream terms during Linear-B 0.2 before corpus use."
+}
