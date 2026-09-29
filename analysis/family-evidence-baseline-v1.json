@@ -1,0 +1,33 @@
+{
+  "step": "2.5",
+  "name": "family-evidence-baseline-v1",
+  "version": "4.9.9",
+  "state": "BASELINE_FROZEN_CONTROL_BLOCKED",
+  "metrics": {
+    "role": "known-answer-control",
+    "damos_bytes_materialized": {
+      "value": false,
+      "status": "measured"
+    },
+    "checksum_verified": {
+      "value": false,
+      "status": "measured"
+    },
+    "gold_reveal_allowed": {
+      "value": false,
+      "status": "gate"
+    }
+  },
+  "rules": [
+    "Unknown is not zero.",
+    "Bounded is not complete.",
+    "Catalogue presence is not transcription coverage.",
+    "Only definition-compatible measured dimensions may be compared.",
+    "Source lineage and rights survive derived exports."
+  ],
+  "acquisition_queue": [
+    "Materialize the exact checksum-pinned DĀMOS corpus bytes.",
+    "Independently verify checksum and acquisition identity.",
+    "Freeze observation snapshot before gold reveal; execute only after existing blind-control gates pass."
+  ]
+}
