@@ -1,0 +1,12 @@
+{
+  "version": "4.9.12",
+  "changes": [
+    "Make leakage auditor load research/blind-field-policy.json as the single source of forbidden-field truth.",
+    "Add regression test preventing builder/auditor policy divergence, including number and normalized_reading."
+  ],
+  "scientific_result": false,
+  "gold_scoring_executed": false,
+  "gold_access": "BLOCKED_PENDING_LEGITIMATE_ANNOTATION_EXPORT",
+  "known_answer_prediction_artifact": "STILL_REQUIRED_BEFORE_GOLD_REVEAL",
+  "five_point_zero_gate": "NOT_EARNED"
+}
