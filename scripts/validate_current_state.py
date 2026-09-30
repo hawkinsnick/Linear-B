@@ -23,8 +23,9 @@ def validate():
     family=load("research/family-compatibility-v1.json")
     require(family["member_version"]==version,"family member version drift")
     suite=load("research/family-compatibility-suite-v1.json")
-    require(family["contract_version"]=="1.0.0","family contract")
-    require(set(family["members"])==set(suite["required_members"]),"family membership")
+    require(family["contract_version"]==suite["required_contract_version"]==suite["suite_version"]=="1.1.0","family contract")
+    require(set(family["members"])==set(suite["required_members"])=={"linear-a","linear-b","cypro-minoan","cretan-hieroglyphic","phaistos-disc"} and len(family["members"])==5,"family membership")
+    require(family["membership_boundary"]=="Native evidence only; membership implies no linguistic affinity, shared sign identities, or pooled analysis.","family claim boundary")
     for p in suite["required_artifacts"]:require((R/p).is_file(),"missing family artifact: "+p)
     for evidence in state["evidence"]:
         require(hashlib.sha256((R/evidence["path"]).read_bytes()).hexdigest()==evidence["sha256"],"evidence digest drift: "+evidence["path"])
@@ -38,6 +39,9 @@ def validate():
     v=Draft202012Validator(schema)
     good={"project":family["members"][0],"record_id":"fixture","assertions":[{"assertion_type":"metadata","value":None,"status":"published","provenance":[{"source_id":"fixture"}]}],"rights":{"record_license":"NOASSERTION"}}
     require(v.is_valid(good),"interchange positive fixture rejected")
+    for member in family["members"]:
+        fixture=json.loads(json.dumps(good));fixture["project"]=member
+        require(v.is_valid(fixture),"interchange member rejected: "+member)
     for mutation in ("rights","provenance","unknown"):
         bad=json.loads(json.dumps(good))
         if mutation=="rights":del bad["rights"]

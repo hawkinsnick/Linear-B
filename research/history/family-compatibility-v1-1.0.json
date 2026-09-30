@@ -1,15 +1,14 @@
 {
-  "contract_version": "1.1.0",
+  "contract_version": "1.0.0",
   "family": "Aegean corpus research family",
   "members": [
     "linear-a",
     "cypro-minoan",
     "cretan-hieroglyphic",
-    "linear-b",
-    "phaistos-disc"
+    "linear-b"
   ],
   "member": "Linear-B",
-  "member_version": "4.9.21",
+  "member_version": "4.9.20",
   "native_state": "CONTROL_ACQUISITION_GATE",
   "invariants": [
     "Native corpus evidence remains authoritative.",
@@ -22,6 +21,5 @@
     "Family releases check all member repositories for compatibility; version numbers need not match."
   ],
   "next_action": "Materialize and independently hash pinned DĀMOS bytes before observation/gold execution.",
-  "blocked_claim": "5.0 and performance claims remain blocked.",
-  "membership_boundary": "Native evidence only; membership implies no linguistic affinity, shared sign identities, or pooled analysis."
+  "blocked_claim": "5.0 and performance claims remain blocked."
 }

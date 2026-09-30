@@ -1,12 +1,11 @@
 {
-  "suite_version": "1.1.0",
+  "suite_version": "1.0.0",
   "name": "Aegean family compatibility suite",
   "required_members": [
     "linear-a",
     "cypro-minoan",
     "cretan-hieroglyphic",
-    "linear-b",
-    "phaistos-disc"
+    "linear-b"
   ],
   "required_artifacts": [
     "research/family-compatibility-v1.json",
@@ -16,7 +15,7 @@
   "checks": [
     {
       "id": "FC-001",
-      "rule": "contract_version equals required_contract_version (1.1.0)"
+      "rule": "contract_version equals 1.0.0"
     },
     {
       "id": "FC-002",
@@ -53,10 +52,6 @@
     {
       "id": "FC-010",
       "rule": "member version need not equal other family member versions"
-    },
-    {
-      "id": "FC-011",
-      "rule": "Phaistos Disc faces remain one object; membership implies neither linguistic affinity nor pooled evidence."
     }
   ],
   "status_semantics": {
@@ -64,6 +59,5 @@
     "BLOCKED": "required evidence or dependency unavailable",
     "FAIL": "contract violated"
   },
-  "claim_boundary": "Suite checks architecture and governance compatibility; it does not certify epigraphic correctness.",
-  "required_contract_version": "1.1.0"
+  "claim_boundary": "Suite checks architecture and governance compatibility; it does not certify epigraphic correctness."
 }
