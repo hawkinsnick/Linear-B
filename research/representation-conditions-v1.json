@@ -1,52 +1,53 @@
 {
-  "version": "1.0",
-  "state": "FROZEN_PRE_GOLD",
-  "conditions": [
-    {
-      "id": "LB-RAW",
-      "visible": [
+  "version": "4.9.17",
+  "purpose": "Freeze detector-visible Linear B representation conditions without substituting deciphered transliteration for graphical sign identity.",
+  "conditions": {
+    "LB-RAW": {
+      "requires": [
         "graphical_sign_identity"
       ],
-      "purpose": "strictest undeciphered-script analogue"
+      "status": "BLOCKED_MISSING_GRAPHICAL_BASELINE"
     },
-    {
-      "id": "LB-STRUCTURAL",
-      "visible": [
+    "LB-STRUCTURAL": {
+      "requires": [
         "graphical_sign_identity",
         "position",
         "document_boundaries"
-      ]
+      ],
+      "status": "BLOCKED_MISSING_GRAPHICAL_BASELINE"
     },
-    {
-      "id": "LB-CONTEXT",
-      "visible": [
+    "LB-CONTEXT": {
+      "requires": [
         "graphical_sign_identity",
         "position",
         "document_boundaries",
-        "site",
-        "hand",
-        "support",
-        "archaeological_context"
-      ]
-    },
-    {
-      "id": "LB-PHONETIC",
-      "visible": [
-        "conventional_transliteration"
+        "site_or_context"
       ],
-      "warning": "Contains deciphered phonetic information; success here alone is weak support for undeciphered-script transfer."
+      "status": "BLOCKED_MISSING_GRAPHICAL_BASELINE"
     },
-    {
-      "id": "LB-GOLD",
-      "visible": [
-        "lemma",
+    "LB-PHONETIC": {
+      "requires": [
+        "transliteration_surface",
+        "document_boundaries"
+      ],
+      "status": "EXECUTABLE_AUTHENTICATED_DAMOS_OBSERVATIONS"
+    },
+    "LB-GOLD": {
+      "requires": [
+        "lemma_or_lexeme",
         "morphology",
-        "syntax",
-        "semantics"
+        "syntax_or_semantics",
+        "provenance"
       ],
-      "access": "DENIED_UNTIL_PREDICTIONS_AND_SCORING_FROZEN"
+      "status": "BLOCKED_PENDING_LEGITIMATE_GOLD"
     }
+  },
+  "rules": [
+    "No condition may silently fall back to a richer representation.",
+    "Conventional transliteration is deciphered phonetic information and may not stand in for graphical sign identity.",
+    "Gold remains sealed until predictions and alignment/scoring contracts are frozen.",
+    "A successful LB-PHONETIC result alone is weak support for transfer to undeciphered scripts."
   ],
-  "question": "At what information level does the frozen detector begin recovering known structure?",
-  "gold_reveal": false
+  "gold_revealed": false,
+  "calibration_executed": false
 }
