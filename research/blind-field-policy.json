@@ -39,7 +39,7 @@
   "notes": [
     "A field being present upstream does not make it detector-visible.",
     "Ambiguous upstream fields must be quarantined until reviewed.",
-    "Transliteration is permitted only as a graphemic observation representation; linguistic normalization belongs to gold."
+    "Conventional transliteration encodes deciphered phonetic readings and is permitted only for the explicitly named LB-PHONETIC condition. It is never substituted for graphical sign identity."
   ],
   "field_name_matching": {
     "rule": "Allowed observation field names take precedence. Otherwise forbidden patterns match an exact field name or underscore/hyphen-delimited token; never arbitrary substrings.",

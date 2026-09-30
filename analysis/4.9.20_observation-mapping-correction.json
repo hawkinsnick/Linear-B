@@ -1,0 +1,13 @@
+{
+  "version": "4.9.20",
+  "state": "SOURCE_MAPPING_CORRECTED_AND_REAUDITED",
+  "finding": "The previous importer looked for transliteration/text, hand and inventory_number. The exact DAMOS v2 asset uses content, scribe and inventory. All 5932 previous surface values were null.",
+  "scope": "Historical local byte authentication and source counts remain valid. Prior observation-population and LB-PHONETIC readiness claims based on the empty export are superseded. The previous smoke demonstrated ID sampling/hash repeatability only.",
+  "prior_smoke": "analysis/history/4.9.19-document-count-smoke-superseded.json",
+  "corrected_field_mapping": "research/damos-observation-field-map-v1.json",
+  "corrected_export_audit": "analysis/observation-source-mapping-audit.json",
+  "calibration_executed": false,
+  "gold_revealed": false,
+  "historically_reported_observation_sha256": "2659e15884d3a36af8df3b98080e18941c2bd6cde48270cabe473c9be1027eaf",
+  "previous_replayed_empty_export_sha256": "1c6c1fa855d76aa8896c46dfb2052f4e1c2dfa7fe8b79c17b3871b1a663e288f"
+}

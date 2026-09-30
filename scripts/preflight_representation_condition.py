@@ -10,6 +10,7 @@ for index,row in enumerate(rows):
  missing=sorted((req[0]-set(row))|(req[1]-set(row.get("observable",{}))))
  if missing: raise SystemExit("REFUSING "+a.condition+": record "+str(index)+" missing required fields: "+",".join(missing))
  if not isinstance(row.get("document_id"),str) or not row["document_id"].strip(): raise SystemExit("REFUSING: empty/malformed document_id at record "+str(index))
+ if a.condition=="LB-PHONETIC" and (not isinstance(row["observable"].get("transliteration_surface"),str) or not row["observable"]["transliteration_surface"].strip()): raise SystemExit("REFUSING: empty/non-text transliteration_surface at record "+str(index))
 msg={"condition":a.condition,"field_preflight":"PASS","envelope":"document_id + observable"}
 if a.condition=="LB-PHONETIC": msg["warning"]="Uses deciphered conventional transliteration; not a graphical-sign baseline."
 if a.condition=="LB-GOLD": msg["note"]="Field presence only; gold access/alignment/scoring gates still apply."

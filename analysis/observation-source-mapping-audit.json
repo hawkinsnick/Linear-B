@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "observation_export_sha256": "4959cab13a11c53172d0d857344466e3434482175fdb4b92301ba27fefe28d5c",
+  "records": 5932,
+  "nonempty_transcription_surfaces": 5890,
+  "null_or_empty_surfaces": 42,
+  "mapped_scribe_labels": 3945,
+  "mapped_inventory_numbers": 1305,
+  "all_source_field_values_preserved": true,
+  "graphical_sign_identity_available": false,
+  "linguistic_gold_available": false
+}

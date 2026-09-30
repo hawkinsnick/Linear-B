@@ -18,7 +18,7 @@
         {
           "id": "observation_export_populated_and_leakage_clean",
           "satisfied": true,
-          "evidence": "5932 records; SHA-256 2659e15884d3a36af8df3b98080e18941c2bd6cde48270cabe473c9be1027eaf"
+          "evidence": "analysis/observation-source-mapping-audit.json: 5932 records, 5890 nonempty surfaces; corrected observation SHA-256 4959cab13a11c53172d0d857344466e3434482175fdb4b92301ba27fefe28d5c"
         },
         {
           "id": "authoritative_linguistic_gold_export",

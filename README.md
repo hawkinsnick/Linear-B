@@ -1,8 +1,8 @@
 # Linear B Open Control Corpus
 
-## Current status — 4.9.19
+## Current status — 4.9.20
 
-Exact DĀMOS v2 bytes reauthenticated; 5,932 observation records rebuilt and leakage checked. A twice-repeated document-count-only smoke run retained 802 documents with identical dataset hashes. Linguistic gold and graphical sign identities remain missing; calibration is unexecuted and 5.0 is not earned.
+Corrected and field-by-field-audited DAMOS mapping: 5932 records, 5890 nonempty surfaces, 3945 scribe labels and 1305 inventory identifiers. The phonetic smoke samples from the 5890 eligible records and explicitly excludes 42 missing surfaces. Gold calibration and graphical baseline remain blocked.
 
 The authoritative current gate summary is [`analysis/current-status.json`](analysis/current-status.json). Historical release reports below retain their original versions and claims.
 

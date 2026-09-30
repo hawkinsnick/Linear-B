@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0",
-  "repository_version": "4.9.19",
+  "repository_version": "4.9.20",
   "checked": "2026-09-30",
   "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
   "committed_evidence_counts": {},
   "scientific_results": {
     "calibration_executed": false,
     "gold_revealed": false,
-    "authenticated_document_count_smoke": "PASS_REPEAT_IDENTICAL"
+    "authenticated_document_count_smoke": "PASS_CORRECTED_SOURCE_MAPPING_REPEAT_IDENTICAL"
   },
   "evidence": [
     {
       "path": "research/experiment-gates.json",
-      "sha256": "ddb77e49b9d0741361f83d5dc77b853618f31fdf9d6eec2c50f1bc5f4c21ba70"
+      "sha256": "1eac133651340af52498e6604ddfa29231c3437a634a145592b7dded923f5c7b"
     },
     {
       "path": "research/gold-acquisition-gate.json",
@@ -23,19 +23,27 @@
       "sha256": "92610ddf43cc4214f9010698f7aaf788441c7aede5ca20c5dcef8978131b2438"
     },
     {
-      "path": "analysis/4.9.2_local-corpus-verification.json",
-      "sha256": "0fd4006233596a5259e541820d04503307f174cd84ca7e76bbdd69784825b27a"
-    },
-    {
       "path": "analysis/authenticated-document-count-smoke.json",
-      "sha256": "ba5b722d4b70325c4d5704e262ed8447ed022fc52c2c8514ca5b7ee1000572fd"
+      "sha256": "3cdcaf491e4f93ee3cae6836aced5e6e3b95537268d5dfcb8ffa8014732fff10"
     },
     {
       "path": "sources/damos-v2.json",
       "sha256": "4b0c7e22afc5b809b2a3aa936ce94385b3f3cfbf254ecc24e6c706722369053d"
+    },
+    {
+      "path": "analysis/4.9.20_observation-mapping-correction.json",
+      "sha256": "568b2ae0427a429a001f38fd1d244c88c63829e413d7635b1dd421d0c8602ebf"
+    },
+    {
+      "path": "analysis/observation-source-mapping-audit.json",
+      "sha256": "ff5dced778464e649f952f93c7472da862e2cce0c6df7dc7d72603a861cb378c"
+    },
+    {
+      "path": "research/damos-observation-field-map-v1.json",
+      "sha256": "5cd168b91a8f3e349b43081a14d08faa4245c3eb667cd76a478dc1c261d7d650"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Exact DĀMOS v2 bytes reauthenticated; 5,932 observation records rebuilt and leakage checked. A twice-repeated document-count-only smoke run retained 802 documents with identical dataset hashes. Linguistic gold and graphical sign identities remain missing; calibration is unexecuted and 5.0 is not earned."
+  "summary": "Corrected and field-by-field-audited DAMOS mapping: 5932 records, 5890 nonempty surfaces, 3945 scribe labels and 1305 inventory identifiers. The phonetic smoke samples from the 5890 eligible records and explicitly excludes 42 missing surfaces. Gold calibration and graphical baseline remain blocked."
 }

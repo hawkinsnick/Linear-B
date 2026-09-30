@@ -1,10 +1,10 @@
 {
   "engine": "matched-degradation-v0.3",
   "seed": 20260930,
-  "input_observation_sha256": "1c6c1fa855d76aa8896c46dfb2052f4e1c2dfa7fe8b79c17b3871b1a663e288f",
-  "target_spec_sha256": "3acf4644a18a6ab84bb3a00a444ee16551bf78f14e070bd2d9069c8334389c33",
-  "input_observation_records": 5932,
-  "input_unique_documents": 5932,
+  "input_observation_sha256": "d55198c67ca525d2ebcf8ddddbb18c51d2b83676fab9b751fc408b9329c82e0e",
+  "target_spec_sha256": "5d82ab6590c37989f5be272dd0c0510a995ca30c008b6dd4b60508e10a33a789",
+  "input_observation_records": 5890,
+  "input_unique_documents": 5890,
   "target": {
     "document_count": 802
   },
@@ -12,10 +12,29 @@
     "document_count": 802,
     "observation_records": 802
   },
-  "retained_document_ids_sha256": "29d68bcc3dde1be846c33a4dee523ff8af7a98a8deb9855549e18acaecd67057",
-  "retained_dataset_sha256": "293171871ba6edaad0dd3b893fbaebdf7ce99965053e610525fdad4bd57ea1d3",
-  "note": "Document-count-only engine smoke run on the authenticated DAMOS observation export. It tests reproducibility and output integrity, not detector performance or cross-script equivalence.",
-  "version": "4.9.19",
+  "retained_document_ids_sha256": "dbcb4b96c9f9b9740db86cc22b2cb571b2e8277afc9141d0d360a16dc433dc4f",
+  "retained_dataset_sha256": "455ddfa92a7bbf4270a897c865ebb2aa360649af3355cd5447da0c7bb33f470c",
+  "note": "Document-count-only engine smoke run on authenticated DAMOS records with nonempty source transcription; 42 missing-surface records are explicitly excluded. It tests reproducibility and output integrity, not detector performance or cross-script equivalence.",
+  "mapping_audit": {
+    "status": "PASS",
+    "source_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+    "observation_export_sha256": "4959cab13a11c53172d0d857344466e3434482175fdb4b92301ba27fefe28d5c",
+    "records": 5932,
+    "nonempty_transcription_surfaces": 5890,
+    "null_or_empty_surfaces": 42,
+    "mapped_scribe_labels": 3945,
+    "mapped_inventory_numbers": 1305,
+    "all_source_field_values_preserved": true,
+    "graphical_sign_identity_available": false,
+    "linguistic_gold_available": false
+  },
+  "phonetic_eligibility": {
+    "eligible": 5890,
+    "excluded_missing_transcription": 42,
+    "excluded_document_ids_sha256": "a3dc4f40636da3a1d5ef6715b26cff0b047fbf805f2f2e4f23c75e7be37e4912",
+    "rule": "Require nonempty source content before phonetic preflight and sampling; exclusions are completeness-based, never outcome-based."
+  },
+  "version": "4.9.20",
   "run_kind": "AUTHENTICATED_REAL_INPUT_SOFTWARE_SMOKE_TEST",
   "raw_input_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
   "repeat_run_identical": true,

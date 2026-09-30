@@ -26,6 +26,9 @@ with tempfile.TemporaryDirectory() as td:
             if e["path"]=="research/experiment-gates.json":e["sha256"]=hashlib.sha256(gates.read_bytes()).hexdigest()
         (root/paths[2]).write_text(json.dumps(current));assert run(root).returncode!=0;gates.write_bytes(raw);(root/paths[2]).write_bytes(originals[paths[2]])
     current=json.loads(originals[paths[2]])
+    if "calibration_executed" in current["scientific_results"]:
+        current["scientific_results"]["calibration_executed"]=True;check(paths[2],json.dumps(current))
+    current=json.loads(originals[paths[2]])
     if current["committed_evidence_counts"]:
         key=next(iter(current["committed_evidence_counts"]));current["committed_evidence_counts"][key]+=1
         check(paths[2],json.dumps(current))

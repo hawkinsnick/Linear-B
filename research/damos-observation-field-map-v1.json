@@ -1,0 +1,16 @@
+{
+  "mapping_version": "1.0",
+  "source_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "mapping": {
+    "transliteration_surface": "content",
+    "support": "support",
+    "site": "site",
+    "find_area": "find_area",
+    "find_spot": "find_spot",
+    "hand_label": "scribe",
+    "museum": "museum",
+    "inventory_number": "inventory"
+  },
+  "unknown_fields": ["graphical_sign_identity", "sign_sequence", "layout", "damage", "object_class"],
+  "rule": "Retain published conventional transcription verbatim, including editorial/numeric/ideographic material; this is not a graphical sign baseline or linguistic gold. Absent fields stay absent and unknown."
+}

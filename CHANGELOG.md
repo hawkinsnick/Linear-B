@@ -1,3 +1,7 @@
+## 4.9.20 — mapping/statistical repair and stronger scientific-claim guards
+
+Corrected and field-by-field-audited DAMOS mapping: 5932 records, 5890 nonempty surfaces, 3945 scribe labels and 1305 inventory identifiers. The phonetic smoke samples from the 5890 eligible records and explicitly excludes 42 missing surfaces. Gold calibration and graphical baseline remain blocked.
+
 ## 4.9.19 — current-state integrity and evidence gate reconciliation
 
 - Repair malformed schemas and enforce schema semantics with positive/negative fixtures.

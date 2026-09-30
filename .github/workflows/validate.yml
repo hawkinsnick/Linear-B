@@ -14,11 +14,15 @@ jobs:
       - run: python scripts/test_preflight_representation_condition.py
       - run: python scripts/test_representation_condition.py
       - run: python scripts/test_matched_degradation.py
+      - run: python scripts/test_observation_mapping.py
 
   verify-damos-asset:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install -r requirements-validation.txt
       - name: Download pinned DAMOS-derived asset
         run: |
           curl --fail --location --retry 4 --retry-delay 2             --output /tmp/damos-corpus.json             https://github.com/ryanpavlicek/pyaegean/releases/download/damos-corpus-v2/damos-corpus.json
@@ -34,3 +38,18 @@ jobs:
           print(json.dumps({"asset_id":445059579,"bytes":p.stat().st_size,"sha256":hashlib.sha256(p.read_bytes()).hexdigest(),"verified":True}))
           PY
 
+      - name: Verify source-to-export mappings on exact data
+        run: |
+          python scripts/build_observation_corpus.py /tmp/damos-corpus.json /tmp/observations.json
+          python scripts/validate_observation_export.py /tmp/damos-corpus.json /tmp/observations.json
+          python scripts/audit_gold_leakage.py /tmp/observations.json
+          python scripts/test_observation_source_audit.py /tmp/damos-corpus.json /tmp/observations.json
+      - name: Reproduce corrected phonetic-eligible smoke
+        run: |
+          python scripts/run_authenticated_smoke.py /tmp/damos-corpus.json --workdir /tmp/damos-smoke --out /tmp/smoke.json
+          python - <<'PY'
+          import json,pathlib
+          actual=json.loads(pathlib.Path('/tmp/smoke.json').read_text())
+          expected=json.loads(pathlib.Path('analysis/authenticated-document-count-smoke.json').read_text())
+          assert actual == expected, 'Corrected real-input report drift'
+          PY

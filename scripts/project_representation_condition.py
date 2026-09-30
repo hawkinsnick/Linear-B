@@ -24,7 +24,7 @@ def main():
   elif cid=="LB-CONTEXT":
    x.update({"graphical_sign_identity":graphical,"layout":o.get("layout"),"site":o.get("site"),"hand_label":o.get("hand_label"),"support":o.get("support"),"find_area":o.get("find_area"),"find_spot":o.get("find_spot")})
   else:
-   if o.get("transliteration_surface") is None: raise SystemExit("LB-PHONETIC UNAVAILABLE: missing transliteration_surface")
+   if not isinstance(o.get("transliteration_surface"),str) or not o["transliteration_surface"].strip(): raise SystemExit("LB-PHONETIC UNAVAILABLE: missing transliteration_surface")
    x["transliteration_surface"]=o["transliteration_surface"]
   out.append(x)
  Path(a.out).write_text(json.dumps(out,ensure_ascii=False,separators=(",",":")),encoding="utf-8")

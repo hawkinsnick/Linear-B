@@ -44,6 +44,18 @@ def validate():
         elif mutation=="provenance":bad["assertions"][0]["provenance"]=[]
         else:bad["unexpected"]=True
         require(not v.is_valid(bad),"interchange negative fixture accepted: "+mutation)
+    if "calibration_executed" in state["scientific_results"]:
+        require(state["scientific_results"]["calibration_executed"] is False,"unsupported current calibration claim")
+    if "prospective_outcomes_inspected" in state["scientific_results"]:
+        require(state["scientific_results"]["prospective_outcomes_inspected"] is False,"prospective seal unexpectedly opened")
+    if (R/"analysis/observation-source-mapping-audit.json").exists():
+        mapping=load("analysis/observation-source-mapping-audit.json")
+        require(mapping["records"]==5932 and mapping["nonempty_transcription_surfaces"]==5890 and mapping["null_or_empty_surfaces"]==42 and mapping["all_source_field_values_preserved"] is True,"corrected DAMOS surface coverage drift")
+        smoke=load("analysis/authenticated-document-count-smoke.json")
+        require(smoke["mapping_audit"]==mapping,"smoke/source mapping mismatch")
+        require(smoke["phonetic_eligibility"]["eligible"]==5890 and smoke["phonetic_eligibility"]["excluded_missing_transcription"]==42,"phonetic completeness exclusions drift")
+        require(smoke["input_unique_documents"]==5890 and smoke["realized"]["document_count"]==802 and smoke["repeat_run_identical"] is True,"corrected smoke counts/repeatability")
+        require(smoke["gold_revealed"] is False and smoke["calibration_executed"] is False and smoke["scientific_matched_environment_claim_allowed"] is False,"software smoke promoted to scientific result")
     counts=state["committed_evidence_counts"]
     if (R/"corpus/index.json").exists():
         idx=load("corpus/index.json");require(idx["version"]==version,"index version drift")

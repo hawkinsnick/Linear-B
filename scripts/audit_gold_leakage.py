@@ -1,23 +1,21 @@
 #!/usr/bin/env python3
-import json,pathlib,re,sys
+import json,pathlib,sys
+from blind_field_policy import is_forbidden_field as policy_forbidden
 p=pathlib.Path(sys.argv[1])
 policy_path=pathlib.Path(__file__).resolve().parents[1]/"research"/"blind-field-policy.json"
 policy=json.loads(policy_path.read_text(encoding="utf-8"))
 rows=json.loads(p.read_text(encoding="utf-8"))
-def is_forbidden_field(k):
- key=str(k).lower()
- allowed={str(x).lower() for x in policy["allowed_observation_fields"]}
- if key in allowed: return False
- for p in policy["forbidden_gold_field_patterns"]:
-  p=str(p).lower()
-  if key==p or p in re.split(r"[_\\-]+",key): return True
- return False
 hits=[]
+if not isinstance(rows,list):raise SystemExit("REFUSING: observation export must be a list")
+for r in rows:
+ if not isinstance(r,dict) or not isinstance(r.get("observable"),dict):raise SystemExit("REFUSING: malformed observation envelope")
+ unknown=set(r["observable"])-set(policy["allowed_observation_fields"])
+ if unknown:raise SystemExit("REFUSING: undeclared detector-visible fields: "+", ".join(sorted(unknown)))
 def walk(x,path=""):
  if isinstance(x,dict):
   for k,v in x.items():
    q=f"{path}.{k}" if path else k
-   if is_forbidden_field(k): hits.append(q)
+   if policy_forbidden(k,policy): hits.append(q)
    walk(v,q)
  elif isinstance(x,list):
   for i,v in enumerate(x): walk(v,f"{path}[{i}]")
