@@ -1,1 +1,21 @@
-{"source_id":"DAMOS-DERIVATIVE-V2","provider":"ryanpavlicek/pyaegean","release_tag":"damos-corpus-v2","release_published_at":"2026-06-11T21:22:12Z","asset_name":"damos-corpus.json","asset_id":445059579,"asset_size":3104186,"sha256":"eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2","digest_authority":"GitHub release asset metadata","reported_documents":5932,"reported_transliterated_documents":5890,"reported_hand_documents":3945,"license":"CC BY-NC-SA 4.0","upstream":"DĀMOS — Database of Mycenaean at Oslo","bytes_committed":false,"local_bytes_materialized":false,"verification_state":"UPSTREAM_ASSET_DIGEST_VERIFIED_LOCAL_BYTES_NOT_MATERIALIZED","notes":"4.1 verifies immutable identifying metadata exposed by the GitHub release API. It does not claim an independent local re-hash."}
+{
+  "source_id": "DAMOS-DERIVATIVE-V2",
+  "provider": "ryanpavlicek/pyaegean",
+  "release_tag": "damos-corpus-v2",
+  "release_published_at": "2026-06-11T21:22:12Z",
+  "asset_name": "damos-corpus.json",
+  "asset_id": 445059579,
+  "asset_size": 3104186,
+  "sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "digest_authority": "GitHub release asset metadata",
+  "reported_documents": 5932,
+  "reported_transliterated_documents": 5890,
+  "reported_hand_documents": 3945,
+  "license": "CC BY-NC-SA 4.0",
+  "upstream": "DĀMOS — Database of Mycenaean at Oslo",
+  "bytes_committed": false,
+  "local_bytes_materialized": true,
+  "verification_state": "EXACT_BYTES_REHASHED_AND_OBSERVATIONS_REBUILT",
+  "notes": "Exact source bytes reauthenticated locally; acquisition is complete. Linguistic gold and graphical sign identities remain unacquired.",
+  "verification_evidence": "analysis/authenticated-document-count-smoke.json"
+}

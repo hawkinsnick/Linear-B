@@ -1,0 +1,26 @@
+{
+  "engine": "matched-degradation-v0.3",
+  "seed": 20260930,
+  "input_observation_sha256": "1c6c1fa855d76aa8896c46dfb2052f4e1c2dfa7fe8b79c17b3871b1a663e288f",
+  "target_spec_sha256": "3acf4644a18a6ab84bb3a00a444ee16551bf78f14e070bd2d9069c8334389c33",
+  "input_observation_records": 5932,
+  "input_unique_documents": 5932,
+  "target": {
+    "document_count": 802
+  },
+  "realized": {
+    "document_count": 802,
+    "observation_records": 802
+  },
+  "retained_document_ids_sha256": "29d68bcc3dde1be846c33a4dee523ff8af7a98a8deb9855549e18acaecd67057",
+  "retained_dataset_sha256": "293171871ba6edaad0dd3b893fbaebdf7ce99965053e610525fdad4bd57ea1d3",
+  "note": "Document-count-only engine smoke run on the authenticated DAMOS observation export. It tests reproducibility and output integrity, not detector performance or cross-script equivalence.",
+  "version": "4.9.19",
+  "run_kind": "AUTHENTICATED_REAL_INPUT_SOFTWARE_SMOKE_TEST",
+  "raw_input_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "repeat_run_identical": true,
+  "upstream_rights": "CC BY-NC-SA 4.0; retained dataset stays local and is not redistributed",
+  "gold_revealed": false,
+  "calibration_executed": false,
+  "scientific_matched_environment_claim_allowed": false
+}

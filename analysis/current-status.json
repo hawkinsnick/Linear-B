@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "4.9.19",
+  "checked": "2026-09-30",
+  "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
+  "committed_evidence_counts": {},
+  "scientific_results": {
+    "calibration_executed": false,
+    "gold_revealed": false,
+    "authenticated_document_count_smoke": "PASS_REPEAT_IDENTICAL"
+  },
+  "evidence": [
+    {
+      "path": "research/experiment-gates.json",
+      "sha256": "ddb77e49b9d0741361f83d5dc77b853618f31fdf9d6eec2c50f1bc5f4c21ba70"
+    },
+    {
+      "path": "research/gold-acquisition-gate.json",
+      "sha256": "6dbcb6ebb3f4bf41ee1e07daa0ab76b8e9143ce75f81b08f5d9b6638251e266a"
+    },
+    {
+      "path": "analysis/4.9.18_gate-hardening.json",
+      "sha256": "92610ddf43cc4214f9010698f7aaf788441c7aede5ca20c5dcef8978131b2438"
+    },
+    {
+      "path": "analysis/4.9.2_local-corpus-verification.json",
+      "sha256": "0fd4006233596a5259e541820d04503307f174cd84ca7e76bbdd69784825b27a"
+    },
+    {
+      "path": "analysis/authenticated-document-count-smoke.json",
+      "sha256": "ba5b722d4b70325c4d5704e262ed8447ed022fc52c2c8514ca5b7ee1000572fd"
+    },
+    {
+      "path": "sources/damos-v2.json",
+      "sha256": "4b0c7e22afc5b809b2a3aa936ce94385b3f3cfbf254ecc24e6c706722369053d"
+    }
+  ],
+  "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
+  "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
+  "summary": "Exact DĀMOS v2 bytes reauthenticated; 5,932 observation records rebuilt and leakage checked. A twice-repeated document-count-only smoke run retained 802 documents with identical dataset hashes. Linguistic gold and graphical sign identities remain missing; calibration is unexecuted and 5.0 is not earned."
+}

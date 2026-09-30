@@ -12,4 +12,8 @@ with tempfile.TemporaryDirectory() as td:
  p=subprocess.run([sys.executable,str(engine),str(obs),str(bad),"--seed","1","--out",str(d/"x"),"--data-out",str(d/"xd")],capture_output=True,text=True);assert p.returncode!=0 and "unknown/unmeasured" in p.stderr
  uns=d/"uns.json";uns.write_text(json.dumps({"dimensions":{"document_count":{"use":True,"status":"measured","value":2},"site_concentration":{"use":True,"status":"measured","value":0.5}}}))
  p=subprocess.run([sys.executable,str(engine),str(obs),str(uns),"--seed","1","--out",str(d/"y"),"--data-out",str(d/"yd")],capture_output=True,text=True);assert p.returncode!=0 and "not executable" in p.stderr
-print(json.dumps({"status":"PASS","engine":"matched-degradation-v0.3","checks":["determinism","dataset emission","dataset hashing","input hashing","unique-document sampling","all rows retained","unknown refusal","unsupported refusal"]}))
+ for value in (True,2.5,"2",0,99):
+  uns.write_text(json.dumps({"dimensions":{"document_count":{"use":True,"status":"measured","value":value}}}))
+  p=subprocess.run([sys.executable,str(engine),str(obs),str(uns),"--seed","1","--out",str(d/"z"),"--data-out",str(d/"zd")],capture_output=True,text=True);assert p.returncode!=0
+print(json.dumps({"status":"PASS","engine":"matched-degradation-v0.3","checks":["determinism","dataset emission","dataset hashing","input hashing","unique-document sampling","all rows retained","unknown refusal","unsupported refusal","invalid/impossible count refusal"]}))
+

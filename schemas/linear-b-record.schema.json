@@ -1,1 +1,111 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Linear B research record 4.0","type":"object","required":["id","record_version","observation","gold","rights"],"properties":{"id":{"type":"string"},"record_version":{"type":"string"},"observation":{"type":"object","description":"Detector-visible evidence only.","properties":{"identifiers":{"type":"array","items":{"type":"object"}},"physical_context":{"type":"object"},"occurrences":{"type":"array","items":{"type":"object"}},"structural_units":{"type":"array","items":{"type":"object"}},"assertions":{"type":"array","items":{"$ref":"assertion.schema.json"}}},"additionalProperties":true},"gold":{"type":"object","description":"Deciphered linguistic assertions; excluded from blind exports.","properties":{"readings":{"type":"array","items":{"$ref":"assertion.schema.json"}},"lexical":{"type":"array","items":{"$ref":"assertion.schema.json"}},"morphology":{"type":"array","items":{"$ref":"assertion.schema.json"}},"syntax":{"type":"array","items":{"$ref":"assertion.schema.json"}},"interpretation":{"type":"array","items":{"$ref":"assertion.schema.json"}}},"additionalProperties":true},"rights":{"type":"object","required":["record_license","third_party_material"],"properties":{"record_license":{"type":"string"},"third_party_material":{"type":"array","items":{"type":"object"}},"additionalProperties":false}},"additionalProperties":false}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Linear B research record 4.0",
+  "type": "object",
+  "required": [
+    "id",
+    "record_version",
+    "observation",
+    "gold",
+    "rights"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "record_version": {
+      "type": "string"
+    },
+    "observation": {
+      "type": "object",
+      "description": "Detector-visible evidence only.",
+      "properties": {
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "physical_context": {
+          "type": "object"
+        },
+        "occurrences": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "structural_units": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "assertions": {
+          "type": "array",
+          "items": {
+            "$ref": "assertion.schema.json"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "gold": {
+      "type": "object",
+      "description": "Deciphered linguistic assertions; excluded from blind exports.",
+      "properties": {
+        "readings": {
+          "type": "array",
+          "items": {
+            "$ref": "assertion.schema.json"
+          }
+        },
+        "lexical": {
+          "type": "array",
+          "items": {
+            "$ref": "assertion.schema.json"
+          }
+        },
+        "morphology": {
+          "type": "array",
+          "items": {
+            "$ref": "assertion.schema.json"
+          }
+        },
+        "syntax": {
+          "type": "array",
+          "items": {
+            "$ref": "assertion.schema.json"
+          }
+        },
+        "interpretation": {
+          "type": "array",
+          "items": {
+            "$ref": "assertion.schema.json"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "rights": {
+      "type": "object",
+      "required": [
+        "record_license",
+        "third_party_material"
+      ],
+      "properties": {
+        "record_license": {
+          "type": "string"
+        },
+        "third_party_material": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

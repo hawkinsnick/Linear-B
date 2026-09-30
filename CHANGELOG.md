@@ -1,3 +1,10 @@
+## 4.9.19 — current-state integrity and evidence gate reconciliation
+
+- Repair malformed schemas and enforce schema semantics with positive/negative fixtures.
+- Replace obsolete release-number assertions with evidence and current-metadata checks.
+- Synchronize current citation, family and native index/API/manifest metadata while preserving historical content versions.
+- Exact DĀMOS v2 bytes reauthenticated; 5,932 observation records rebuilt and leakage checked. A twice-repeated document-count-only smoke run retained 802 documents with identical dataset hashes. Linguistic gold and graphical sign identities remain missing; calibration is unexecuted and 5.0 is not earned.
+
 # Changelog
 
 ## 4.9.3 — 2026-09-28
@@ -11,3 +18,4 @@ GitHub-runner transport verification.
 
 ## 4.9.0 — 2026-09-28
 Frozen experimental protocols.
+

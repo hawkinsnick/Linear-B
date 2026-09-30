@@ -7,7 +7,13 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
+      - run: python -m pip install -r requirements-validation.txt
       - run: python scripts/validate_release.py
+      - run: python scripts/test_current_state.py
+      - run: python scripts/test_blind_policy_consistency.py
+      - run: python scripts/test_preflight_representation_condition.py
+      - run: python scripts/test_representation_condition.py
+      - run: python scripts/test_matched_degradation.py
 
   verify-damos-asset:
     runs-on: ubuntu-latest
@@ -27,3 +33,4 @@ jobs:
           p=pathlib.Path('/tmp/damos-corpus.json')
           print(json.dumps({"asset_id":445059579,"bytes":p.stat().st_size,"sha256":hashlib.sha256(p.read_bytes()).hexdigest(),"verified":True}))
           PY
+

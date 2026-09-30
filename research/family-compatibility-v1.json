@@ -8,7 +8,7 @@
     "linear-b"
   ],
   "member": "Linear-B",
-  "member_version": "4.9.10",
+  "member_version": "4.9.19",
   "native_state": "CONTROL_ACQUISITION_GATE",
   "invariants": [
     "Native corpus evidence remains authoritative.",
