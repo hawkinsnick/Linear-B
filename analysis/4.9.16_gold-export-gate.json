@@ -1,0 +1,20 @@
+{
+  "version": "4.9.16",
+  "gate": "linguistic-gold-acquisition",
+  "state": "READY_FOR_MAINTAINER_EXPORT_NOT_ACQUIRED",
+  "verified_public_capabilities": [
+    "DAMOS documents manual morphology and syntax annotation, translation, lexical information, and multiple simultaneous analyses with probability/uncertainty.",
+    "DAMOS project literature documents an EpiDoc export implementation.",
+    "Current public/user-facing download capability does not establish a complete bulk linguistic-gold export."
+  ],
+  "accepted_artifact": "Maintainer-provided or documented public EpiDoc/structured export retaining stable DAMOS identifiers, linguistic annotations, competing analyses, uncertainty/probability, and provenance.",
+  "not_accepted": [
+    "scraping undocumented/private endpoints",
+    "model-generated linguistic gold",
+    "flattening competing analyses",
+    "treating conventional transliteration as graphical sign identity"
+  ],
+  "gold_acquired": false,
+  "gold_revealed": false,
+  "calibration_executed": false
+}
