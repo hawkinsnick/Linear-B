@@ -1,0 +1,24 @@
+{
+  "profile_version": "0.1",
+  "target": "Linear-A",
+  "dimensions": {
+    "document_count": {
+      "status": "measured",
+      "value": 802,
+      "use": true
+    },
+    "site_concentration": {
+      "status": "measured_but_not_executable_v0.1",
+      "use": false
+    },
+    "damage_uncertainty": {
+      "status": "partial",
+      "use": false
+    },
+    "hand_concentration": {
+      "status": "unknown",
+      "use": false
+    }
+  },
+  "interpretation": "Coarse document-count-only target for engine validation; not a scientific matched-environment result."
+}

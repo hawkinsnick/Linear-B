@@ -1,0 +1,11 @@
+{
+  "version": "4.9.8",
+  "changes": [
+    "Observation builder now loads forbidden patterns from blind-field-policy.json as the single source of truth.",
+    "Added deterministic matched-degradation v0.1 engine with fail-closed handling of unmeasured/unsupported dimensions.",
+    "Added LA document-count-only target for engine validation."
+  ],
+  "scientific_result": false,
+  "gold_scoring_executed": false,
+  "degradation_interpretation": "ENGINE_READY; coarse document-count run is engineering validation only."
+}
