@@ -1,0 +1,12 @@
+{
+  "version": "4.9.11",
+  "changes": [
+    "Restore monotonic versioning after accidental 4.9.10 to 4.9.8 VERSION regression.",
+    "Freeze five representation conditions before gold.",
+    "Document-count degradation remains engineering validation only."
+  ],
+  "scientific_result": false,
+  "gold_scoring_executed": false,
+  "gold_access": "BLOCKED_PENDING_LEGITIMATE_ANNOTATION_EXPORT",
+  "five_point_zero_gate": "NOT_EARNED"
+}

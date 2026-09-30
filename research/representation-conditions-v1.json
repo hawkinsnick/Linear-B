@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "frozen_before_gold": true,
+  "conditions": {
+    "LB-RAW": {
+      "includes": [
+        "source-defined graphical/sign identity only"
+      ],
+      "excludes": [
+        "phonetic transliteration",
+        "linguistic gold"
+      ]
+    },
+    "LB-STRUCTURAL": {
+      "includes": [
+        "sign identity",
+        "positions/order",
+        "document boundaries"
+      ],
+      "excludes": [
+        "phonetic values",
+        "linguistic gold"
+      ]
+    },
+    "LB-CONTEXT": {
+      "includes": [
+        "LB-STRUCTURAL",
+        "source-supported site/hand/support/context"
+      ],
+      "excludes": [
+        "phonetic values",
+        "linguistic gold"
+      ]
+    },
+    "LB-PHONETIC": {
+      "includes": [
+        "LB-CONTEXT",
+        "conventional Linear B transliteration"
+      ],
+      "excludes": [
+        "lemma",
+        "morphology",
+        "syntax",
+        "semantics"
+      ],
+      "limitation": "decipherment-derived phonetic information"
+    },
+    "LB-GOLD": {
+      "includes": [
+        "authorized linguistic analyses with ambiguity and lineage"
+      ],
+      "state": "BLOCKED_PENDING_LEGITIMATE_ANNOTATION_EXPORT"
+    }
+  },
+  "rule": "Freeze detector/scoring before LB-GOLD comparison; PHONETIC-only success is weaker transfer evidence for undeciphered scripts."
+}
