@@ -1,0 +1,12 @@
+{
+  "version": "4.9.15",
+  "gate": "representation-condition-executability",
+  "state": "PARTIAL",
+  "findings": [
+    "DAMOS-derived observation schema provides conventional transliteration but no graphical_sign_identity field.",
+    "LB-PHONETIC is executable from the authenticated observation export.",
+    "LB-RAW, LB-STRUCTURAL, and LB-CONTEXT are refused until a legitimate graphical-sign representation is acquired; transliteration is never substituted."
+  ],
+  "gold_reveal": false,
+  "known_answer_calibration": "BLOCKED_PENDING_LEGITIMATE_GOLD_AND_GRAPHICAL_BASELINE"
+}
