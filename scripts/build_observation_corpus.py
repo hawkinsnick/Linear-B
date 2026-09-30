@@ -7,8 +7,14 @@ EXPECTED="eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2"
 raw=src.read_bytes()
 if hashlib.sha256(raw).hexdigest()!=EXPECTED: raise SystemExit("Refusing unverified input")
 data=json.loads(raw)
-patterns=policy["forbidden_gold_field_patterns"]
-FORBIDDEN=re.compile("("+"|".join(re.escape(x) for x in patterns)+")",re.I)
+def is_forbidden_field(k):
+ key=str(k).lower()
+ allowed={str(x).lower() for x in policy["allowed_observation_fields"]}
+ if key in allowed: return False
+ for p in policy["forbidden_gold_field_patterns"]:
+  p=str(p).lower()
+  if key==p or p in re.split(r"[_\\-]+",key): return True
+ return False
 def docs(x):
  if isinstance(x,list): return x
  if isinstance(x,dict):
@@ -19,7 +25,7 @@ rows=[]; quarantine=set()
 for d in docs(data):
  if not isinstance(d,dict): continue
  for k in d:
-  if FORBIDDEN.search(k): quarantine.add(k)
+  if is_forbidden_field(k): quarantine.add(k)
  did=str(d.get("document_id",d.get("id","")))
  if not did: continue
  obs={"transliteration_surface":d.get("transliteration",d.get("text")),"sign_sequence":d.get("signs",[]) if isinstance(d.get("signs",[]),list) else [],"layout":d.get("layout",{}) if isinstance(d.get("layout",{}),dict) else {},"damage":d.get("damage",[]) if isinstance(d.get("damage",[]),list) else [],"support":d.get("support"),"site":d.get("site"),"find_area":d.get("find_area"),"find_spot":d.get("find_spot"),"object_class":d.get("object_class"),"hand_label":d.get("hand"),"museum":d.get("museum"),"inventory_number":d.get("inventory_number")}

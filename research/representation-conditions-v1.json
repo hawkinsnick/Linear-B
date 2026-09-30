@@ -1,56 +1,52 @@
 {
   "version": "1.0",
-  "frozen_before_gold": true,
-  "conditions": {
-    "LB-RAW": {
-      "includes": [
-        "source-defined graphical/sign identity only"
+  "state": "FROZEN_PRE_GOLD",
+  "conditions": [
+    {
+      "id": "LB-RAW",
+      "visible": [
+        "graphical_sign_identity"
       ],
-      "excludes": [
-        "phonetic transliteration",
-        "linguistic gold"
+      "purpose": "strictest undeciphered-script analogue"
+    },
+    {
+      "id": "LB-STRUCTURAL",
+      "visible": [
+        "graphical_sign_identity",
+        "position",
+        "document_boundaries"
       ]
     },
-    "LB-STRUCTURAL": {
-      "includes": [
-        "sign identity",
-        "positions/order",
-        "document boundaries"
-      ],
-      "excludes": [
-        "phonetic values",
-        "linguistic gold"
+    {
+      "id": "LB-CONTEXT",
+      "visible": [
+        "graphical_sign_identity",
+        "position",
+        "document_boundaries",
+        "site",
+        "hand",
+        "support",
+        "archaeological_context"
       ]
     },
-    "LB-CONTEXT": {
-      "includes": [
-        "LB-STRUCTURAL",
-        "source-supported site/hand/support/context"
+    {
+      "id": "LB-PHONETIC",
+      "visible": [
+        "conventional_transliteration"
       ],
-      "excludes": [
-        "phonetic values",
-        "linguistic gold"
-      ]
+      "warning": "Contains deciphered phonetic information; success here alone is weak support for undeciphered-script transfer."
     },
-    "LB-PHONETIC": {
-      "includes": [
-        "LB-CONTEXT",
-        "conventional Linear B transliteration"
-      ],
-      "excludes": [
+    {
+      "id": "LB-GOLD",
+      "visible": [
         "lemma",
         "morphology",
         "syntax",
         "semantics"
       ],
-      "limitation": "decipherment-derived phonetic information"
-    },
-    "LB-GOLD": {
-      "includes": [
-        "authorized linguistic analyses with ambiguity and lineage"
-      ],
-      "state": "BLOCKED_PENDING_LEGITIMATE_ANNOTATION_EXPORT"
+      "access": "DENIED_UNTIL_PREDICTIONS_AND_SCORING_FROZEN"
     }
-  },
-  "rule": "Freeze detector/scoring before LB-GOLD comparison; PHONETIC-only success is weaker transfer evidence for undeciphered scripts."
+  ],
+  "question": "At what information level does the frozen detector begin recovering known structure?",
+  "gold_reveal": false
 }

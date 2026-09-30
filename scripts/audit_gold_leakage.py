@@ -4,14 +4,20 @@ p=pathlib.Path(sys.argv[1])
 policy_path=pathlib.Path(__file__).resolve().parents[1]/"research"/"blind-field-policy.json"
 policy=json.loads(policy_path.read_text(encoding="utf-8"))
 rows=json.loads(p.read_text(encoding="utf-8"))
-patterns=policy["forbidden_gold_field_patterns"]
-bad=re.compile("("+"|".join(re.escape(x) for x in patterns)+")",re.I)
+def is_forbidden_field(k):
+ key=str(k).lower()
+ allowed={str(x).lower() for x in policy["allowed_observation_fields"]}
+ if key in allowed: return False
+ for p in policy["forbidden_gold_field_patterns"]:
+  p=str(p).lower()
+  if key==p or p in re.split(r"[_\\-]+",key): return True
+ return False
 hits=[]
 def walk(x,path=""):
  if isinstance(x,dict):
   for k,v in x.items():
    q=f"{path}.{k}" if path else k
-   if bad.search(k): hits.append(q)
+   if is_forbidden_field(k): hits.append(q)
    walk(v,q)
  elif isinstance(x,list):
   for i,v in enumerate(x): walk(v,f"{path}[{i}]")
