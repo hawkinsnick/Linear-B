@@ -1,0 +1,12 @@
+{
+  "version": "4.9.14",
+  "gate": "matched-degradation-execution-readiness",
+  "state": "READY_FOR_AUTHENTICATED_OBSERVATION_EXECUTION",
+  "changes": [
+    "v0.2 samples unique document IDs rather than observation rows",
+    "all observation rows for selected documents are retained",
+    "determinism and refusal behavior have executable regression tests"
+  ],
+  "gold_reveal": false,
+  "known_answer_calibration": "BLOCKED_PENDING_LEGITIMATE_GOLD"
+}
