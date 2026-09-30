@@ -1,0 +1,10 @@
+{
+  "version": "4.9.18",
+  "preflight_nested_observation_interface": "FIXED",
+  "matched_degradation_engine": "v0.3",
+  "retained_dataset_emission": true,
+  "input_and_output_hashes": true,
+  "unknown_dimensions": "REFUSED_NOT_IMPUTED",
+  "gold_revealed": false,
+  "calibration_executed": false
+}
