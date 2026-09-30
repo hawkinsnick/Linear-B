@@ -23,7 +23,7 @@ def validate():
     family=load("research/family-compatibility-v1.json")
     require(family["member_version"]==version,"family member version drift")
     suite=load("research/family-compatibility-suite-v1.json")
-    require(family["contract_version"]==suite["required_contract_version"]==suite["suite_version"]=="1.1.0","family contract")
+    require(family["contract_version"]==suite["required_contract_version"]==suite["suite_version"]=="1.2.0","family contract")
     require(set(family["members"])==set(suite["required_members"])=={"linear-a","linear-b","cypro-minoan","cretan-hieroglyphic","phaistos-disc"} and len(family["members"])==5,"family membership")
     require(family["membership_boundary"]=="Native evidence only; membership implies no linguistic affinity, shared sign identities, or pooled analysis.","family claim boundary")
     for p in suite["required_artifacts"]:require((R/p).is_file(),"missing family artifact: "+p)
@@ -86,6 +86,8 @@ def validate():
         gold=load("research/gold-acquisition-gate.json")
         require(gold["release_5_0_allowed"] is False,"gold gate unexpectedly opened")
         require(not state["scientific_results"]["calibration_executed"],"unsupported calibration claim")
+    from validate_family_readiness import validate as validate_readiness
+    validate_readiness(R)
     print(json.dumps({"status":"PASS","version":version,"json_files":len(files),"schemas":len(list((R/"schemas").glob("*.json"))),"evidence_counts":counts,"scientific_gate_claim":"UNCHANGED"}))
 if __name__=="__main__":
     try:validate()

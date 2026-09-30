@@ -1,5 +1,5 @@
 {
-  "contract_version": "1.2.0",
+  "contract_version": "1.1.0",
   "family": "Aegean corpus research family",
   "members": [
     "linear-a",
@@ -9,7 +9,7 @@
     "phaistos-disc"
   ],
   "member": "Linear-B",
-  "member_version": "4.9.22",
+  "member_version": "4.9.21",
   "native_state": "CONTROL_ACQUISITION_GATE",
   "invariants": [
     "Native corpus evidence remains authoritative.",
@@ -23,6 +23,5 @@
   ],
   "next_action": "Materialize and independently hash pinned DĀMOS bytes before observation/gold execution.",
   "blocked_claim": "5.0 and performance claims remain blocked.",
-  "membership_boundary": "Native evidence only; membership implies no linguistic affinity, shared sign identities, or pooled analysis.",
-  "next_family_gate": "Source-compatible measured definitions plus a legitimate frozen linguistic known-answer control; software fixtures do not satisfy it."
+  "membership_boundary": "Native evidence only; membership implies no linguistic affinity, shared sign identities, or pooled analysis."
 }
