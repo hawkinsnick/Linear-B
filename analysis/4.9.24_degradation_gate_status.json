@@ -1,0 +1,13 @@
+{
+  "version": "4.9.24",
+  "gate": "matched-degradation-execution-readiness",
+  "state": "READY_FOR_AUTHENTICATED_OBSERVATION_EXECUTION",
+  "engine": "matched-degradation-v0.4",
+  "hardening": [
+    "Document selection is SHA-256 ranked from seed and document ID rather than runtime sampling.",
+    "Canonical retained output is invariant to input row ordering.",
+    "Unknown and unsupported dimensions remain refusal conditions."
+  ],
+  "gold_reveal": false,
+  "known_answer_calibration": "BLOCKED_PENDING_LEGITIMATE_GOLD"
+}
