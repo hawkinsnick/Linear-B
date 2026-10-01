@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "repository_version": "4.9.22",
-  "checked": "2026-09-30",
+  "repository_version": "4.9.23",
+  "checked": "2026-10-01",
   "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
   "committed_evidence_counts": {},
   "scientific_results": {
@@ -41,9 +41,21 @@
     {
       "path": "research/damos-observation-field-map-v1.json",
       "sha256": "5cd168b91a8f3e349b43081a14d08faa4245c3eb667cd76a478dc1c261d7d650"
+    },
+    {
+      "path": "research/epidoc-access-route-v1.json",
+      "sha256": "41f2f1476378f9db9b4106aa317757e19b6fce92ddf7782ea6518835ff01d508"
+    },
+    {
+      "path": "scripts/import_epidoc.py",
+      "sha256": "73cf78c14f2af8e58e97c82e785cb0cf6e62bcdc0c78af3f199a5d7880dd0907"
+    },
+    {
+      "path": "scripts/validate_current_state.py",
+      "sha256": "b2317431b21e2de65d7d15532e7d17020df4391c7ffdb738416d3f9346f337f7"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Corrected and field-by-field-audited DAMOS mapping: 5932 records, 5890 nonempty surfaces, 3945 scribe labels and 1305 inventory identifiers. The phonetic smoke samples from the 5890 eligible records and explicitly excludes 42 missing surfaces. Gold calibration and graphical baseline remain blocked."
+  "summary": "Adds a source-ID-preserving EpiDoc importer with synthetic tests for editorial markup, incomplete words, glyphs, numerical and nonphonetic units, alternative annotations, duplicate identifiers and unsafe XML. Published Mycenaean conventions and DAMOS export/import documentation are pinned. No real annotated export or linguistic gold is acquired; 5.0 remains blocked."
 }

@@ -16,6 +16,8 @@ jobs:
       - run: python scripts/test_matched_degradation.py
       - run: python scripts/test_observation_mapping.py
 
+      - run: python scripts/test_epidoc_import.py
+
   verify-damos-asset:
     runs-on: ubuntu-latest
     steps:

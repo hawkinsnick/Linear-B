@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-01",
+  "sources": [
+    {
+      "source_id": "epidoc-mycenaean-2026",
+      "url": "https://epidoc.stoa.org/gl/latest/app-epi-mycenaean.html",
+      "bytes": 14773,
+      "sha256": "16315e5b445631b65ecc9ac0ea9f8931b4834172dbd84fa05073d9271c14455d",
+      "scope": "Encoding/export documentation only; public annotation download endpoint not verified.",
+      "redistributed": false
+    },
+    {
+      "source_id": "aurora-epigraphy-info-export",
+      "url": "https://epigraphy.info/documents/workshop_8/Poster_1.pdf",
+      "bytes": 2875891,
+      "sha256": "041813773fc744ab605f76988cac70ff85efe93f6c22f62ca84e84fa541759bf",
+      "scope": "Encoding/export documentation only; public annotation download endpoint not verified.",
+      "redistributed": false
+    }
+  ],
+  "implemented": "scripts/import_epidoc.py",
+  "synthetic_tests": "scripts/test_epidoc_import.py",
+  "real_export_acquired": false,
+  "gold_gate_open": false,
+  "next_required": "Legitimate source-assigned IDs, annotation semantics, rights and byte-frozen export before predictions are revealed."
+}

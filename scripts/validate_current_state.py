@@ -86,6 +86,8 @@ def validate():
         gold=load("research/gold-acquisition-gate.json")
         require(gold["release_5_0_allowed"] is False,"gold gate unexpectedly opened")
         require(not state["scientific_results"]["calibration_executed"],"unsupported calibration claim")
+    route=load('research/epidoc-access-route-v1.json')
+    require(route['real_export_acquired'] is False and route['gold_gate_open'] is False, 'documentation/importer promoted to gold acquisition')
     from validate_family_readiness import validate as validate_readiness
     validate_readiness(R)
     print(json.dumps({"status":"PASS","version":version,"json_files":len(files),"schemas":len(list((R/"schemas").glob("*.json"))),"evidence_counts":counts,"scientific_gate_claim":"UNCHANGED"}))

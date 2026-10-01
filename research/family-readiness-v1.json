@@ -1,13 +1,13 @@
 {
   "report_version": "1.0.0",
   "family_contract_version": "1.2.0",
-  "scope": "Comparison readiness and software/governance alignment, not permission for cross-script inference. Snapshot heads pin evidence; target versions describe the coordinated rollout.",
+  "scope": "Comparison readiness and software/governance alignment, not permission for cross-script inference. Snapshot heads pin prior evidence; null heads identify new evidence awaiting its first publishing commit. Target versions describe the coordinated rollout.",
   "target_versions": {
-    "Linear-A": "3.0.14",
-    "Linear-B": "4.9.22",
-    "Cypro-Minoan": "5.2.7",
-    "Cretan-hieroglpyhs": "5.2.5",
-    "Phaistos-Disc": "1.0.0"
+    "Linear-A": "3.0.15",
+    "Linear-B": "4.9.23",
+    "Cypro-Minoan": "5.2.8",
+    "Cretan-hieroglpyhs": "5.2.6",
+    "Phaistos-Disc": "1.2.0"
   },
   "members": [
     {
@@ -131,23 +131,20 @@
     },
     {
       "repository": "Cretan-hieroglpyhs",
-      "snapshot_commit": "22d423d016a205fb96fcacbfdce9b6487b373fe3",
-      "snapshot_version": "5.2.4",
+      "snapshot_commit": null,
+      "snapshot_version": "5.2.6",
       "native_evidence": [
         {
-          "path": "corpus/chic-catalogue-spine.json",
-          "sha256": "2855ec632844fa215929b33222a76a155d17abb0403889bf045a9e9f39efdfe8",
-          "url": "https://github.com/hawkinsnick/Cretan-hieroglpyhs/blob/22d423d016a205fb96fcacbfdce9b6487b373fe3/corpus/chic-catalogue-spine.json"
+          "path": "corpus/manifest.json",
+          "sha256": "26e4fe83d4844425165bd876882fde09f75d4c7fd07229b42d60e3dfd1baacdc"
         },
         {
           "path": "corpus/critical-readings.json",
-          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-          "url": "https://github.com/hawkinsnick/Cretan-hieroglpyhs/blob/22d423d016a205fb96fcacbfdce9b6487b373fe3/corpus/critical-readings.json"
+          "sha256": "f9afc20f153ee5b59743ce174cacbf922ce0db31c6c68abab8fdbcd946466122"
         },
         {
-          "path": "research/experiment-gates.json",
-          "sha256": "97e7a32284023187c6c0039df917fed4357c8f125baa27343eccfde840f16e83",
-          "url": "https://github.com/hawkinsnick/Cretan-hieroglpyhs/blob/22d423d016a205fb96fcacbfdce9b6487b373fe3/research/experiment-gates.json"
+          "path": "analysis/chic-primary-pilot-v1.json",
+          "sha256": "dc21045b6adb2cbf3aede7afe51bc58745a43fab60dfa0f81d654c1f4f382829"
         }
       ],
       "metrics": {
@@ -158,15 +155,16 @@
           "status": "measured"
         },
         "critical_readings": {
-          "value": 0,
+          "value": 5,
           "unit": "committed_native_readings",
-          "definition": "Zero committed source-checked critical reading records.",
+          "definition": "Five literal printed transnumerations on two source-located Knossos medallions; not representative corpus coverage or independently certified epigraphy.",
           "status": "measured"
         }
       },
       "blocking_dependencies": [
-        "Critical readings/source-checked occurrences unavailable",
-        "Compatible fine structural dimensions unmeasured"
+        "Only two H-series Knossos medallions source-checked; representative coverage absent",
+        "No independent epigraphic review",
+        "No linguistic known-answer or cross-script identity calibration"
       ],
       "comparison_status": "BLOCKED"
     },
