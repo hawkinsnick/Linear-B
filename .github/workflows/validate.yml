@@ -14,6 +14,7 @@ jobs:
       - run: python scripts/test_preflight_representation_condition.py
       - run: python scripts/test_representation_condition.py
       - run: python scripts/test_matched_degradation.py
+      - run: python scripts/test_historical_smoke_engine.py
       - run: python scripts/test_observation_mapping.py
 
       - run: python scripts/test_epidoc_import.py

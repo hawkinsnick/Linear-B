@@ -60,15 +60,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "1c2ef538f1b3d7bcc400fd0d56f2f1b6f9b40f9c010b2bccfaa82cc817bcff5a"
+      "sha256": "4a3ea985689e46a51ec6df788b5c54ede5b27793770213ae6ca284aa98551231"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "290664627cec46f93ab1c0a4b915d10fd7f46e9408f04bd45741539b60656675"
+      "sha256": "aea83860a42742bdc8748f6d1183a6a29fa810880bc95867091258ca377f2d5e"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "e3e3c69671305eea1d583aa9322a4d750f23c147bd417380e32425d115d00921"
+      "sha256": "8e1e54810b97efb237b240c60cf9010783d841d715602332d731abbbcd19697b"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -93,6 +93,18 @@
     {
       "path": "research/workbench-guide.md",
       "sha256": "779ec43cbaa53e76edfe30cbda7fa5d4d1147110c24012743dcf2a7abca0e4e0"
+    },
+    {
+      "path": "scripts/history/run_matched_degradation_v0_3.py",
+      "sha256": "271515d12893586ea83c31093119ca41c0bc85a531021a1ba492d3847496b426"
+    },
+    {
+      "path": "scripts/run_authenticated_smoke.py",
+      "sha256": "ae7da983053702bdfa705bb4a26110b3359d74cfbbbd7211179c812da37485fe"
+    },
+    {
+      "path": "scripts/test_historical_smoke_engine.py",
+      "sha256": "e6d88f970e545047c7119f8879215e646c3c2c0266aff189ef656e5731bc19a5"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",

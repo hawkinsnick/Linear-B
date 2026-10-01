@@ -102,6 +102,27 @@
       "bytes": 2038,
       "category": "research",
       "summary": {}
+    },
+    {
+      "path": "scripts/history/run_matched_degradation_v0_3.py",
+      "sha256": "271515d12893586ea83c31093119ca41c0bc85a531021a1ba492d3847496b426",
+      "bytes": 2846,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/run_authenticated_smoke.py",
+      "sha256": "ae7da983053702bdfa705bb4a26110b3359d74cfbbbd7211179c812da37485fe",
+      "bytes": 3933,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/test_historical_smoke_engine.py",
+      "sha256": "e6d88f970e545047c7119f8879215e646c3c2c0266aff189ef656e5731bc19a5",
+      "bytes": 815,
+      "category": "scripts",
+      "summary": {}
     }
   ],
   "scientific_results": {

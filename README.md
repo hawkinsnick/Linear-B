@@ -30,3 +30,5 @@ The shared family report now targets the Disc [2.0.0-rc.3 prerelease](https://gi
 ### Research evidence workbench 1.0
 
 Download the research workbench ZIP, extract it, and open [workbench/evidence.html](workbench/evidence.html). It includes searchable pinned evidence, coverage definitions and unverified inspection-note export. See the [reading and review guide](research/workbench-guide.md). This engineering milestone grants no independent epigraphic acceptance.
+
+Use the [workbench 1.0.1 package](https://github.com/hawkinsnick/Linear-B/releases/tag/research-workbench-v1.0.1), which includes the corrected historical smoke replay. The core evidence-workbench format remains 1.0.0.

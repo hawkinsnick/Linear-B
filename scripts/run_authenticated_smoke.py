@@ -4,6 +4,10 @@ Keep the work directory outside the repository: upstream data retains its rights
 """
 import argparse,hashlib,json,pathlib,subprocess,sys
 R=pathlib.Path(__file__).resolve().parents[1]
+def historical_engine(root=R):
+    path=root/'scripts/history/run_matched_degradation_v0_3.py'
+    if hashlib.sha256(path.read_bytes()).hexdigest()!='271515d12893586ea83c31093119ca41c0bc85a531021a1ba492d3847496b426':raise SystemExit('REFUSING: historical sampling implementation digest mismatch')
+    return path
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('source');ap.add_argument('--workdir',required=True);ap.add_argument('--out',required=True);a=ap.parse_args()
     source=pathlib.Path(a.source);work=pathlib.Path(a.workdir).resolve()
@@ -19,10 +23,11 @@ def main():
     eligible_ids={r['document_id'] for r in eligible};excluded=[r['document_id'] for r in all_rows if r['document_id'] not in eligible_ids]
     phonetic=work/'phonetic-eligible.json';phonetic.write_text(json.dumps(eligible,ensure_ascii=False,separators=(',',':')))
     run('preflight_representation_condition.py',phonetic,'LB-PHONETIC')
+    historical_engine()
     target=R/'research/targets/linear-a-coarse-v0.1.json';outputs=[]
     for suffix in ('a','b'):
         manifest=work/f'manifest-{suffix}.json';data=work/f'retained-{suffix}.json'
-        run('run_matched_degradation.py',phonetic,target,'--seed',20260930,'--out',manifest,'--data-out',data)
+        run('history/run_matched_degradation_v0_3.py',phonetic,target,'--seed',20260930,'--out',manifest,'--data-out',data)
         outputs.append(json.loads(manifest.read_text()))
     if outputs[0]['retained_dataset_sha256']!=outputs[1]['retained_dataset_sha256']:raise SystemExit('FAIL: repeat output mismatch')
     result=outputs[0];result['mapping_audit']=mapping_audit;result['phonetic_eligibility']={'eligible':len(eligible),'excluded_missing_transcription':len(excluded),'excluded_document_ids_sha256':hashlib.sha256(('\n'.join(excluded)+'\n').encode()).hexdigest(),'rule':'Require nonempty source content before phonetic preflight and sampling; exclusions are completeness-based, never outcome-based.'};result.pop('retained_dataset');result.pop('retained_document_ids')
