@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "Cite this project release and upstream scholarship materially used. MIT applies to project-authored software; third-party scholarly content retains its own rights."
+message: "Mixed rights: original software MIT; original non-software contributions CC BY 4.0 under LICENSE-CONTENT.md; upstream material retains its terms. Cite the exact release/commit and sources used."
 title: "Linear B Open Control Corpus"
 type: dataset
 version: 4.9.24
 date-released: 2026-10-01
-license: MIT
+license: "NOASSERTION"
 repository-code: "https://github.com/hawkinsnick/Linear-B"
 

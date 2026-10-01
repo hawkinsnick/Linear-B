@@ -1,5 +1,16 @@
 # Linear B Open Control Corpus
 
+## Reuse and attribution
+
+Original project software is **MIT-licensed**. Original non-software content
+that the repository owner has authority to license is **CC BY 4.0**, subject to
+[LICENSE-CONTENT.md](LICENSE-CONTENT.md). This permits commercial as well as
+academic reuse with the applicable attribution and notices.
+
+**Imported and source-derived material retains its upstream terms.** The
+repository as a whole is not covered by an attribution-only data license.
+See [rights and licensing](docs/RIGHTS-AND-LICENSING.md) and [NOTICE](NOTICE).
+
 ## Current status — 4.9.24
 
 Corrected and field-by-field-audited DAMOS mapping: 5932 records, 5890 nonempty surfaces, 3945 scribe labels and 1305 inventory identifiers. The phonetic smoke samples from the 5890 eligible records and explicitly excludes 42 missing surfaces. Gold calibration and graphical baseline remain blocked.

@@ -5,3 +5,9 @@ Repository code is MIT-licensed unless otherwise stated. Data and metadata may h
 The planned DĀMOS-derived input is attributed to its upstream scholarly/database sources and derivative provider. Its pinned derivative is CC BY-NC-SA 4.0 and is not relicensed by this repository. Version 0.1.0 does not redistribute the corpus bytes.
 
 Ancient texts are distinct from modern editions, transcriptions, annotations, database compilations, photographs, drawings and commentary. Do not assume that repository access grants redistribution rights to third-party material.
+
+As of 2026-10-01, original non-software contributions the owner can license
+are CC BY 4.0 as scoped in LICENSE-CONTENT.md. Third-party material, including
+DĀMOS-derived records and applicable aggregates, retains upstream terms.
+Earlier release statements above describe those releases, not a grant over
+all current corpus content.
