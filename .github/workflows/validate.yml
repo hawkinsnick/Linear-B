@@ -55,3 +55,32 @@ jobs:
           expected=json.loads(pathlib.Path('analysis/authenticated-document-count-smoke.json').read_text())
           assert actual == expected, 'Corrected real-input report drift'
           PY
+
+  publish:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [integrity, verify-damos-asset]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish checked native milestone
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          version=$(cat VERSION)
+          tag="v$version"
+          test -f "releases/$version.md"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Existing immutable release $tag retained."
+          else
+            existing=$(git ls-remote --tags origin "refs/tags/$tag" | cut -f1)
+            if test -n "$existing"; then
+              test "$existing" = "$GITHUB_SHA"
+            else
+              git tag "$tag" "$GITHUB_SHA"
+              git push origin "refs/tags/$tag"
+            fi
+            gh release create "$tag" --verify-tag --latest=true --title "Linear-B $version" --notes-file "releases/$version.md"
+          fi
