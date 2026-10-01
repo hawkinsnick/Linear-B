@@ -56,7 +56,7 @@
     },
     {
       "path": "research/family-readiness-v1.json",
-      "sha256": "3352f71d9c744e18623e5b2c967a9a64093b5e09649a2d5464c537e37b12a38b"
+      "sha256": "c808ed517cb9421b011a293d8f6294365837bea5816ba12fd7143c321c8a2a49"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
