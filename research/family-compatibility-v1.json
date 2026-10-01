@@ -9,7 +9,7 @@
     "phaistos-disc"
   ],
   "member": "Linear-B",
-  "member_version": "4.9.23",
+  "member_version": "4.9.24",
   "native_state": "CONTROL_ACQUISITION_GATE",
   "invariants": [
     "Native corpus evidence remains authoritative.",
@@ -21,7 +21,7 @@
     "Blocked and negative outcomes are publishable results.",
     "Family releases check all member repositories for compatibility; version numbers need not match."
   ],
-  "next_action": "Materialize and independently hash pinned DĀMOS bytes before observation/gold execution.",
+  "next_action": "Materialize and independently hash pinned D\u0100MOS bytes before observation/gold execution.",
   "blocked_claim": "5.0 and performance claims remain blocked.",
   "membership_boundary": "Native evidence only; membership implies no linguistic affinity, shared sign identities, or pooled analysis.",
   "next_family_gate": "Source-compatible measured definitions plus a legitimate frozen linguistic known-answer control; software fixtures do not satisfy it."

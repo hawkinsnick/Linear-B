@@ -1,0 +1,15 @@
+{
+  "format": "research-workbench-acceptance-v1",
+  "milestone_version": "1.0.0",
+  "project": "Linear-B",
+  "status": "PASS_ARTIFACT_REPLAY",
+  "evidence_files": 13,
+  "index_sha256": "1c2ef538f1b3d7bcc400fd0d56f2f1b6f9b40f9c010b2bccfaa82cc817bcff5a",
+  "viewer_sha256": "e3e3c69671305eea1d583aa9322a4d750f23c147bd417380e32425d115d00921",
+  "disc_comparison_rows": null,
+  "disc_scenarios": null,
+  "native_changes_applied": false,
+  "expert_review_granted": false,
+  "final_epigraphic_acceptance_granted": false,
+  "boundary": "Engineering milestone only. Browser behavior and adversarial controls are tested separately in CI."
+}

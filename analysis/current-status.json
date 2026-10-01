@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "repository_version": "4.9.23",
+  "repository_version": "4.9.24",
   "checked": "2026-10-01",
   "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
   "committed_evidence_counts": {},
@@ -56,7 +56,43 @@
     },
     {
       "path": "research/family-readiness-v1.json",
-      "sha256": "955ddc697d4ce293a5c2d3d19bd89c33328401ca4473c7fe6768ad87dc5acb42"
+      "sha256": "e43686c4497875d0899920235b9b2e47315a19e8810ff610787dbb34bee57251"
+    },
+    {
+      "path": "analysis/evidence-index-v1.json",
+      "sha256": "1c2ef538f1b3d7bcc400fd0d56f2f1b6f9b40f9c010b2bccfaa82cc817bcff5a"
+    },
+    {
+      "path": "analysis/workbench-acceptance-v1.json",
+      "sha256": "290664627cec46f93ab1c0a4b915d10fd7f46e9408f04bd45741539b60656675"
+    },
+    {
+      "path": "workbench/evidence.html",
+      "sha256": "e3e3c69671305eea1d583aa9322a4d750f23c147bd417380e32425d115d00921"
+    },
+    {
+      "path": "research/workbench-milestone-v1.json",
+      "sha256": "5525ea0f4d413740482ae1209533248eaa42939efdded99bdabaf46da1d37812"
+    },
+    {
+      "path": "scripts/evidence_workbench.py",
+      "sha256": "3a567a5d8bdde774357c01636ed69e1699e892680e61ba94ada45dfffeca3c87"
+    },
+    {
+      "path": "scripts/test_evidence_workbench.py",
+      "sha256": "a03a741f070cc1deda4c02182caca662819b0fdad476687871177990182d8385"
+    },
+    {
+      "path": "scripts/test_evidence_browser.cjs",
+      "sha256": "1bb199e91747e1f49171e03e703c9e5056dbbd73f74767650fea955decd6fc2c"
+    },
+    {
+      "path": "workbench/evidence-template.html",
+      "sha256": "f1636f0fa50debe8b71412e5dc6c9d3dcda037af538688de345faf7391d23c27"
+    },
+    {
+      "path": "research/workbench-guide.md",
+      "sha256": "779ec43cbaa53e76edfe30cbda7fa5d4d1147110c24012743dcf2a7abca0e4e0"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
