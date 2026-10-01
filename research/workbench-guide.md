@@ -1,4 +1,4 @@
-# Research evidence workbench 1.0
+# Research evidence workbench 1.1
 
 This is an engineering milestone for Linear-B. Existing scientific gates remain in force.
 
@@ -17,3 +17,9 @@ A reviewer may supply a plain written report with stable IDs and source location
 ## Reproduce the build
 
 With Python installed, run `python scripts/evidence_workbench.py` to check committed outputs, or `python scripts/evidence_workbench.py --write` to rebuild them. `python scripts/test_evidence_workbench.py` tests tampering and embedding controls. Browser tests run in GitHub Actions. Hash agreement proves byte identity, not scientific correctness.
+
+## Portable inspection collections
+
+Add several observations to a collection, then download the collection before closing. Import restores or merges a previously exported collection only when the project, native version and evidence-index hash match exactly. A file from another snapshot is rejected without changing existing notes. Imported notes remain unverified and cannot complete expert review. Collections stay in this page and are not saved automatically. The limit is 200 observations of up to 4,000 characters each.
+
+Use `research/correction-tracking.md` to compare two immutable Git revisions. The tracker requires a checkout with Git history; it cannot run from the release ZIP alone.

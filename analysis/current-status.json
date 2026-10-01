@@ -56,43 +56,43 @@
     },
     {
       "path": "research/family-readiness-v1.json",
-      "sha256": "e43686c4497875d0899920235b9b2e47315a19e8810ff610787dbb34bee57251"
+      "sha256": "e17625716660da70731459252e2b1bbca429d7183640b79f0733162313148b3e"
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "4a3ea985689e46a51ec6df788b5c54ede5b27793770213ae6ca284aa98551231"
+      "sha256": "f4d0f828b2d53ea9fa51e8ebb5a8f891748887f311574753633189e785be0000"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "aea83860a42742bdc8748f6d1183a6a29fa810880bc95867091258ca377f2d5e"
+      "sha256": "23c2b2d87f56371ab7d5e2d188151063398488ac9a9099f767e6819fd1960c75"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "8e1e54810b97efb237b240c60cf9010783d841d715602332d731abbbcd19697b"
+      "sha256": "2324c7a3aaed122bf52a0692ad2a5de7d33e6fe11b02b093d92a96f1a3a96d1f"
     },
     {
       "path": "research/workbench-milestone-v1.json",
-      "sha256": "5525ea0f4d413740482ae1209533248eaa42939efdded99bdabaf46da1d37812"
+      "sha256": "6e73523259c9131bdda1f2237a120f59a402be8294fb2026076cd0e67c13a44e"
     },
     {
       "path": "scripts/evidence_workbench.py",
-      "sha256": "3a567a5d8bdde774357c01636ed69e1699e892680e61ba94ada45dfffeca3c87"
+      "sha256": "682a350d9457b1e88ff3a3c4d1263880e4fdf98e1012578580b7d2b9d877c916"
     },
     {
       "path": "scripts/test_evidence_workbench.py",
-      "sha256": "a03a741f070cc1deda4c02182caca662819b0fdad476687871177990182d8385"
+      "sha256": "071d52a7996556919876d35182f2fdcc1a4e46a6ad60c97c3508c639b259c1e4"
     },
     {
       "path": "scripts/test_evidence_browser.cjs",
-      "sha256": "1bb199e91747e1f49171e03e703c9e5056dbbd73f74767650fea955decd6fc2c"
+      "sha256": "8c007db6b2a96d7f686e55d7dd3e59cf05a8a9951d15921509e88c35fd3af091"
     },
     {
       "path": "workbench/evidence-template.html",
-      "sha256": "f1636f0fa50debe8b71412e5dc6c9d3dcda037af538688de345faf7391d23c27"
+      "sha256": "009519821451a9b8d90eb42e46c12e5c7b5f834d1b2fb5825872d94a1d3f3762"
     },
     {
       "path": "research/workbench-guide.md",
-      "sha256": "779ec43cbaa53e76edfe30cbda7fa5d4d1147110c24012743dcf2a7abca0e4e0"
+      "sha256": "7d9a8a0faa39a700d16168909b8743148b07e150af17f6cfd17c8f1979299a50"
     },
     {
       "path": "scripts/history/run_matched_degradation_v0_3.py",
@@ -105,6 +105,22 @@
     {
       "path": "scripts/test_historical_smoke_engine.py",
       "sha256": "e6d88f970e545047c7119f8879215e646c3c2c0266aff189ef656e5731bc19a5"
+    },
+    {
+      "path": "scripts/release_change_ledger.py",
+      "sha256": "e6a5c228421531c00fde3493b8f14606126447f5f561ddf226045395c50b8cee"
+    },
+    {
+      "path": "scripts/test_release_change_ledger.py",
+      "sha256": "268230c02e2555159362e6312563a65904771d57b2c7bb32cfbfc9562acc4c94"
+    },
+    {
+      "path": "research/correction-tracking.md",
+      "sha256": "c6585777d891e4e113403d7cda9372b7a2b90c1a017e2be5c7527eae5c8828ab"
+    },
+    {
+      "path": ".github/workflows/release-change-ledger.yml",
+      "sha256": "0ef3782ee7a180649daa59e3238516859138f009c9969f49939492c322d7837f"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",

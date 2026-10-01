@@ -1,6 +1,6 @@
 {
   "format": "research-evidence-index-v1",
-  "workbench_version": "1.0.0",
+  "workbench_version": "1.1.0",
   "project": "Linear-B",
   "repository_version": "4.9.24",
   "evidence": [
@@ -89,8 +89,8 @@
     },
     {
       "path": "research/family-readiness-v1.json",
-      "sha256": "e43686c4497875d0899920235b9b2e47315a19e8810ff610787dbb34bee57251",
-      "bytes": 13995,
+      "sha256": "e17625716660da70731459252e2b1bbca429d7183640b79f0733162313148b3e",
+      "bytes": 14067,
       "category": "research",
       "summary": {
         "scope": "Comparison readiness and software/governance alignment, not permission for cross-script inference. Exact snapshot commits pin native evidence; target versions describe the coordinated rollout. Snapshot versions may precede report-only maintenance."
@@ -98,8 +98,8 @@
     },
     {
       "path": "research/workbench-guide.md",
-      "sha256": "779ec43cbaa53e76edfe30cbda7fa5d4d1147110c24012743dcf2a7abca0e4e0",
-      "bytes": 2038,
+      "sha256": "7d9a8a0faa39a700d16168909b8743148b07e150af17f6cfd17c8f1979299a50",
+      "bytes": 2736,
       "category": "research",
       "summary": {}
     },
@@ -122,6 +122,34 @@
       "sha256": "e6d88f970e545047c7119f8879215e646c3c2c0266aff189ef656e5731bc19a5",
       "bytes": 815,
       "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/release_change_ledger.py",
+      "sha256": "e6a5c228421531c00fde3493b8f14606126447f5f561ddf226045395c50b8cee",
+      "bytes": 6140,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/test_release_change_ledger.py",
+      "sha256": "268230c02e2555159362e6312563a65904771d57b2c7bb32cfbfc9562acc4c94",
+      "bytes": 2633,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "research/correction-tracking.md",
+      "sha256": "c6585777d891e4e113403d7cda9372b7a2b90c1a017e2be5c7527eae5c8828ab",
+      "bytes": 1264,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": ".github/workflows/release-change-ledger.yml",
+      "sha256": "0ef3782ee7a180649daa59e3238516859138f009c9969f49939492c322d7837f",
+      "bytes": 732,
+      "category": ".github",
       "summary": {}
     }
   ],
@@ -154,7 +182,7 @@
       "status": "unknown"
     }
   },
-  "family_report_sha256": "e43686c4497875d0899920235b9b2e47315a19e8810ff610787dbb34bee57251",
-  "implementation_sha256": "3a567a5d8bdde774357c01636ed69e1699e892680e61ba94ada45dfffeca3c87",
+  "family_report_sha256": "e17625716660da70731459252e2b1bbca429d7183640b79f0733162313148b3e",
+  "implementation_sha256": "682a350d9457b1e88ff3a3c4d1263880e4fdf98e1012578580b7d2b9d877c916",
   "boundary": "Committed file integrity and attributed project records. Hashes do not establish epigraphic truth, image adequacy or independent human review. Native units stay separate; no pooled sign identities or linguistic inference."
 }
