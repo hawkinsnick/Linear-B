@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-01",
+  "source": {
+    "name": "DĀMOS — Database of Mycenaean at Oslo",
+    "institution": "University of Oslo",
+    "content_license": "CC BY-NC-SA 4.0",
+    "software_license": "GPL-3.0"
+  },
+  "authority_claims": {
+    "scope": "annotated electronic corpus of all published Mycenaean texts",
+    "document_scale": "slightly fewer than 6000 documents",
+    "features": [
+      "current transliterations",
+      "epigraphical tagging",
+      "chronology",
+      "scribe attribution",
+      "notes",
+      "bibliography",
+      "joins and revised readings"
+    ]
+  },
+  "epidoc_alignment": {
+    "source": "EpiDoc Guidelines 2026 appendix: Aligning EpiDoc with Mycenaean usage",
+    "status": "published_mapping available for Wingspread/DAMOS/EpiDoc representations"
+  },
+  "project_policy": "DĀMOS is an authoritative annotated source but not independent gold merely because it is annotated. Preserve CC BY-NC-SA obligations. Calibration gold must be explicitly defined, non-leaky, representation-aligned, and independently justified."
+}
