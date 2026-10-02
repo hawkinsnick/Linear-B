@@ -1,7 +1,7 @@
 ---
 name: linear-b-research
 description: Evidence-first AI research skill for the Linear B corpus.
-version: 0.1.0
+version: 0.3.1
 ---
 
 # Linear B Research Skill
@@ -26,3 +26,9 @@ Give the direct answer, followed as relevant by Evidence; Evidentiary status; Un
 
 ## Synchronization
 Read `ai-skill/generated/source-state.json` before substantive work. It records the corpus commit from which the AI-facing package was synchronized. Generated files are rebuildable views; canonical corpus files govern if a discrepancy is found.
+
+## Academic-scrutiny gates
+- Linear B is deciphered Mycenaean Greek, but transcription, graphical sign identity, normalization and interpretation remain distinct layers.
+- Do not transfer Linear B values automatically to another script.
+- Calibration and reference-annotation status follow canonical current status.
+- Preserve source mapping qualifications, exclusions and upstream rights.
