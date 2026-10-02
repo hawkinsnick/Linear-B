@@ -19,12 +19,12 @@ for role,rel in CANDIDATES:
  p=ROOT/rel
  if p.is_file():
   b=p.read_bytes(); artifacts.append({"role":role,"path":rel,"sha256":hashlib.sha256(b).hexdigest(),"bytes":len(b)})
-bundle={"schema_version":"0.3.0","skill_version":"0.3.0","source_commit":sha,
+bundle={"schema_version":"0.3.1","skill_version":"0.3.1","source_commit":sha,
  "generated_at_utc":datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
  "canonical_repository":True,
  "contract":{"corpus_is_authoritative":True,"missing_means_unknown":True,"cross_corpus_equivalence_requires_explicit_evidence":True,
  "preserve_uncertainty":True,"preserve_source_independence":True,"preserve_rights":True},
  "artifacts":artifacts}
 (OUT/"research-bundle-index.json").write_text(json.dumps(bundle,indent=2)+"\n",encoding="utf-8")
-(OUT/"source-state.json").write_text(json.dumps({"schema_version":"1.0","source_commit":sha,"skill_version":"0.3.0","bundle_index":"ai-skill/generated/research-bundle-index.json"},indent=2)+"\n",encoding="utf-8")
+(OUT/"source-state.json").write_text(json.dumps({"schema_version":"1.0","source_commit":sha,"skill_version":"0.3.1","bundle_index":"ai-skill/generated/research-bundle-index.json"},indent=2)+"\n",encoding="utf-8")
 print(f"Indexed {len(artifacts)} canonical artifacts at {sha}")
