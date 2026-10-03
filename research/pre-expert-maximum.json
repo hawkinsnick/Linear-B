@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-03",
+  "state": "PRE_EXPERT_CEILING_NOT_YET_REACHED",
+  "authenticated_baseline": {
+    "source": "DAMOS derivative v2",
+    "sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+    "documents": 5932,
+    "transcription_surfaces": 5890,
+    "scribe_labels": 3945,
+    "inventory_ids": 1305
+  },
+  "machine_resolvable": [
+    {
+      "id": "LB-CORPUS-001",
+      "task": "Promote authenticated DĀMOS observation mapping into a corpus coverage register by site/support/find context/scribe/inventory availability without inventing absent fields.",
+      "status": "OPEN"
+    },
+    {
+      "id": "LB-CORPUS-002",
+      "task": "Build explicit tablet/document identity and source-lineage register from the authenticated derivative, retaining stable source IDs and duplicate/join caveats.",
+      "status": "OPEN"
+    },
+    {
+      "id": "LB-CORPUS-003",
+      "task": "Quantify missingness and representation boundaries for graphical sign identity, layout, damage, object class and linguistic annotation.",
+      "status": "OPEN"
+    },
+    {
+      "id": "LB-CORPUS-004",
+      "task": "Acquire any documented lawful public EpiDoc/annotation export if available; otherwise reduce to an exact maintainer/source-access request.",
+      "status": "OPEN_SOURCE_SEARCH"
+    },
+    {
+      "id": "LB-CORPUS-005",
+      "task": "Define Linear A comparison/control interfaces that use known Mycenaean structure without treating conventional Linear B transliteration as graphical sign identity.",
+      "status": "OPEN"
+    }
+  ],
+  "external_or_expert": [
+    {
+      "id": "LB-GOLD",
+      "task": "Known-answer linguistic calibration",
+      "status": "BLOCKED_PENDING_LEGITIMATE_GOLD",
+      "reason": "Requires documented/maintainer-supplied annotation export preserving ambiguity, provenance and stable IDs."
+    },
+    {
+      "id": "LB-GRAPHICS",
+      "task": "Graphical sign identity/layout/damage baseline",
+      "status": "BLOCKED_PENDING_AUTHORITATIVE_GRAPHICAL_SOURCE"
+    },
+    {
+      "id": "LB-EXPERT",
+      "task": "Scholarly adjudication of readings/joins/palaeography beyond explicit authority evidence",
+      "status": "HUMAN_OR_NEW_EVIDENCE"
+    }
+  ],
+  "ceiling_rule": "Do not declare PRE_EXPERT_MAXIMUM until every machine_resolvable item is COMPLETE or SOURCE_BLOCKED with a concrete access/rights blocker."
+}
