@@ -10,10 +10,7 @@ For questions spanning multiple corpus projects, use the **Combined Corpus Resea
 
 ## Reuse and attribution
 
-Original project software is **MIT-licensed**. Original non-software content
-that the repository owner has authority to license is **CC BY 4.0**, subject to
-[LICENSE-CONTENT.md](LICENSE-CONTENT.md). This permits commercial as well as
-academic reuse with the applicable attribution and notices.
+Current project-original software is licensed under **PolyForm Noncommercial 1.0.0**; current project-owned non-software content is **CC BY-NC 4.0**, subject to [LICENSE-CONTENT.md](LICENSE-CONTENT.md). Earlier material already released under broader irrevocable terms retains any rights previously granted.
 
 **Imported and source-derived material retains its upstream terms.** The
 repository as a whole is not covered by an attribution-only data license.
