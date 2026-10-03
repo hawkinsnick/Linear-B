@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-03",
+  "source": "DAMOS-DERIVATIVE-V2",
+  "source_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "population": {
+    "documents": 5932
+  },
+  "field_coverage": [
+    {
+      "field": "transliteration_surface",
+      "mapped_from": "content",
+      "present": 5890,
+      "missing": 42,
+      "coverage_fraction": 0.99292,
+      "status": "AUTHENTICATED"
+    },
+    {
+      "field": "scribe",
+      "present": 3945,
+      "missing": 1987,
+      "coverage_fraction": 0.66504,
+      "status": "AUTHENTICATED"
+    },
+    {
+      "field": "inventory",
+      "present": 1305,
+      "missing": 4627,
+      "coverage_fraction": 0.22,
+      "status": "AUTHENTICATED"
+    },
+    {
+      "field": "support",
+      "status": "MAPPED_COUNT_NOT_YET_CANONICALIZED"
+    },
+    {
+      "field": "site",
+      "status": "MAPPED_COUNT_NOT_YET_CANONICALIZED"
+    },
+    {
+      "field": "find_area",
+      "status": "MAPPED_COUNT_NOT_YET_CANONICALIZED"
+    },
+    {
+      "field": "find_spot",
+      "status": "MAPPED_COUNT_NOT_YET_CANONICALIZED"
+    },
+    {
+      "field": "museum",
+      "status": "MAPPED_COUNT_NOT_YET_CANONICALIZED"
+    },
+    {
+      "field": "graphical_sign_identity",
+      "present": null,
+      "status": "ABSENT_FROM_AUTHENTICATED_MAPPING"
+    },
+    {
+      "field": "sign_sequence",
+      "present": null,
+      "status": "ABSENT_FROM_AUTHENTICATED_MAPPING"
+    },
+    {
+      "field": "layout",
+      "present": null,
+      "status": "ABSENT_FROM_AUTHENTICATED_MAPPING"
+    },
+    {
+      "field": "damage",
+      "present": null,
+      "status": "ABSENT_FROM_AUTHENTICATED_MAPPING"
+    },
+    {
+      "field": "object_class",
+      "present": null,
+      "status": "ABSENT_FROM_AUTHENTICATED_MAPPING"
+    },
+    {
+      "field": "linguistic_annotation_gold",
+      "present": null,
+      "status": "NOT_ACQUIRED"
+    }
+  ],
+  "rules": [
+    "Unknown fields remain unknown rather than zero/empty evidence.",
+    "Conventional transliteration is not a graphical sign-identity layer.",
+    "Coverage counts are properties of the pinned derivative, not necessarily current live DĀMOS."
+  ],
+  "next": "Recompute remaining mapped-field counts directly from exact bytes and create document-identity/source-lineage register."
+}
