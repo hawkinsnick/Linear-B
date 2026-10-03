@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "source": "DAMOS-DERIVATIVE-V2",
+  "checked": "2026-10-03",
+  "identity_model": {
+    "source_document_id": "Preserve source-assigned document identifier verbatim as primary external identity.",
+    "inventory_number": "Secondary physical-object identifier when present; not assumed one-to-one with document identity.",
+    "museum": "Repository context when present; not an identity substitute.",
+    "joins_and_revised_readings": "Do not silently manufacture physical-object equivalence from derivative records."
+  },
+  "lineage": [
+    {
+      "node": "published Mycenaean texts / scholarly editions",
+      "role": "upstream scholarly evidence"
+    },
+    {
+      "node": "DĀMOS",
+      "role": "authoritative annotated electronic corpus",
+      "dependence": "derives from and updates scholarly editions"
+    },
+    {
+      "node": "pyaegean damos-corpus-v2",
+      "role": "frozen derivative snapshot",
+      "dependence": "derivative of DĀMOS",
+      "sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2"
+    },
+    {
+      "node": "hawkinsnick/Linear-B observation layer",
+      "role": "project normalization/validation",
+      "dependence": "derived from pinned pyaegean snapshot"
+    }
+  ],
+  "independence_rule": "DĀMOS, its pyaegean snapshot, and project-normalized observations are not independent witnesses merely because they are separate files/services.",
+  "admission_rule": "A canonical project record must retain source ID, source snapshot identity, applicable license, transformation provenance, and known inventory/museum context. Joins or aliases require explicit authority evidence.",
+  "status": "IDENTITY_AND_LINEAGE_MODEL_READY_RECORD_MATERIALIZATION_PENDING"
+}
