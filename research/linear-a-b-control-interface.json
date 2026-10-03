@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "unit": "source document / source editorial grouping, always named separately",
+  "allowed_descriptive_comparisons": [
+    "source-record missingness",
+    "source-defined metadata coverage",
+    "site/support strata with source labels preserved"
+  ],
+  "representation_layers": {
+    "Linear-A": "source-reported SigLA sign key and source word grouping; conventional display labels do not establish phonetic values",
+    "Linear-B": "DAMOS conventional transliteration surface and metadata; no graphical occurrence identities or aligned gold in this derivative"
+  },
+  "known_answer_control": "BLOCKED_PENDING_LEGITIMATE_ALIGNED_LINGUISTIC_GOLD",
+  "graphical_comparison": "BLOCKED_PENDING_AUTHORITATIVE_SIGN_OCCURRENCE_MAPPING",
+  "require_before_inference": [
+    "checksum-pinned source bytes",
+    "source-specific units and exclusions",
+    "explicit label/sign correspondence evidence",
+    "independence and shared edition lineage audit",
+    "frozen predictions before gold reveal",
+    "source-specific rights"
+  ],
+  "prohibited": [
+    "Linear B transliteration token treated as graphical sign identity",
+    "Linear B phonetics transferred to Linear A",
+    "matched document counts treated as matched context",
+    "source headings merged into objects without authority",
+    "engineering test treated as linguistic calibration"
+  ],
+  "sealed_experiment_state": "UNCHANGED"
+}

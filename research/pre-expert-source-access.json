@@ -1,0 +1,31 @@
+{
+  "checked": "2026-10-03",
+  "finding_boundary": "Targeted source search, not a proof that no export or accessible edition exists anywhere.",
+  "sources": [
+    {
+      "url": "https://damos.hf.uio.no/about/online/",
+      "role": "primary public access documentation",
+      "finding": "Browsable transliterations, notes and metadata; no bulk linguistic gold download located in this documentation."
+    },
+    {
+      "url": "https://epigraphy.info/documents/workshop_8/Poster_1.pdf",
+      "role": "primary project poster",
+      "finding": "EpiDoc export/import implementation described; description alone does not supply a downloadable export or establish inclusion of aligned linguistic annotations."
+    },
+    {
+      "url": "https://epidoc.stoa.org/gl/latest/app-epi-mycenaean.html",
+      "role": "primary format documentation",
+      "finding": "Mycenaean encoding conventions, not a corpus export."
+    },
+    {
+      "url": "https://liber.cnr.it/",
+      "role": "primary alternative corpus and terms",
+      "finding": "Edition-derived texts and images with restricted reuse; not a replacement bulk linguistic gold grant. Image rights and text rights remain separate."
+    },
+    {
+      "url": "https://damos.hf.uio.no/news",
+      "role": "primary current-change notice",
+      "finding": "2026-05-26 entry announces work on Pylos edition variation; the frozen derivative cannot be presumed to contain all ongoing updates."
+    }
+  ]
+}

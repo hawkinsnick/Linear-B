@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "checked": "2026-10-03",
-  "state": "PRE_EXPERT_CEILING_NOT_YET_REACHED",
+  "state": "PRE_EXPERT_HANDOFF_WITH_OPEN_SOURCE_GATES",
   "authenticated_baseline": {
     "source": "DAMOS derivative v2",
     "sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
@@ -13,28 +13,61 @@
   "machine_resolvable": [
     {
       "id": "LB-CORPUS-001",
-      "task": "Promote authenticated DĀMOS observation mapping into a corpus coverage register by site/support/find context/scribe/inventory availability without inventing absent fields.",
-      "status": "OPEN"
+      "task": "Promote authenticated D\u0100MOS observation mapping into a corpus coverage register by site/support/find context/scribe/inventory availability without inventing absent fields.",
+      "status": "COMPLETE",
+      "evidence": [
+        "analysis/pre-expert-source-audit.json",
+        "scripts/build_pre_expert_audit.py",
+        "docs/PRE-EXPERT-HANDOFF.md"
+      ],
+      "completion_scope": "Exact site/support strata and availability for source-exported context/scribe/inventory fields quantified."
     },
     {
       "id": "LB-CORPUS-002",
       "task": "Build explicit tablet/document identity and source-lineage register from the authenticated derivative, retaining stable source IDs and duplicate/join caveats.",
-      "status": "OPEN"
+      "status": "COMPLETE",
+      "evidence": [
+        "analysis/pre-expert-source-audit.json",
+        "scripts/build_pre_expert_audit.py",
+        "docs/PRE-EXPERT-HANDOFF.md"
+      ],
+      "completion_scope": "5,932 unchanged source IDs, pointer lineage and local identity register; heading/inventory collisions counted and joins not resolved automatically."
     },
     {
       "id": "LB-CORPUS-003",
       "task": "Quantify missingness and representation boundaries for graphical sign identity, layout, damage, object class and linguistic annotation.",
-      "status": "OPEN"
+      "status": "COMPLETE",
+      "evidence": [
+        "analysis/pre-expert-source-audit.json",
+        "scripts/build_pre_expert_audit.py",
+        "docs/PRE-EXPERT-HANDOFF.md"
+      ],
+      "completion_scope": "Absent graphical, geometric, structured damage and linguistic layers explicitly distinguished from editorial text markup."
     },
     {
       "id": "LB-CORPUS-004",
       "task": "Acquire any documented lawful public EpiDoc/annotation export if available; otherwise reduce to an exact maintainer/source-access request.",
-      "status": "OPEN_SOURCE_SEARCH"
+      "status": "SOURCE_BLOCKED",
+      "evidence": [
+        "analysis/pre-expert-source-audit.json",
+        "scripts/build_pre_expert_audit.py",
+        "docs/PRE-EXPERT-HANDOFF.md",
+        "research/pre-expert-source-access.json",
+        "docs/ANNOTATION-EXPORT-REQUEST.md"
+      ],
+      "completion_scope": "Targeted current public documentation/export search completed; reproducible access request prepared, no aligned bulk gold export acquired.",
+      "blocker": "No documented downloadable aligned linguistic annotation export obtained from checked public primary sources; derivative contains no such layer. Maintainer-supplied access or a documented export is needed."
     },
     {
       "id": "LB-CORPUS-005",
       "task": "Define Linear A comparison/control interfaces that use known Mycenaean structure without treating conventional Linear B transliteration as graphical sign identity.",
-      "status": "OPEN"
+      "status": "COMPLETE",
+      "evidence": [
+        "analysis/pre-expert-source-audit.json",
+        "scripts/build_pre_expert_audit.py",
+        "docs/PRE-EXPERT-HANDOFF.md"
+      ],
+      "completion_scope": "Representation-specific comparison/control contract published; scientific known-answer comparisons remain blocked."
     }
   ],
   "external_or_expert": [
@@ -55,5 +88,7 @@
       "status": "HUMAN_OR_NEW_EVIDENCE"
     }
   ],
-  "ceiling_rule": "Do not declare PRE_EXPERT_MAXIMUM until every machine_resolvable item is COMPLETE or SOURCE_BLOCKED with a concrete access/rights blocker."
+  "ceiling_rule": "Do not declare PRE_EXPERT_MAXIMUM until every machine_resolvable item is COMPLETE or SOURCE_BLOCKED with a concrete access/rights blocker.",
+  "machine_pass_evidence": "analysis/pre-expert-source-audit.json",
+  "public_record_boundary": "Aggregate audit and reproduction code are committed. Authenticated record derivatives are local and ignored; no restricted raw payloads or record derivatives are newly published."
 }

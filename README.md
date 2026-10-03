@@ -57,3 +57,7 @@ Download the [research workbench 1.1 package](https://github.com/hawkinsnick/Lin
 ## Fleet admission
 
 This corpus participates in the Combined Corpus Research AI fleet. Fleet admission requires the repository's component-specific licensing architecture, its individual `ai-skill` research contract and generated bundle, explicit master-registry membership, and passing member/master validation. Third-party material retains its upstream rights.
+
+## Pre-expert validation handoff
+
+See [the handoff](docs/PRE-EXPERT-HANDOFF.md), [source audit](analysis/pre-expert-source-audit.json) and [remaining gates](research/pre-expert-maximum.json). Authenticated source records are materialized locally with retained rights; aggregate engineering checks do not establish expert validation or open scientific gates.
