@@ -1,0 +1,187 @@
+{
+  "calibration_executed": false,
+  "documents": 5932,
+  "field_coverage": {
+    "chronology": {
+      "denominator": 5932,
+      "missing_or_empty": 0,
+      "present": 5932
+    },
+    "content": {
+      "denominator": 5932,
+      "missing_or_empty": 42,
+      "present": 5890
+    },
+    "damage_annotation": {
+      "boundary": "NOT_EXPORTED_IN_AUTHENTICATED_DERIVATIVE",
+      "denominator": 5932,
+      "missing_or_empty": 5932,
+      "present": 0
+    },
+    "find_area": {
+      "denominator": 5932,
+      "missing_or_empty": 2670,
+      "present": 3262
+    },
+    "find_spot": {
+      "denominator": 5932,
+      "missing_or_empty": 5200,
+      "present": 732
+    },
+    "graphical_sign_identity": {
+      "boundary": "NOT_EXPORTED_IN_AUTHENTICATED_DERIVATIVE",
+      "denominator": 5932,
+      "missing_or_empty": 5932,
+      "present": 0
+    },
+    "heading": {
+      "denominator": 5932,
+      "missing_or_empty": 0,
+      "present": 5932
+    },
+    "heading_short": {
+      "denominator": 5932,
+      "missing_or_empty": 0,
+      "present": 5932
+    },
+    "inventory": {
+      "denominator": 5932,
+      "missing_or_empty": 4627,
+      "present": 1305
+    },
+    "joins": {
+      "denominator": 5932,
+      "missing_or_empty": 4397,
+      "present": 1535
+    },
+    "layout_coordinates": {
+      "boundary": "NOT_EXPORTED_IN_AUTHENTICATED_DERIVATIVE",
+      "denominator": 5932,
+      "missing_or_empty": 5932,
+      "present": 0
+    },
+    "linguistic_annotation": {
+      "boundary": "NOT_EXPORTED_IN_AUTHENTICATED_DERIVATIVE",
+      "denominator": 5932,
+      "missing_or_empty": 5932,
+      "present": 0
+    },
+    "museum": {
+      "denominator": 5932,
+      "missing_or_empty": 574,
+      "present": 5358
+    },
+    "permalink": {
+      "denominator": 5932,
+      "missing_or_empty": 0,
+      "present": 5932
+    },
+    "scribe": {
+      "denominator": 5932,
+      "missing_or_empty": 1987,
+      "present": 3945
+    },
+    "site": {
+      "denominator": 5932,
+      "missing_or_empty": 0,
+      "present": 5932
+    },
+    "support": {
+      "denominator": 5932,
+      "missing_or_empty": 0,
+      "present": 5932
+    }
+  },
+  "group_counts": {
+    "site": {
+      "Dimini": 1,
+      "Hagios Vasileios": 5,
+      "Iklaina": 1,
+      "Khania": 8,
+      "Knossos": 4224,
+      "Medeon": 1,
+      "Midea": 4,
+      "Mycenae": 87,
+      "Pylos": 1004,
+      "Sissi": 1,
+      "Thebes": 363,
+      "Tiryns": 27,
+      "Vases - Armeni": 1,
+      "Vases - Dimini": 1,
+      "Vases - Eleusis": 1,
+      "Vases - Gla": 1,
+      "Vases - Khania": 45,
+      "Vases - Knossos": 4,
+      "Vases - Kreusis": 1,
+      "Vases - Mallia": 4,
+      "Vases - Mamelouko": 1,
+      "Vases - Midea": 2,
+      "Vases - Mycenae": 20,
+      "Vases - Orchomenos": 1,
+      "Vases - Prinias": 1,
+      "Vases - Sidon": 1,
+      "Vases - Thebes": 75,
+      "Vases - Tiryns": 45,
+      "Volos": 2
+    },
+    "support": {
+      "bowl": 4,
+      "cup": 2,
+      "irregular nodule, sealed": 1,
+      "kylix": 1,
+      "label": 54,
+      "label?": 1,
+      "nodule, sealed": 115,
+      "nodule, unsealed": 10,
+      "nodulus": 2,
+      "seal": 1,
+      "skyphos": 1,
+      "stirrup jar": 196,
+      "tablet": 5543,
+      "weight? (stone parallelepiped)": 1
+    }
+  },
+  "identity_collisions": {
+    "heading": {
+      "duplicated_values": 0,
+      "records_in_collision_groups": 0
+    },
+    "heading_short": {
+      "duplicated_values": 3,
+      "records_in_collision_groups": 19
+    },
+    "inventory": {
+      "duplicated_values": 4,
+      "records_in_collision_groups": 14
+    }
+  },
+  "implementation_sha256": "889c90b3ae16afcd94b9f6e51dbdcd750f0e59138ae6fb58beee682190bc33f6",
+  "local_export_manifest": [
+    {
+      "file": "identity-register.json",
+      "records": 5932,
+      "sha256": "769c2932aaedbff9d40d902600f99d021f0ec2d95cf622de8302c0cc928cd6d6"
+    },
+    {
+      "file": "records.json",
+      "records": 5932,
+      "sha256": "27e8ffee1f2dbda4a202fce785008bc13b5217b376d6ad758fd0ef207d8824ad"
+    },
+    {
+      "file": "source-metadata.json",
+      "records": 1,
+      "sha256": "8da42dedc8275ceb104b9ccb55fb78a0100b744b4f281f06f0ccd0f8faf6d69e"
+    }
+  ],
+  "project": "Linear-B",
+  "prospective_outcomes_inspected": false,
+  "redistributes_source_records": false,
+  "schema_version": "1.0",
+  "scope": "Exact authenticated derivative snapshot only; not all surviving inscriptions or physical objects.",
+  "source_attribution": "DAMOS — Database of Mycenaean at Oslo (F. Aurora, University of Oslo); https://damos.hf.uio.no",
+  "source_independence": "ONE_DERIVATIVE_SOURCE_NOT_INDEPENDENT_VALIDATION",
+  "source_license": "CC BY-NC-SA 4.0",
+  "source_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "transliteration_boundary": "Editorial transliteration preserves markup; does not supply graphical sign occurrence identity, geometry, or aligned linguistic gold.",
+  "unique_source_ids": 5932
+}

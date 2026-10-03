@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "5f0f2ac2d4fd58190ee72fd351814a5931318387",
-  "generated_at_utc": "2026-10-03T19:45:49+00:00",
+  "source_commit": "429882ca5640cbab5c1d44544290660fcb5f05f8",
+  "generated_at_utc": "2026-10-03T20:11:57+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -14,10 +14,34 @@
   },
   "artifacts": [
     {
+      "role": "pre_expert_contract",
+      "path": "research/pre-expert-maximum.json",
+      "sha256": "d16e1e5ecb5252f0c2f9f0eb79b33de5d9f2cf21c09e96c1779fb12bb9f91eb0",
+      "bytes": 4603
+    },
+    {
+      "role": "pre_expert_source_audit",
+      "path": "analysis/pre-expert-source-audit.json",
+      "sha256": "4c043cc9c4cbccde5f3601d9c2ede734c14788da762b688a5a71dc65fb57ba50",
+      "bytes": 4933
+    },
+    {
+      "role": "review_handoff",
+      "path": "docs/PRE-EXPERT-HANDOFF.md",
+      "sha256": "a062e5d730b968b7906310b8d0ab2505feebcdeaf6bb29ba153033419c633e8b",
+      "bytes": 3074
+    },
+    {
+      "role": "comparison_contract",
+      "path": "research/linear-a-b-control-interface.json",
+      "sha256": "33400a357e5b3953b73d66f35e1674bb514b2f15ef4e02443ce83993ac222d33",
+      "bytes": 1422
+    },
+    {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "cd088e335aceeb4dac006ab50ff03ba6dd36d1988f8cc105fc3687ee06d1c82f",
-      "bytes": 5216
+      "sha256": "169556e0c7acfc48561dfd2329f84e5b99da5c6904e7aff01ae2bf7fa26f9edf",
+      "bytes": 6843
     },
     {
       "role": "rights_and_licensing",

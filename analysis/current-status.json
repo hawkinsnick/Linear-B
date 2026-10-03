@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository_version": "4.9.24",
-  "checked": "2026-10-01",
+  "checked": "2026-10-03",
   "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
   "committed_evidence_counts": {},
   "scientific_results": {
@@ -60,15 +60,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "f4d0f828b2d53ea9fa51e8ebb5a8f891748887f311574753633189e785be0000"
+      "sha256": "87a946746a7b8f55e54e0f92a4e88c7debb7d264e3afe1c0757aee621170ce8a"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "23c2b2d87f56371ab7d5e2d188151063398488ac9a9099f767e6819fd1960c75"
+      "sha256": "f0b86610bcadab0c2904fc4e82ce85fbb751e7286575171727c6dd7d13543559"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "2324c7a3aaed122bf52a0692ad2a5de7d33e6fe11b02b093d92a96f1a3a96d1f"
+      "sha256": "46b283a95732fa3fe87b0cb79c51412e241372c6fc226cd0748a77730a93bf06"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -121,9 +121,52 @@
     {
       "path": ".github/workflows/release-change-ledger.yml",
       "sha256": "0ef3782ee7a180649daa59e3238516859138f009c9969f49939492c322d7837f"
+    },
+    {
+      "path": "analysis/pre-expert-source-audit.json",
+      "sha256": "4c043cc9c4cbccde5f3601d9c2ede734c14788da762b688a5a71dc65fb57ba50"
+    },
+    {
+      "path": "research/pre-expert-maximum.json",
+      "sha256": "d16e1e5ecb5252f0c2f9f0eb79b33de5d9f2cf21c09e96c1779fb12bb9f91eb0"
+    },
+    {
+      "path": "research/linear-a-b-control-interface.json",
+      "sha256": "33400a357e5b3953b73d66f35e1674bb514b2f15ef4e02443ce83993ac222d33"
+    },
+    {
+      "path": "research/pre-expert-source-access.json",
+      "sha256": "ea7e6109364ef7f7d489ac5ed87d621561cbc089805f58cca0d32343c6e868c2"
+    },
+    {
+      "path": "scripts/build_pre_expert_audit.py",
+      "sha256": "889c90b3ae16afcd94b9f6e51dbdcd750f0e59138ae6fb58beee682190bc33f6"
+    },
+    {
+      "path": "scripts/test_pre_expert_audit.py",
+      "sha256": "2c359642c4a7434d96dd1e18ed5d15c8c9d11b7bd33ac131500d1cc622c425c3"
+    },
+    {
+      "path": "scripts/validate_pre_expert_audit.py",
+      "sha256": "52814f2dcdb3975ab0cab1fc02ca08f5a9dac171cfffecef1934550397408e72"
+    },
+    {
+      "path": "docs/PRE-EXPERT-HANDOFF.md",
+      "sha256": "a062e5d730b968b7906310b8d0ab2505feebcdeaf6bb29ba153033419c633e8b"
+    },
+    {
+      "path": "docs/ANNOTATION-EXPORT-REQUEST.md",
+      "sha256": "e385315007dbda7f38355e5849a3926b8332fda1f478f117c27abed17b9fb4aa"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Adds a source-ID-preserving EpiDoc importer with synthetic tests for editorial markup, incomplete words, glyphs, numerical and nonphonetic units, alternative annotations, duplicate identifiers and unsafe XML. Published Mycenaean conventions and DAMOS export/import documentation are pinned. No real annotated export or linguistic gold is acquired; 5.0 remains blocked."
+  "summary": "Adds a source-ID-preserving EpiDoc importer with synthetic tests for editorial markup, incomplete words, glyphs, numerical and nonphonetic units, alternative annotations, duplicate identifiers and unsafe XML. Published Mycenaean conventions and DAMOS export/import documentation are pinned. No real annotated export or linguistic gold is acquired; 5.0 remains blocked.",
+  "pre_expert_handoff": {
+    "state": "PRE_EXPERT_HANDOFF_WITH_OPEN_SOURCE_GATES",
+    "source_audit": "analysis/pre-expert-source-audit.json",
+    "contract": "research/pre-expert-maximum.json",
+    "reviewer_guide": "docs/PRE-EXPERT-HANDOFF.md",
+    "source_records_committed": false
+  }
 }

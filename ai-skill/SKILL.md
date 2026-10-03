@@ -32,3 +32,6 @@ Read `ai-skill/generated/source-state.json` before substantive work. It records 
 - Do not transfer Linear B values automatically to another script.
 - Calibration and reference-annotation status follow canonical current status.
 - Preserve source mapping qualifications, exclusions and upstream rights.
+
+## Pre-expert source audit routing
+Read `research/pre-expert-maximum.json`, `analysis/pre-expert-source-audit.json` and `docs/PRE-EXPERT-HANDOFF.md` before readiness or coverage claims. Record-level authenticated exports are generated locally under ignored directories; committed aggregate counts do not mean canonical records are publicly bundled. Use source JSON pointers and unchanged source IDs. Do not infer physical-object equivalence from headings, joins or inventory collisions. Read `research/linear-a-b-control-interface.json` before comparing representations. A local engineering pass does not establish independent source verification, linguistic calibration or expert validation.
