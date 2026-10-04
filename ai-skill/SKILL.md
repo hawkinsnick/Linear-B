@@ -35,3 +35,7 @@ Read `ai-skill/generated/source-state.json` before substantive work. It records 
 
 ## Pre-expert source audit routing
 Read `research/pre-expert-maximum.json`, `analysis/pre-expert-source-audit.json` and `docs/PRE-EXPERT-HANDOFF.md` before readiness or coverage claims. Record-level authenticated exports are generated locally under ignored directories; committed aggregate counts do not mean canonical records are publicly bundled. Use source JSON pointers and unchanged source IDs. Do not infer physical-object equivalence from headings, joins or inventory collisions. Read `research/linear-a-b-control-interface.json` before comparing representations. A local engineering pass does not establish independent source verification, linguistic calibration or expert validation.
+
+## Collection source work and review handoff
+
+Read `research/collection-work-ledger.json` and `review/collection-packet.json` when preparing a source-work plan or expert request. Check their evidence fingerprint against current inputs with `python scripts/build_collection_handoff.py`. Select exact record keys and retain native units; overlapping views are not additional physical objects. Follow native review links for scientific decisions and admission. Ledger coverage does not establish completed collation, independent review or a terminal pre-expert ceiling. Use `review/collection-decision-template.json` for revision-bound submissions; structural validation cannot authenticate the reviewer or approve the science. Keep restricted local A/B derivatives local.

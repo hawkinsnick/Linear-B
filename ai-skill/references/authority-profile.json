@@ -1,15 +1,37 @@
 {
-  "schema_version": "1.0",
-  "corpus": "Linear B",
-  "required_authorities": [
-    {"role":"current_status","path":"analysis/current-status.json","required":true},
-    {"role":"rights","path":"docs/RIGHTS-AND-LICENSING.md","required":true},
-    {"role":"notice","path":"NOTICE","required":true}
-  ],
   "behavioral_gates": [
     "Separate deciphered transcription from graphical sign identity and editorial interpretation",
     "Do not automatically transfer Linear B values to another script",
     "Gold and calibration gates follow canonical current status",
     "Preserve source mapping qualifications and exclusions"
-  ]
+  ],
+  "corpus": "Linear B",
+  "required_authorities": [
+    {
+      "path": "analysis/current-status.json",
+      "required": true,
+      "role": "current_status"
+    },
+    {
+      "path": "docs/RIGHTS-AND-LICENSING.md",
+      "required": true,
+      "role": "rights"
+    },
+    {
+      "path": "NOTICE",
+      "required": true,
+      "role": "notice"
+    },
+    {
+      "path": "research/collection-work-ledger.json",
+      "required": true,
+      "role": "collection_work_ledger"
+    },
+    {
+      "path": "review/collection-packet.json",
+      "required": true,
+      "role": "collection_review_packet"
+    }
+  ],
+  "schema_version": "1.0"
 }
