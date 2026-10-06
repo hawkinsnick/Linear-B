@@ -61,3 +61,7 @@ This corpus participates in the Combined Corpus Research AI fleet. Fleet admissi
 ## Pre-expert validation handoff
 
 See [the handoff](docs/PRE-EXPERT-HANDOFF.md), [source audit](analysis/pre-expert-source-audit.json) and [remaining gates](research/pre-expert-maximum.json). Authenticated source records are materialized locally with retained rights; aggregate engineering checks do not establish expert validation or open scientific gates.
+
+
+## Offline corpus browser
+Run `python scripts/build_corpus_browser.py` to generate `workbench/corpus-browser.html`. The browser is self-contained and searches only the explicitly allowlisted files in `research/browser-sources.json`. Adding a file to the browser requires a rights/provenance check; never recursively ingest repository data or restricted upstream material. Browser display does not establish decipherment, source independence, or expert validation.
