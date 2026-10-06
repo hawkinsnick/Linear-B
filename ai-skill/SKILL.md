@@ -39,3 +39,7 @@ Read `research/pre-expert-maximum.json`, `analysis/pre-expert-source-audit.json`
 
 ## Offline corpus browser
 Run `python scripts/build_corpus_browser.py` to generate `workbench/corpus-browser.html`. The browser is self-contained and searches only the explicitly allowlisted files in `research/browser-sources.json`. Adding a file to the browser requires a rights/provenance check; never recursively ingest repository data or restricted upstream material. Browser display does not establish decipherment, source independence, or expert validation.
+
+
+## Fleet EpiDoc and identity graph gates
+Read `analysis/epidoc-interoperability-audit.json` and `research/identity-graph.json`. The repository has an EpiDoc import engineering path, but fleet EpiDoc conformance remains open until a real authenticated source export, structured mapping coverage, loss manifest, validation and round-trip tests exist. DĀMOS/source document identifiers must not be promoted to physical tablet identities by string equality. Scribal attribution and transliteration remain assertion/representation layers, not object or graphical-occurrence identity.
