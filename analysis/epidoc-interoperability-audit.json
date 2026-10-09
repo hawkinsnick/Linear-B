@@ -1,0 +1,9 @@
+{
+  "schema_version":"1.0",
+  "checked":"2026-10-06",
+  "fleet_contract":"hawkinsnick/Linear-A/corpus-factory/schemas/epidoc-interoperability-contract.json",
+  "status":"IMPORT_PATH_EXISTS_EXPORT_CONFORMANCE_OPEN",
+  "existing_strengths":["source-ID-preserving EpiDoc importer","synthetic tests for editorial markup, incomplete words, glyphs, numerical/nonphonetic units, alternative annotations, duplicate identifiers and unsafe XML","pinned DĀMOS export/import documentation"],
+  "open_gates":["real authenticated annotated EpiDoc export not acquired","fleet mapping coverage report absent","fleet loss manifest absent","round-trip test against real source absent","EpiDoc export path absent"],
+  "scientific_boundary":"Importer correctness on synthetic fixtures is engineering evidence, not validation of DĀMOS annotation, tablet identity, scribal attribution or linguistic gold."
+}

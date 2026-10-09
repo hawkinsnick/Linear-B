@@ -1,0 +1,15 @@
+{
+  "schema_version":"1.0",
+  "status":"PILOT_SOURCE_IDENTITY_LAYER",
+  "scope":"DĀMOS/source architecture only; no physical tablet equivalence inferred from document headings.",
+  "nodes":[
+    {"id":"source:DAMOS-V2","type":"bibliographic_work","label":"Authenticated DĀMOS v2 source bytes"},
+    {"id":"project:LB-OBSERVATION-MAP","type":"external_catalogue_record","label":"Linear B observation source mapping"},
+    {"id":"project:LB-EPIDOC-ROUTE","type":"external_catalogue_record","label":"Linear B EpiDoc access/import route"}
+  ],
+  "edges":[
+    {"edge_id":"LB-ID-001","subject":"project:LB-OBSERVATION-MAP","predicate":"derived_from","object":"source:DAMOS-V2","assertion_status":"CERTAIN","authority":"checksum-pinned source mapping","evidence_locator":"analysis/observation-source-mapping-audit.json","checked_date":"2026-10-06"},
+    {"edge_id":"LB-ID-002","subject":"project:LB-EPIDOC-ROUTE","predicate":"derived_from","object":"source:DAMOS-V2","assertion_status":"SOURCE_ASSERTED","authority":"DAMOS export/import documentation route","evidence_locator":"research/epidoc-access-route-v1.json","checked_date":"2026-10-06"}
+  ],
+  "rules":["Document/source IDs remain source IDs until object-level identity is independently established.","Scribal attribution is an assertion layer, not physical-object identity.","Conventional transliteration is not graphical sign-occurrence identity."]
+}
