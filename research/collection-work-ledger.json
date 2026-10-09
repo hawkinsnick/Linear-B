@@ -1,0 +1,198 @@
+{
+  "builder_sha256": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+  "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
+  "config_sha256": "b672dbba9a3c5490bf546f23ad7c012f8902bf2f9ef2079a1ef86033dccbc394",
+  "evidence_fingerprint": "e2a76d306165f676af44e8f3297779829bc52df88932229702ab403a487e4198",
+  "input_sha256": {
+    "analysis/current-status.json": "169556e0c7acfc48561dfd2329f84e5b99da5c6904e7aff01ae2bf7fa26f9edf",
+    "analysis/pre-expert-source-audit.json": "4c043cc9c4cbccde5f3601d9c2ede734c14788da762b688a5a71dc65fb57ba50",
+    "research/pre-expert-maximum.json": "d16e1e5ecb5252f0c2f9f0eb79b33de5d9f2cf21c09e96c1779fb12bb9f91eb0",
+    "research/pre-expert-source-access.json": "ea7e6109364ef7f7d489ac5ed87d621561cbc089805f58cca0d32343c6e868c2",
+    "sources/registry.json": "3d8c9e5449d95a2c960fcf87a59e5962a40a92b9e37c18c99cd23894f96d8ec0"
+  },
+  "native_review_links": [
+    "docs/PRE-EXPERT-HANDOFF.md",
+    "LICENSING.md"
+  ],
+  "question_definitions": {
+    "language_or_script_classification": "Attribute membership and classification to named authorities; preserve disagreement.",
+    "object_identity": "Confirm the object, face and inventory concordance; distinguish source entries from physical objects.",
+    "reading_and_layout": "Compare the exact edition rows, figures and layout; preserve competing readings with page/line locators.",
+    "reuse_rights": "Check the applicable license or permission for each component; project terms do not override upstream rights.",
+    "source_independence": "Identify shared editorial and photographic lineage; a derivative is not an independent witness.",
+    "uncertainty": "Retain damage, restorations, unreadable signs and competing segmentations; do not silently normalize them."
+  },
+  "record_identity_is_not_object_identity": true,
+  "record_views": [
+    {
+      "enumerated": null,
+      "local_path": "data/generated/pre-expert/records.json",
+      "native_reported_count": 5932,
+      "representation": "RESTRICTED_LOCAL_DERIVATIVE_NOT_READ_OR_REPUBLISHED",
+      "unit": "restricted_source_record",
+      "view": "authenticated-records"
+    }
+  ],
+  "records": [],
+  "repository": "hawkinsnick/Linear-B",
+  "review_dimensions": [
+    "object_identity",
+    "reading_and_layout",
+    "uncertainty",
+    "language_or_script_classification",
+    "source_independence",
+    "reuse_rights"
+  ],
+  "schema_version": "1.0",
+  "scientific_approval_granted": false,
+  "scope": "Declared native snapshots and source/task registers only; not a language-wide inventory",
+  "source_leads": [
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/authenticated_baseline/source",
+      "kind": "source",
+      "source_path": "research/pre-expert-maximum.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/sources/0/url",
+      "kind": "url",
+      "source_path": "research/pre-expert-source-access.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/sources/1/url",
+      "kind": "url",
+      "source_path": "research/pre-expert-source-access.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/sources/2/url",
+      "kind": "url",
+      "source_path": "research/pre-expert-source-access.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/sources/3/url",
+      "kind": "url",
+      "source_path": "research/pre-expert-source-access.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/sources/4/url",
+      "kind": "url",
+      "source_path": "research/pre-expert-source-access.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/0/source_id",
+      "kind": "source_id",
+      "source_path": "sources/registry.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/0/title",
+      "kind": "title",
+      "source_path": "sources/registry.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/1/source_id",
+      "kind": "source_id",
+      "source_path": "sources/registry.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/1/title",
+      "kind": "title",
+      "source_path": "sources/registry.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/2/source_id",
+      "kind": "source_id",
+      "source_path": "sources/registry.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/2/title",
+      "kind": "title",
+      "source_path": "sources/registry.json"
+    }
+  ],
+  "tasks": [
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
+      "json_pointer": "/machine_resolvable/0",
+      "native_status": "COMPLETE",
+      "native_task_id": "LB-CORPUS-001",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Promote authenticated DĀMOS observation mapping into a corpus coverage register by site/support/find context/scribe/inventory availability without inventing absent fields."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
+      "json_pointer": "/machine_resolvable/1",
+      "native_status": "COMPLETE",
+      "native_task_id": "LB-CORPUS-002",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Build explicit tablet/document identity and source-lineage register from the authenticated derivative, retaining stable source IDs and duplicate/join caveats."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
+      "json_pointer": "/machine_resolvable/2",
+      "native_status": "COMPLETE",
+      "native_task_id": "LB-CORPUS-003",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Quantify missingness and representation boundaries for graphical sign identity, layout, damage, object class and linguistic annotation."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/machine_resolvable/3",
+      "native_status": "SOURCE_BLOCKED",
+      "native_task_id": "LB-CORPUS-004",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Acquire any documented lawful public EpiDoc/annotation export if available; otherwise reduce to an exact maintainer/source-access request."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
+      "json_pointer": "/machine_resolvable/4",
+      "native_status": "COMPLETE",
+      "native_task_id": "LB-CORPUS-005",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Define Linear A comparison/control interfaces that use known Mycenaean structure without treating conventional Linear B transliteration as graphical sign identity."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/external_or_expert/0",
+      "native_status": "BLOCKED_PENDING_LEGITIMATE_GOLD",
+      "native_task_id": "LB-GOLD",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Known-answer linguistic calibration"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/external_or_expert/1",
+      "native_status": "BLOCKED_PENDING_AUTHORITATIVE_GRAPHICAL_SOURCE",
+      "native_task_id": "LB-GRAPHICS",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Graphical sign identity/layout/damage baseline"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/external_or_expert/2",
+      "native_status": "HUMAN_OR_NEW_EVIDENCE",
+      "native_task_id": "LB-EXPERT",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Scholarly adjudication of readings/joins/palaeography beyond explicit authority evidence"
+    }
+  ],
+  "terminal_pre_expert_maximum_established": false
+}
