@@ -31,6 +31,26 @@
       "path": "review/collection-packet.json",
       "required": true,
       "role": "collection_review_packet"
+    },
+    {
+      "path": "README.md",
+      "role": "generated_current_summary",
+      "required": true
+    },
+    {
+      "path": "scripts/build_current_summary.py",
+      "role": "current_summary_builder",
+      "required": true
+    },
+    {
+      "path": "research/calibration-source-recheck-2026-10-11.json",
+      "role": "calibration_source_recheck",
+      "required": true
+    },
+    {
+      "path": "docs/CALIBRATION-INPUTS.md",
+      "role": "calibration_acquisition",
+      "required": true
     }
   ],
   "schema_version": "1.0"

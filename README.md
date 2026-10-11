@@ -1,12 +1,20 @@
 # Linear B Open Control Corpus
 
+<!-- CURRENT-STATUS:START -->
+## Current evidence status
+
+Native release version: **4.9.24**. Authenticated source mapping: 5,932 records, 5,890 nonempty transcription surfaces, and 42 missing/empty surfaces. Calibration executed: **false**. The acquisition recheck (2026-10-11) acquired neither linguistic gold nor an authoritative graphical baseline. The described DĀMOS EpiDoc export omits linguistic annotations; a separately linked annotation package is required.
+
+Authorities: [current state](analysis/current-status.json), [experiment gates](research/experiment-gates.json), and [calibration inputs](docs/CALIBRATION-INPUTS.md). Software smoke checks do not establish linguistic calibration.
+<!-- CURRENT-STATUS:END -->
+
 ## AI research skill
 
 This corpus project includes a vendor-neutral, evidence-first AI research skill in [`ai-skill/`](ai-skill/). The corpus remains the scholarly source of truth; the skill is an interface to it, not a second corpus and not an independent authority.
 
 Researchers using ChatGPT, Claude, Gemini, or another capable model can provide the repository (or its AI-ready bundle) together with [`ai-skill/SKILL.md`](ai-skill/SKILL.md). The skill requires the model to preserve provenance, uncertainty, exclusions, source dependence, rights, and this project's scientific gates. Before substantive use, check [`ai-skill/generated/source-state.json`](ai-skill/generated/source-state.json) and the generated research-bundle index for the corpus commit represented by the AI package.
 
-For questions spanning multiple corpus projects, use the **Combined Corpus Research AI** documented in the Linear A repository under [`combined-ai-skill/`](https://github.com/hawkinsnick/Linear-A/tree/ai-skill-v0.1/combined-ai-skill). It orchestrates the registered individual skills while keeping their evidence models and rights separate. Membership in the combined system does **not** imply linguistic relationship, sign equivalence, chronology, decipherment, or independent replication.
+For questions spanning multiple corpus projects, use the **Combined Corpus Research AI** documented in the Linear A repository under [`combined-ai-skill/`](https://github.com/hawkinsnick/Linear-A/tree/main/combined-ai-skill). It orchestrates the registered individual skills while keeping their evidence models and rights separate. Membership in the combined system does **not** imply linguistic relationship, sign equivalence, chronology, decipherment, or independent replication.
 
 ## Reuse and attribution
 
@@ -16,11 +24,11 @@ Current project-original software is licensed under **PolyForm Noncommercial 1.0
 repository as a whole is not covered by an attribution-only data license.
 See [rights and licensing](docs/RIGHTS-AND-LICENSING.md) and [NOTICE](NOTICE).
 
-## Current status — 4.9.24
+## Historical source checkpoint — 4.9.24
 
 Corrected and field-by-field-audited DAMOS mapping: 5932 records, 5890 nonempty surfaces, 3945 scribe labels and 1305 inventory identifiers. The phonetic smoke samples from the 5890 eligible records and explicitly excludes 42 missing surfaces. Gold calibration and graphical baseline remain blocked.
 
-Family contract 1.2 aligns all five projects with [Phaistos Disc 1.6.0](https://github.com/hawkinsnick/Phaistos-Disc/releases/tag/v1.6.0). The shared readiness report preserves native sampling units, source rights and blocked linguistic controls. It authorizes no pooling or linguistic relationship claim. See [`research/family-readiness-v1.json`](research/family-readiness-v1.json).
+The historical family contract 1.2 snapshot aligns all five projects with [Phaistos Disc 1.6.0](https://github.com/hawkinsnick/Phaistos-Disc/releases/tag/v1.6.0). The historical shared readiness report preserves native sampling units, source rights and blocked linguistic controls. It authorizes no pooling or linguistic relationship claim. See [`research/family-readiness-v1.json`](research/family-readiness-v1.json).
 
 The authoritative current gate summary is [`analysis/current-status.json`](analysis/current-status.json). Historical release reports below retain their original versions and claims.
 

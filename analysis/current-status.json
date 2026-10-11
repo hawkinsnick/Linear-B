@@ -156,17 +156,34 @@
     },
     {
       "path": "docs/ANNOTATION-EXPORT-REQUEST.md",
-      "sha256": "e385315007dbda7f38355e5849a3926b8332fda1f478f117c27abed17b9fb4aa"
+      "sha256": "3c20b0c225675b2b974fce2d50f815cab87e93078a8a0248b61b1de310a80a9b"
+    },
+    {
+      "path": "scripts/build_current_summary.py",
+      "sha256": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6"
+    },
+    {
+      "path": "research/calibration-source-recheck-2026-10-11.json",
+      "sha256": "329d90446c0c2c2d3562ba81642e6d18a3fb10a03f013c8a60b6368f43fd1876"
+    },
+    {
+      "path": "docs/CALIBRATION-INPUTS.md",
+      "sha256": "3c23f1476918388e1a3b663cbcc4071e51b46daa1aeb7c8acb818ef3896671d6"
+    },
+    {
+      "path": "research/damos-gold-request.json",
+      "sha256": "1bc5219a572aa324adc8d41f751d44196a2251bf339f376e0a49817adb3a338b"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Adds a source-ID-preserving EpiDoc importer with synthetic tests for editorial markup, incomplete words, glyphs, numerical and nonphonetic units, alternative annotations, duplicate identifiers and unsafe XML. Published Mycenaean conventions and DAMOS export/import documentation are pinned. No real annotated export or linguistic gold is acquired; 5.0 remains blocked.",
+  "summary": "Authenticated DĀMOS observation mapping is retained. The 11 October source recheck establishes that the described EpiDoc export omits linguistic annotations. Linked annotation acquisition and graphical evidence remain open; calibration has not run.",
   "pre_expert_handoff": {
     "state": "PRE_EXPERT_HANDOFF_WITH_OPEN_SOURCE_GATES",
     "source_audit": "analysis/pre-expert-source-audit.json",
     "contract": "research/pre-expert-maximum.json",
     "reviewer_guide": "docs/PRE-EXPERT-HANDOFF.md",
     "source_records_committed": false
-  }
+  },
+  "calibration_acquisition_checkpoint": "research/calibration-source-recheck-2026-10-11.json"
 }
