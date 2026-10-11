@@ -25,6 +25,8 @@
     "analysis/pre-expert-source-audit.json",
     "research/pre-expert-maximum.json",
     "research/pre-expert-source-access.json",
-    "sources/registry.json"
+    "sources/registry.json",
+    "research/source-action-plan.json",
+    "research/source-route-check-2026-10-11.json"
   ]
 }

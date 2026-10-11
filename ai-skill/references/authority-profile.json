@@ -51,6 +51,31 @@
       "path": "docs/CALIBRATION-INPUTS.md",
       "role": "calibration_acquisition",
       "required": true
+    },
+    {
+      "role": "source_action_plan",
+      "path": "research/source-action-plan.json",
+      "required": true
+    },
+    {
+      "role": "source_action_guide",
+      "path": "docs/SOURCE-ACTION-PLAN.md",
+      "required": true
+    },
+    {
+      "role": "calibration_intake",
+      "path": "docs/CALIBRATION-INTAKE.md",
+      "required": true
+    },
+    {
+      "role": "calibration_intake_checker",
+      "path": "scripts/check_calibration_intake.py",
+      "required": true
+    },
+    {
+      "role": "source_route_check",
+      "path": "research/source-route-check-2026-10-11.json",
+      "required": true
     }
   ],
   "schema_version": "1.0"

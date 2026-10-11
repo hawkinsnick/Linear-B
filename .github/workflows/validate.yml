@@ -7,6 +7,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
+      - run: python scripts/validate_source_action_plan.py
       - run: python -m pip install -r requirements-validation.txt
       - run: python scripts/build_current_summary.py --check
       - run: python scripts/test_current_summary.py
@@ -22,6 +23,7 @@ jobs:
       - run: python scripts/test_observation_mapping.py
 
       - run: python scripts/test_epidoc_import.py
+      - run: python scripts/test_calibration_intake.py
 
   verify-damos-asset:
     runs-on: ubuntu-latest

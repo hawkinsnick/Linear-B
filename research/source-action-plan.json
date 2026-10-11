@@ -1,0 +1,55 @@
+{
+  "format": "corpus-source-action-plan-v1",
+  "corpus": "Linear-B",
+  "checked": "2026-10-11",
+  "claim_scope": "BOUNDED_SOURCE_AUDIT_NOT_GLOBAL_EXHAUSTION",
+  "rights_only_ready": false,
+  "tasks": [
+    {
+      "id": "LB-ANNOTATION",
+      "source": "DAMOS linguistic annotations",
+      "dependency": "SOURCE_DELIVERY",
+      "status": "BLOCKED",
+      "evidence": [
+        "research/calibration-source-recheck-2026-10-11.json",
+        "research/gold-alignment-contract.json"
+      ],
+      "next_action": "Acquire source-issued annotation and observation snapshots with document/word IDs; request is prepared, not sent. Use private intake checker on receipt.",
+      "acceptance": "Source/rights review, exact alignment report, preserved competing analyses and scope; predictions and scoring frozen before authorized reveal."
+    },
+    {
+      "id": "LB-GRAPHICAL",
+      "source": "Source-certified graphical occurrences",
+      "dependency": "SOURCE_DELIVERY",
+      "status": "BLOCKED",
+      "evidence": [
+        "research/calibration-source-recheck-2026-10-11.json"
+      ],
+      "next_action": "Acquire occurrence identities, face/line/position, damage and uncertainty, plus separate image/data rights.",
+      "acceptance": "Source-defined graphical baseline independently reviewed; transliteration and photographs alone do not certify it."
+    },
+    {
+      "id": "LB-CALIBRA",
+      "source": "CaLiBRA public tablet route",
+      "dependency": "ACCESS",
+      "status": "BLOCKED",
+      "evidence": [
+        "research/source-route-check-2026-10-11.json"
+      ],
+      "next_action": "Retry a documented institutional route when available; establish component permissions before publication.",
+      "acceptance": "Accessible source response and source-specific intended-use rights; no access bypass."
+    },
+    {
+      "id": "LB-BM",
+      "source": "British Museum 1910,0423.1",
+      "dependency": "ACCESS",
+      "status": "BLOCKED",
+      "evidence": [
+        "research/source-route-check-2026-10-11.json"
+      ],
+      "next_action": "Use a lawful accessible collection record for object/inventory metadata; keep any DAMOS join unresolved until exact evidence exists.",
+      "acceptance": "Authoritative exact inventory/document concordance; no accession guessed from subject similarity."
+    }
+  ],
+  "rule": "Assess access, intended-use permission, source delivery, machine reconciliation and human adjudication separately. Never infer global exhaustion from a dated search or route failure. Do not reopen completed evidence by ignoring existing native audits."
+}
