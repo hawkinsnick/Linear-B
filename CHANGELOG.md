@@ -26,3 +26,7 @@ Frozen experimental protocols.
 
 ## 2026-10-11 — current-summary reconciliation
 Generate the current README summary from native authorities and reject drift in CI. Update individual skill authority routing; retain historical research gates and release scope.
+
+## Unreleased — AI integrity checkpoint
+
+Require checked native dependency projections, preserve corpus-native bundle schemas, and publish synchronized bundles only on their validated source parent. Add Git race and hostile dependency tests; no new readings or expert acceptance.

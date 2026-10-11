@@ -27,6 +27,8 @@
     "research/pre-expert-source-access.json",
     "sources/registry.json",
     "research/source-action-plan.json",
-    "research/source-route-check-2026-10-11.json"
+    "research/source-route-check-2026-10-11.json",
+    "research/cross-corpus-dependencies.json",
+    "docs/AI-INTEGRITY.md"
   ]
 }
