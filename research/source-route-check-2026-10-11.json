@@ -1,0 +1,32 @@
+{
+  "format": "bounded-source-route-check-v1",
+  "checked": "2026-10-11",
+  "method": "urllib.request.urlopen; ordinary public route, 25-second timeout; no access bypass",
+  "attempts": [
+    {
+      "source": "CaLiBRA",
+      "url": "https://calibra.classics.cam.ac.uk/Tablet/PY/46",
+      "http_status": 502,
+      "classification": "ACCESS_ATTEMPT_FAILED",
+      "permission_determined": false
+    },
+    {
+      "source": "British Museum",
+      "url": "https://www.britishmuseum.org/collection/object/G_1910-0423-1",
+      "http_status": 403,
+      "classification": "ACCESS_ATTEMPT_FAILED",
+      "permission_determined": false
+    },
+    {
+      "source": "EpiDoc Mycenaean guidance",
+      "url": "https://epidoc.stoa.org/gl/latest/app-epi-mycenaean.html",
+      "http_status": 200,
+      "classification": "PUBLIC_DOCUMENTATION_ACCESSED",
+      "permission_determined": false,
+      "bytes": 14773,
+      "sha256": "16315e5b445631b65ecc9ac0ea9f8931b4834172dbd84fa05073d9271c14455d",
+      "finding": "Guidance version 9.8 dated 2026-03-18 requires source-assigned unique xml:id for DAMOS words/text units; examples are encoding guidance, not acquired annotation gold or a certified graphical baseline."
+    }
+  ],
+  "inference_boundary": "Failure applies to the tested route at this checkpoint, not all copies or future delivery. No permission refusal, global unavailability or canonical evidence is inferred."
+}

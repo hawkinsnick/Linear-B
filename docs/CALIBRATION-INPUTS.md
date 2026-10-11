@@ -21,3 +21,7 @@ Use the existing `research/gold-alignment-contract.json` and `research/gold-acce
 ## Remaining action
 
 `docs/ANNOTATION-EXPORT-REQUEST.md` specifies the exact missing package. It has not been sent; no maintainer reply or permission is asserted. Calibration and degraded-control gates remain blocked. Once evidence is supplied, reconcile IDs and scope, preserve alternatives, and evaluate it under the frozen protocol rather than changing the protocol to fit available answers.
+
+## Executable receipt and routing
+
+Use [private intake instructions](CALIBRATION-INTAKE.md) and `scripts/check_calibration_intake.py` when a source package arrives. This emits exact/ambiguous/unmatched alignment counts from answer-free source IDs and hashes private payloads without parsing answers. It does not change gates or establish certification. Current route checks and source-specific next actions are recorded in `research/source-route-check-2026-10-11.json` and `research/source-action-plan.json`.

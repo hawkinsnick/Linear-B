@@ -235,8 +235,8 @@
     },
     {
       "path": "docs/CALIBRATION-INPUTS.md",
-      "sha256": "3c23f1476918388e1a3b663cbcc4071e51b46daa1aeb7c8acb818ef3896671d6",
-      "bytes": 3005,
+      "sha256": "38895cce1b9a79e957aa46e15881ca0163ddd8859e1a769e95d7f35536315abd",
+      "bytes": 3515,
       "category": "docs",
       "summary": {}
     },
@@ -247,6 +247,52 @@
       "category": "research",
       "summary": {
         "status": "READY_TO_SEND_NOT_SENT"
+      }
+    },
+    {
+      "path": "research/source-action-plan.json",
+      "sha256": "1fbb81495a348cf18d26a548206f826272453b63c9c97818d91921d763cff7ed",
+      "bytes": 2598,
+      "category": "research",
+      "summary": {
+        "format": "corpus-source-action-plan-v1"
+      }
+    },
+    {
+      "path": "docs/SOURCE-ACTION-PLAN.md",
+      "sha256": "29b89eaba0aa99d62544ce3690e0e8a00fbeb2304aae31cb86c734c6cbff4440",
+      "bytes": 2037,
+      "category": "docs",
+      "summary": {}
+    },
+    {
+      "path": "scripts/validate_source_action_plan.py",
+      "sha256": "bc11b9fc1da65d7f594f94639ef5bb886fef3157eb1a1b75e3d315c4f36150eb",
+      "bytes": 1167,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/check_calibration_intake.py",
+      "sha256": "69f64e38a3528d3592710d10b6344f98526c9c8da92dcee8836e8a4fb53dcaff",
+      "bytes": 7553,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "docs/CALIBRATION-INTAKE.md",
+      "sha256": "a622dd3286b0aaed23e7e22e2ea76ccd9e42e7674f1f9c4a97af8a4ea4514a10",
+      "bytes": 3277,
+      "category": "docs",
+      "summary": {}
+    },
+    {
+      "path": "research/source-route-check-2026-10-11.json",
+      "sha256": "be5a573c7e33763d027fead152d7e69b2fa760625c7fa1650210b903410149a0",
+      "bytes": 1422,
+      "category": "research",
+      "summary": {
+        "format": "bounded-source-route-check-v1"
       }
     }
   ],

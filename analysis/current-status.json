@@ -60,15 +60,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "b04fb4d8a3e2dceaba3181ffc9f6385b2ea2efec769b2a852da48e46d02932c5"
+      "sha256": "43baf00e7d49d201c4bb2c7321b72861f02f698d3a58b6f1cb9bb154d5bd11ed"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "53d7b0c4a039448d7bcb454b10544a92caa45c3a2e8f85b4db31ea55f6a8712a"
+      "sha256": "6c0b5002a68be61b8765a00fe06337c553f4f4bb40032679b3e9f1371922c6e7"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "8ec08969ea21172f57884eba62189b9eb945f97802c46c71c8c0eb89c4abf2f8"
+      "sha256": "535191e257ead0436f2d63870c9d1a74e38a13556c8f540edfb5c31331dca7e3"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -168,11 +168,35 @@
     },
     {
       "path": "docs/CALIBRATION-INPUTS.md",
-      "sha256": "3c23f1476918388e1a3b663cbcc4071e51b46daa1aeb7c8acb818ef3896671d6"
+      "sha256": "38895cce1b9a79e957aa46e15881ca0163ddd8859e1a769e95d7f35536315abd"
     },
     {
       "path": "research/damos-gold-request.json",
       "sha256": "1bc5219a572aa324adc8d41f751d44196a2251bf339f376e0a49817adb3a338b"
+    },
+    {
+      "path": "research/source-action-plan.json",
+      "sha256": "1fbb81495a348cf18d26a548206f826272453b63c9c97818d91921d763cff7ed"
+    },
+    {
+      "path": "docs/SOURCE-ACTION-PLAN.md",
+      "sha256": "29b89eaba0aa99d62544ce3690e0e8a00fbeb2304aae31cb86c734c6cbff4440"
+    },
+    {
+      "path": "scripts/validate_source_action_plan.py",
+      "sha256": "bc11b9fc1da65d7f594f94639ef5bb886fef3157eb1a1b75e3d315c4f36150eb"
+    },
+    {
+      "path": "scripts/check_calibration_intake.py",
+      "sha256": "69f64e38a3528d3592710d10b6344f98526c9c8da92dcee8836e8a4fb53dcaff"
+    },
+    {
+      "path": "docs/CALIBRATION-INTAKE.md",
+      "sha256": "a622dd3286b0aaed23e7e22e2ea76ccd9e42e7674f1f9c4a97af8a4ea4514a10"
+    },
+    {
+      "path": "research/source-route-check-2026-10-11.json",
+      "sha256": "be5a573c7e33763d027fead152d7e69b2fa760625c7fa1650210b903410149a0"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",

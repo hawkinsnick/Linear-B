@@ -1,13 +1,15 @@
 {
-  "builder_sha256": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+  "builder_sha256": "2c5306631cb0fa09a6c1d686d5f7e7265b32cb33c1faed1edf0d519dad2f196f",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "b672dbba9a3c5490bf546f23ad7c012f8902bf2f9ef2079a1ef86033dccbc394",
-  "evidence_fingerprint": "49df0d6ebc3c693f29f87b4ee676c7fb1b3b0b0ae6e76fc437b6fd1708f307ce",
+  "config_sha256": "da3074ff904f2927c3f82a2041f400f92af2f1e8fb8c4d31202b1519d0113d63",
+  "evidence_fingerprint": "18d58c51aaba566ddf3d9da37ae35d6ae5208dd52fdbbc0373e36de6d0497637",
   "input_sha256": {
-    "analysis/current-status.json": "0052bb585bc389a0cb08d1d6b21fe7622461d4eaf3a455708a5ce873df80def0",
+    "analysis/current-status.json": "00dedcc3f76c8796b4f54b819870340f1ad2a7a52d91556d1472bad47510ddb4",
     "analysis/pre-expert-source-audit.json": "4c043cc9c4cbccde5f3601d9c2ede734c14788da762b688a5a71dc65fb57ba50",
     "research/pre-expert-maximum.json": "d16e1e5ecb5252f0c2f9f0eb79b33de5d9f2cf21c09e96c1779fb12bb9f91eb0",
     "research/pre-expert-source-access.json": "ea7e6109364ef7f7d489ac5ed87d621561cbc089805f58cca0d32343c6e868c2",
+    "research/source-action-plan.json": "1fbb81495a348cf18d26a548206f826272453b63c9c97818d91921d763cff7ed",
+    "research/source-route-check-2026-10-11.json": "be5a573c7e33763d027fead152d7e69b2fa760625c7fa1650210b903410149a0",
     "sources/registry.json": "3d8c9e5449d95a2c960fcf87a59e5962a40a92b9e37c18c99cd23894f96d8ec0"
   },
   "native_review_links": [
@@ -85,6 +87,66 @@
     },
     {
       "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/tasks/0/source",
+      "kind": "source",
+      "source_path": "research/source-action-plan.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/tasks/1/source",
+      "kind": "source",
+      "source_path": "research/source-action-plan.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/tasks/2/source",
+      "kind": "source",
+      "source_path": "research/source-action-plan.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/tasks/3/source",
+      "kind": "source",
+      "source_path": "research/source-action-plan.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/attempts/0/source",
+      "kind": "source",
+      "source_path": "research/source-route-check-2026-10-11.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/attempts/0/url",
+      "kind": "url",
+      "source_path": "research/source-route-check-2026-10-11.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/attempts/1/source",
+      "kind": "source",
+      "source_path": "research/source-route-check-2026-10-11.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/attempts/1/url",
+      "kind": "url",
+      "source_path": "research/source-route-check-2026-10-11.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/attempts/2/source",
+      "kind": "source",
+      "source_path": "research/source-route-check-2026-10-11.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/attempts/2/url",
+      "kind": "url",
+      "source_path": "research/source-route-check-2026-10-11.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
       "json_pointer": "/0/source_id",
       "kind": "source_id",
       "source_path": "sources/registry.json"
@@ -125,6 +187,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
       "json_pointer": "/machine_resolvable/0",
+      "native_dependency": null,
       "native_status": "COMPLETE",
       "native_task_id": "LB-CORPUS-001",
       "source_path": "research/pre-expert-maximum.json",
@@ -134,6 +197,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
       "json_pointer": "/machine_resolvable/1",
+      "native_dependency": null,
       "native_status": "COMPLETE",
       "native_task_id": "LB-CORPUS-002",
       "source_path": "research/pre-expert-maximum.json",
@@ -143,6 +207,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
       "json_pointer": "/machine_resolvable/2",
+      "native_dependency": null,
       "native_status": "COMPLETE",
       "native_task_id": "LB-CORPUS-003",
       "source_path": "research/pre-expert-maximum.json",
@@ -152,6 +217,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
       "json_pointer": "/machine_resolvable/3",
+      "native_dependency": null,
       "native_status": "SOURCE_BLOCKED",
       "native_task_id": "LB-CORPUS-004",
       "source_path": "research/pre-expert-maximum.json",
@@ -161,6 +227,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
       "json_pointer": "/machine_resolvable/4",
+      "native_dependency": null,
       "native_status": "COMPLETE",
       "native_task_id": "LB-CORPUS-005",
       "source_path": "research/pre-expert-maximum.json",
@@ -170,6 +237,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
       "json_pointer": "/external_or_expert/0",
+      "native_dependency": null,
       "native_status": "BLOCKED_PENDING_LEGITIMATE_GOLD",
       "native_task_id": "LB-GOLD",
       "source_path": "research/pre-expert-maximum.json",
@@ -179,6 +247,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
       "json_pointer": "/external_or_expert/1",
+      "native_dependency": null,
       "native_status": "BLOCKED_PENDING_AUTHORITATIVE_GRAPHICAL_SOURCE",
       "native_task_id": "LB-GRAPHICS",
       "source_path": "research/pre-expert-maximum.json",
@@ -188,10 +257,51 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
       "json_pointer": "/external_or_expert/2",
+      "native_dependency": null,
       "native_status": "HUMAN_OR_NEW_EVIDENCE",
       "native_task_id": "LB-EXPERT",
       "source_path": "research/pre-expert-maximum.json",
       "task": "Scholarly adjudication of readings/joins/palaeography beyond explicit authority evidence"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/tasks/0",
+      "native_dependency": "SOURCE_DELIVERY",
+      "native_status": "BLOCKED",
+      "native_task_id": "LB-ANNOTATION",
+      "source_path": "research/source-action-plan.json",
+      "task": "Acquire source-issued annotation and observation snapshots with document/word IDs; request is prepared, not sent. Use private intake checker on receipt."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/tasks/1",
+      "native_dependency": "SOURCE_DELIVERY",
+      "native_status": "BLOCKED",
+      "native_task_id": "LB-GRAPHICAL",
+      "source_path": "research/source-action-plan.json",
+      "task": "Acquire occurrence identities, face/line/position, damage and uncertainty, plus separate image/data rights."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/tasks/2",
+      "native_dependency": "ACCESS",
+      "native_status": "BLOCKED",
+      "native_task_id": "LB-CALIBRA",
+      "source_path": "research/source-action-plan.json",
+      "task": "Retry a documented institutional route when available; establish component permissions before publication."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/tasks/3",
+      "native_dependency": "ACCESS",
+      "native_status": "BLOCKED",
+      "native_task_id": "LB-BM",
+      "source_path": "research/source-action-plan.json",
+      "task": "Use a lawful accessible collection record for object/inventory metadata; keep any DAMOS join unresolved until exact evidence exists."
     }
   ],
   "terminal_pre_expert_maximum_established": false
