@@ -212,10 +212,42 @@
     },
     {
       "path": "docs/ANNOTATION-EXPORT-REQUEST.md",
-      "sha256": "e385315007dbda7f38355e5849a3926b8332fda1f478f117c27abed17b9fb4aa",
-      "bytes": 1397,
+      "sha256": "3c20b0c225675b2b974fce2d50f815cab87e93078a8a0248b61b1de310a80a9b",
+      "bytes": 2029,
       "category": "docs",
       "summary": {}
+    },
+    {
+      "path": "scripts/build_current_summary.py",
+      "sha256": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6",
+      "bytes": 3998,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "research/calibration-source-recheck-2026-10-11.json",
+      "sha256": "329d90446c0c2c2d3562ba81642e6d18a3fb10a03f013c8a60b6368f43fd1876",
+      "bytes": 3496,
+      "category": "research",
+      "summary": {
+        "scope": "Targeted public primary-source acquisition recheck; not proof of global unavailability"
+      }
+    },
+    {
+      "path": "docs/CALIBRATION-INPUTS.md",
+      "sha256": "3c23f1476918388e1a3b663cbcc4071e51b46daa1aeb7c8acb818ef3896671d6",
+      "bytes": 3005,
+      "category": "docs",
+      "summary": {}
+    },
+    {
+      "path": "research/damos-gold-request.json",
+      "sha256": "1bc5219a572aa324adc8d41f751d44196a2251bf339f376e0a49817adb3a338b",
+      "bytes": 1265,
+      "category": "research",
+      "summary": {
+        "status": "READY_TO_SEND_NOT_SENT"
+      }
     }
   ],
   "scientific_results": {

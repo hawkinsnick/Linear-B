@@ -60,15 +60,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "87a946746a7b8f55e54e0f92a4e88c7debb7d264e3afe1c0757aee621170ce8a"
+      "sha256": "b04fb4d8a3e2dceaba3181ffc9f6385b2ea2efec769b2a852da48e46d02932c5"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "f0b86610bcadab0c2904fc4e82ce85fbb751e7286575171727c6dd7d13543559"
+      "sha256": "53d7b0c4a039448d7bcb454b10544a92caa45c3a2e8f85b4db31ea55f6a8712a"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "46b283a95732fa3fe87b0cb79c51412e241372c6fc226cd0748a77730a93bf06"
+      "sha256": "8ec08969ea21172f57884eba62189b9eb945f97802c46c71c8c0eb89c4abf2f8"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -177,7 +177,7 @@
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Authenticated DĀMOS observation mapping is retained. The 11 October source recheck establishes that the described EpiDoc export omits linguistic annotations. Linked annotation acquisition and graphical evidence remain open; calibration has not run.",
+  "summary": "Authenticated D\u0100MOS observation mapping is retained. The 11 October source recheck establishes that the described EpiDoc export omits linguistic annotations. Linked annotation acquisition and graphical evidence remain open; calibration has not run.",
   "pre_expert_handoff": {
     "state": "PRE_EXPERT_HANDOFF_WITH_OPEN_SOURCE_GATES",
     "source_audit": "analysis/pre-expert-source-audit.json",
