@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-11",
+  "scope": "Targeted public primary-source acquisition recheck; not proof of global unavailability",
+  "calibration_executed": false,
+  "linguistic_gold_acquired": false,
+  "authoritative_graphical_baseline_acquired": false,
+  "sources": [
+    {
+      "source_id": "aurora-et-al-2025-export",
+      "title": "Exporting Mycenaean: From a Relational Database to EpiDoc XML files (and back again?)",
+      "authors": [
+        "Federico Aurora",
+        "Damir Nedić",
+        "Asgeir Nesøen",
+        "Dag Haug"
+      ],
+      "doi": "10.5617/dhnbpub.12295",
+      "url": "https://journals.uio.no/dhnbpub/article/view/12295/10165",
+      "bytes": 1000621,
+      "sha256": "0a38522838256cdf8fbb94238ffc35dc5dbd382a1acf21b52160b6549b6e3c93",
+      "inspection": "PDF text extracted; printed/PDF p.5 visually inspected",
+      "locators": [
+        "p.5, section 2.2",
+        "p.7, section 5"
+      ],
+      "finding": "The described EpiDoc export omits linguistic analyses; item.id and phys_word.id preserve links to separately stored annotations. Export availability does not establish gold availability.",
+      "time_boundary": "Publication describes its implementation at writing; no claim that a newer export cannot exist.",
+      "redistributed": false
+    },
+    {
+      "source_id": "damos-current-online",
+      "url": "https://damos.hf.uio.no/about/online/",
+      "finding": "Public documentation describes transliteration, word/co-occurrence searches, notes and metadata; it does not provide an aligned linguistic annotation package.",
+      "license": "CC BY-NC-SA 4.0",
+      "contact_role": "DAMOS maintainer; no message sent"
+    },
+    {
+      "source_id": "damos-news",
+      "url": "https://damos.hf.uio.no/news",
+      "locator": "26.05.2026 entry",
+      "finding": "Pylos edition-variation work is ongoing; do not presume frozen derivatives contain it."
+    },
+    {
+      "source_id": "liber-current",
+      "url": "https://liber.cnr.it/",
+      "locators": [
+        "Materials",
+        "Terms of use"
+      ],
+      "finding": "Photographs and layout/apparatus make LiBER a graphical candidate, but personal non-profit image use and limited scholarly text reuse do not establish permission for a redistributed bulk benchmark.",
+      "admitted": false
+    }
+  ],
+  "required_packages": {
+    "linguistic": [
+      "Source-issued item.id and phys_word.id with token/line crosswalk",
+      "Separate morphological/syntactic/lexical assertions linked by source IDs",
+      "All competing analyses, uncertainty, source locators and lineage",
+      "Explicit snapshot/version and source-specific reuse terms"
+    ],
+    "graphical": [
+      "Occurrence-level sign identity with edition/face/line/position",
+      "Source-defined damage, restoration and uncertainty",
+      "Layout/coordinates only where actually supplied",
+      "Image permissions separate from text/data permissions"
+    ]
+  },
+  "next_action": "Obtain a documented current annotation export or maintainer-supplied linked annotation package; separately acquire rights-compatible occurrence-level graphical evidence. Freeze inputs and scoring before any gold reveal.",
+  "prohibited_inferences": [
+    "EpiDoc syntax or word IDs are linguistic gold",
+    "Unicode or Latin transliteration reconstructs graphical occurrences",
+    "Source documentation demonstrates acquired data",
+    "A valid received package automatically permits gold reveal"
+  ]
+}

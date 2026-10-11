@@ -8,6 +8,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: python -m pip install -r requirements-validation.txt
+      - run: python scripts/build_current_summary.py --check
+      - run: python scripts/test_current_summary.py
       - run: python scripts/validate_release.py
       - run: python scripts/test_current_state.py
       - run: python scripts/validate_pre_expert_audit.py
