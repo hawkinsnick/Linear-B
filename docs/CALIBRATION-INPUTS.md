@@ -25,3 +25,7 @@ Use the existing `research/gold-alignment-contract.json` and `research/gold-acce
 ## Executable receipt and routing
 
 Use [private intake instructions](CALIBRATION-INTAKE.md) and `scripts/check_calibration_intake.py` when a source package arrives. This emits exact/ambiguous/unmatched alignment counts from answer-free source IDs and hashes private payloads without parsing answers. It does not change gates or establish certification. Current route checks and source-specific next actions are recorded in `research/source-route-check-2026-10-11.json` and `research/source-action-plan.json`.
+
+## 12 October 2026 — real observation package prepared
+
+[Prepared input instructions](CALIBRATION-PREPARED-INPUTS.md) now materialize and audit all 5,932 observation records with explicit missingness and document identity. `analysis/calibration-prepared-inputs-2026-10-12.json` records the actual result. `research/calibration-acquisition-2026-10-12.json` distinguishes ordinary HTTP failures, institutional documentation retrieval and rejected alternative benchmarks. Corpus growth and unified packaging proceed independently; annotation/graphical delivery and scientific calibration remain blocked.

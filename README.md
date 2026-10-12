@@ -77,3 +77,7 @@ Run `python scripts/build_corpus_browser.py` to generate `workbench/corpus-brows
 ## AI integrity checkpoint — 2026-10-11
 
 [AI integrity controls](docs/AI-INTEGRITY.md) document source-bound bundle publication and checked cross-corpus dependency safeguards. Reading coverage and scholarly acceptance are unchanged.
+
+## Unified corpus and prepared calibration inputs
+
+The master corpus builder now materializes the declared native views of all 18 language members while retaining context and component rights. [Mega-corpus guide](https://github.com/hawkinsnick/Linear-A/blob/main/corpus-factory/MEGA-CORPUS.md). Linear B has a real 5,932-record observation package; linguistic annotations and graphical occurrences remain separate source-delivery dependencies. Coverage growth proceeds before final expert acceptance.

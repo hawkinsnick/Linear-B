@@ -91,6 +91,31 @@
       "role": "ai_integrity_guide",
       "path": "docs/AI-INTEGRITY.md",
       "required": true
+    },
+    {
+      "role": "prepared_calibration_inputs",
+      "path": "analysis/calibration-prepared-inputs-2026-10-12.json",
+      "required": true
+    },
+    {
+      "role": "calibration_preparation",
+      "path": "scripts/prepare_calibration_inputs.py",
+      "required": true
+    },
+    {
+      "role": "calibration_preparation_guide",
+      "path": "docs/CALIBRATION-PREPARED-INPUTS.md",
+      "required": true
+    },
+    {
+      "role": "calibration_acquisition_recheck",
+      "path": "research/calibration-acquisition-2026-10-12.json",
+      "required": true
+    },
+    {
+      "role": "prepared_field_coverage",
+      "path": "research/corpus-coverage-register.json",
+      "required": true
     }
   ],
   "schema_version": "1.0"

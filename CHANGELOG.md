@@ -30,3 +30,7 @@ Generate the current README summary from native authorities and reject drift in 
 ## Unreleased — AI integrity checkpoint
 
 Require checked native dependency projections, preserve corpus-native bundle schemas, and publish synchronized bundles only on their validated source parent. Add Git race and hostile dependency tests; no new readings or expert acceptance.
+
+## 2026-10-12 — full corpus materialization and calibration input preparation
+
+Materialize the existing 18-member native research views, retain component context and lossless payloads, and prepare actual Linear B observations with source IDs and missingness. Add hostile packaging checks and update individual/master AI instructions. No new ancient records, gold reveal, calibration scores or independent acceptance are inferred from package formation.

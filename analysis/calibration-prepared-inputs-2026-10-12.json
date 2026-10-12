@@ -1,0 +1,68 @@
+{
+  "format": "linear-b-prepared-inputs-v1",
+  "source_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "source_license": "CC BY-NC-SA 4.0",
+  "attribution": "DAMOS \u2014 Database of Mycenaean at Oslo (F. Aurora, University of Oslo); https://damos.hf.uio.no",
+  "records": 5932,
+  "nonempty_transcription_surfaces": 5890,
+  "missing_transcription_surfaces": 42,
+  "observation_export_sha256": "4959cab13a11c53172d0d857344466e3434482175fdb4b92301ba27fefe28d5c",
+  "mapped_field_coverage": {
+    "transliteration_surface": {
+      "present": 5890,
+      "missing": 42
+    },
+    "support": {
+      "present": 5932,
+      "missing": 0
+    },
+    "site": {
+      "present": 5932,
+      "missing": 0
+    },
+    "find_area": {
+      "present": 3262,
+      "missing": 2670
+    },
+    "find_spot": {
+      "present": 732,
+      "missing": 5200
+    },
+    "hand_label": {
+      "present": 3945,
+      "missing": 1987
+    },
+    "museum": {
+      "present": 5358,
+      "missing": 574
+    },
+    "inventory_number": {
+      "present": 1305,
+      "missing": 4627
+    }
+  },
+  "files": {
+    "observations.json": {
+      "sha256": "4959cab13a11c53172d0d857344466e3434482175fdb4b92301ba27fefe28d5c",
+      "bytes": 3461763
+    },
+    "document-identities.json": {
+      "sha256": "b9d66cf70cd2560a397632868872301e0f7c68b9c115083c23acc2a8ccbdfbf9",
+      "bytes": 1207957
+    }
+  },
+  "source_word_ids_available": false,
+  "aligned_linguistic_gold_available": false,
+  "certified_graphical_occurrences_available": false,
+  "observations_are_deciphered_transliterations": true,
+  "gold_revealed": false,
+  "predictions_frozen": false,
+  "calibration_executed": false,
+  "redistribution_authorized_by_this_package": false,
+  "next_inputs": [
+    "source-issued word-ID crosswalk",
+    "linked annotation payload preserving alternatives",
+    "source-certified graphical occurrences and component permissions"
+  ],
+  "growth_policy": "Build corpus coverage independently of calibration; source claims stay unreviewed until accepted."
+}

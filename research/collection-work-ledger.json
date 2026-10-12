@@ -1,17 +1,22 @@
 {
   "builder_sha256": "2c5306631cb0fa09a6c1d686d5f7e7265b32cb33c1faed1edf0d519dad2f196f",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "788b1450e69970a43990679b0ee330a5da7ab7c670694c16ba5bf8a894086661",
-  "evidence_fingerprint": "8a4c25aeb06e892038b17934beb4c31da51e66e63ae592836c268004736f88ed",
+  "config_sha256": "f408ac78a667f578f84e3e5aef858d650f49c79f8fd2f7351b381705fe33a081",
+  "evidence_fingerprint": "4d759a3d6f8a443918eb89221578bfae7d1330d86629947ed577d5b05e27a453",
   "input_sha256": {
-    "analysis/current-status.json": "a4a663581ebc03969c849cddf1da6f52e65c7e67b08e5deb75877f489b9ce4d2",
+    "analysis/calibration-prepared-inputs-2026-10-12.json": "03d16c594e03a3dd0a57fdf29ceaab04571588f58fec52a1797be8d5bc187204",
+    "analysis/current-status.json": "475edb29711b6981e0f49d8c885659bec0b070e01b8bcaa250c45b180fe14c85",
     "analysis/pre-expert-source-audit.json": "4c043cc9c4cbccde5f3601d9c2ede734c14788da762b688a5a71dc65fb57ba50",
     "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+    "docs/CALIBRATION-PREPARED-INPUTS.md": "5475f6d165035f43ba632948b11cb1a2cd5aee935cc92c4f2adb6ee54b22946a",
+    "research/calibration-acquisition-2026-10-12.json": "7d60436c022b3d744a91f88d7236667b39184501b20faa91bbbd1bd17a58f4be",
+    "research/corpus-coverage-register.json": "03ae95b4b1b8c63b91d7b829a826d38167fc3c99cc75719458248b62faa038e5",
     "research/cross-corpus-dependencies.json": "4f307ebaa67e3820c65543b5746348c4aa3c7dc1ca63f60fcb2f1835b89e865a",
     "research/pre-expert-maximum.json": "d16e1e5ecb5252f0c2f9f0eb79b33de5d9f2cf21c09e96c1779fb12bb9f91eb0",
     "research/pre-expert-source-access.json": "ea7e6109364ef7f7d489ac5ed87d621561cbc089805f58cca0d32343c6e868c2",
-    "research/source-action-plan.json": "1fbb81495a348cf18d26a548206f826272453b63c9c97818d91921d763cff7ed",
+    "research/source-action-plan.json": "c454fa1f3663273e845a0022675a395ea99c3623a65c365c2e04ad349d1a0cbc",
     "research/source-route-check-2026-10-11.json": "be5a573c7e33763d027fead152d7e69b2fa760625c7fa1650210b903410149a0",
+    "scripts/prepare_calibration_inputs.py": "77bbda887eb7cb6857463b12579f56cd1d2eb8d367c6188fa832cb2d1c3ffa81",
     "sources/registry.json": "3d8c9e5449d95a2c960fcf87a59e5962a40a92b9e37c18c99cd23894f96d8ec0"
   },
   "native_review_links": [
@@ -51,6 +56,90 @@
   "scientific_approval_granted": false,
   "scope": "Declared native snapshots and source/task registers only; not a language-wide inventory",
   "source_leads": [
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_attempts/0/source",
+      "kind": "source",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_attempts/0/url",
+      "kind": "url",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_attempts/1/source",
+      "kind": "source",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_attempts/1/url",
+      "kind": "url",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_attempts/2/source",
+      "kind": "source",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_attempts/2/url",
+      "kind": "url",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_attempts/3/source",
+      "kind": "source",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_attempts/3/url",
+      "kind": "url",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/additional_primary_source_inspections/0/url",
+      "kind": "url",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/additional_primary_source_inspections/1/url",
+      "kind": "url",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/additional_primary_source_inspections/2/url",
+      "kind": "url",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/additional_primary_source_inspections/2/locators/0",
+      "kind": "locators",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/additional_primary_source_inspections/2/locators/1",
+      "kind": "locators",
+      "source_path": "research/calibration-acquisition-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/source",
+      "kind": "source",
+      "source_path": "research/corpus-coverage-register.json"
+    },
     {
       "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
       "json_pointer": "/authenticated_baseline/source",
@@ -108,6 +197,12 @@
     {
       "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
       "json_pointer": "/tasks/3/source",
+      "kind": "source",
+      "source_path": "research/source-action-plan.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/tasks/4/source",
       "kind": "source",
       "source_path": "research/source-action-plan.json"
     },
@@ -304,6 +399,16 @@
       "native_task_id": "LB-BM",
       "source_path": "research/source-action-plan.json",
       "task": "Use a lawful accessible collection record for object/inventory metadata; keep any DAMOS join unresolved until exact evidence exists."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
+      "json_pointer": "/tasks/4",
+      "native_dependency": "RECONCILIATION",
+      "native_status": "COMPLETE",
+      "native_task_id": "LB-PREPARED-OBSERVATIONS",
+      "source_path": "research/source-action-plan.json",
+      "task": "Use the prepared private observation package in corpus construction; acquire source word-ID and annotation components before freezing a calibrated experiment."
     }
   ],
   "terminal_pre_expert_maximum_established": false
