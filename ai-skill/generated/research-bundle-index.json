@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "7d75039ab5b04df2343a1fc904269fd52182f407",
-  "generated_at_utc": "2026-10-12T16:04:58+00:00",
+  "source_commit": "fa04c733e0a324e72c0a29e3a045cc66b84410be",
+  "generated_at_utc": "2026-10-12T18:24:59+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,24 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "object_concordance_checker",
+      "path": "scripts/check_kn_fp13_concordance.py",
+      "sha256": "55ee0091e6519698b9fedb238f852973e09624f4956eae1c195ba28b6f2fc831",
+      "bytes": 3173
+    },
+    {
+      "role": "available_evidence_growth",
+      "path": "research/kn-fp13-object-concordance.json",
+      "sha256": "bdd1a7d2ddce5b1dfc0d427ef492cba0131728259f8e5e6ccec90a3ace060a36",
+      "bytes": 4104
+    },
+    {
+      "role": "available_evidence_growth",
+      "path": "docs/KN-FP13-CONCORDANCE.md",
+      "sha256": "e947738978b81fcc1b57e1664b90b349db8b686a87257b41efabe6d05750847b",
+      "bytes": 1772
+    },
     {
       "role": "source_access_and_delivery",
       "path": "research/source-access-delivery-2026-10-12.json",
@@ -94,8 +112,8 @@
     {
       "role": "source_action_plan",
       "path": "research/source-action-plan.json",
-      "sha256": "70799d0b0aeaac96fec80e19441cb3bf8e722c7e20bd786628fed36d9df37d13",
-      "bytes": 3739
+      "sha256": "b39475cd2d2e3a2f0dbaf340c1461395d4f7c2291343c2966d4517a627d6c248",
+      "bytes": 3954
     },
     {
       "role": "source_action_guide",
@@ -106,8 +124,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "e5fe2ca1c7023cc74564ac66fe989eade517f74203d8137e37be2490a79d5c00",
-      "bytes": 7994
+      "sha256": "0efabe1169772bed7fcb61d493d3ee0774b34941cd11f34e9eb696ba97ade389",
+      "bytes": 8250
     },
     {
       "role": "current_summary_builder",
@@ -130,13 +148,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "10d7202c1162629c57f27d024e51565bdca2c75536ff052f0f33388ff2329966",
-      "bytes": 22674
+      "sha256": "f3f4459b021fc6d2bf6e293d990cdb36beb9da3193fc6ec182736c4fbf8ae53f",
+      "bytes": 26439
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "1511960e377e012e10e6117a3ce029dbdee8069dac12edc3d91bd7c3a43b29b7",
+      "sha256": "0ebd346b04378bbd8f05c5924d8b98471d5c285e698fa16a4751096f9141e58a",
       "bytes": 1841
     },
     {
@@ -166,7 +184,7 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "d8b0696bedf1c0fcffc8efb6f67b2cff75b8ef6f9f6491e4af19976273b710e5",
+      "sha256": "ba752a9c8385d544aa33b60f5268419ea550c41b5cd52c1f0ef7bf07421d761d",
       "bytes": 8591
     },
     {

@@ -38,3 +38,7 @@ Materialize the existing 18-member native research views, retain component conte
 ## Source access and delivery — 2026-10-12
 
 Current route receipts and a concrete, unsent request are recorded in [docs/SOURCE-DELIVERY-REQUESTS.md](docs/SOURCE-DELIVERY-REQUESTS.md) and [research/source-access-delivery-2026-10-12.json](research/source-access-delivery-2026-10-12.json). Access, intended-use rights, source delivery and scientific acceptance remain separate. No missing edition payload, annotation package or graphical baseline was acquired by this checkpoint.
+
+## Available evidence growth — 2026-10-12
+
+See [docs/KN-FP13-CONCORDANCE.md](docs/KN-FP13-CONCORDANCE.md) for the expanded source-bound evidence layer, scope and unresolved qualifications. No new canonical readings or scientific acceptance are granted.

@@ -48,13 +48,14 @@
     {
       "id": "LB-BM",
       "source": "British Museum 1910,0423.1",
-      "dependency": "ACCESS",
-      "status": "BLOCKED",
+      "dependency": "RECONCILIATION",
+      "status": "COMPLETE",
       "evidence": [
-        "research/source-route-check-2026-10-11.json"
+        "research/kn-fp13-object-concordance.json",
+        "docs/KN-FP13-CONCORDANCE.md"
       ],
-      "next_action": "Use a lawful accessible collection record for object/inventory metadata; keep any DAMOS join unresolved until exact evidence exists.",
-      "acceptance": "Authoritative exact inventory/document concordance; no accession guessed from subject similarity."
+      "next_action": "Use the source-supported KN Fp 13/BM 1910,0423.1 concordance; keep Cambridge cast separate, retain differing chronology assertions, and obtain separate graphical/image components before their admission.",
+      "acceptance": "Exact source edition/inventory concordance for one document, supported by accessible BM and explicit MAA replica catalogue assertions; no accession guessed and no image/glyph certification granted."
     },
     {
       "id": "LB-PREPARED-OBSERVATIONS",
