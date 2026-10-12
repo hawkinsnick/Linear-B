@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "1a2dbe28f62650042668f19a5139af554a4f0b8b",
-  "generated_at_utc": "2026-10-12T12:52:25+00:00",
+  "source_commit": "d8bd447813ca56df0c82ffd588d089f130c13fc3",
+  "generated_at_utc": "2026-10-12T16:02:37+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,18 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "source_access_and_delivery",
+      "path": "research/source-access-delivery-2026-10-12.json",
+      "sha256": "ef20df987c21cdf3dfeeaeaf9cf13e5bea4615dcaf6866ac8fdb064ba9b7e5c6",
+      "bytes": 5032
+    },
+    {
+      "role": "source_delivery_requests",
+      "path": "docs/SOURCE-DELIVERY-REQUESTS.md",
+      "sha256": "6fe57a044f6051165b3eeadda94dbcdce610e0507d2c68cc1f6532be2fa7de44",
+      "bytes": 4399
+    },
     {
       "role": "prepared_field_coverage",
       "path": "research/corpus-coverage-register.json",
@@ -82,8 +94,8 @@
     {
       "role": "source_action_plan",
       "path": "research/source-action-plan.json",
-      "sha256": "c454fa1f3663273e845a0022675a395ea99c3623a65c365c2e04ad349d1a0cbc",
-      "bytes": 3306
+      "sha256": "70799d0b0aeaac96fec80e19441cb3bf8e722c7e20bd786628fed36d9df37d13",
+      "bytes": 3739
     },
     {
       "role": "source_action_guide",
@@ -94,8 +106,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "9fb4230cbec9096cd638924860d72526eb80ca8650dadd0ef6a2c8b303b5ef8c",
-      "bytes": 7514
+      "sha256": "e5fe2ca1c7023cc74564ac66fe989eade517f74203d8137e37be2490a79d5c00",
+      "bytes": 7994
     },
     {
       "role": "current_summary_builder",
@@ -118,13 +130,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "7d81ee73a701788c310f16d16a77de428fed75912b2036eec0bc9cfa5d87bbd2",
-      "bytes": 18885
+      "sha256": "10d7202c1162629c57f27d024e51565bdca2c75536ff052f0f33388ff2329966",
+      "bytes": 22674
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "5cf2fdaf6a8e4ea975a36e27e1f359f6ca2cab99715c3b776c29764ea7badbd6",
+      "sha256": "1511960e377e012e10e6117a3ce029dbdee8069dac12edc3d91bd7c3a43b29b7",
       "bytes": 1841
     },
     {
@@ -154,7 +166,7 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "475edb29711b6981e0f49d8c885659bec0b070e01b8bcaa250c45b180fe14c85",
+      "sha256": "d8b0696bedf1c0fcffc8efb6f67b2cff75b8ef6f9f6491e4af19976273b710e5",
       "bytes": 8591
     },
     {

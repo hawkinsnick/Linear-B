@@ -34,3 +34,7 @@ Require checked native dependency projections, preserve corpus-native bundle sch
 ## 2026-10-12 — full corpus materialization and calibration input preparation
 
 Materialize the existing 18-member native research views, retain component context and lossless payloads, and prepare actual Linear B observations with source IDs and missingness. Add hostile packaging checks and update individual/master AI instructions. No new ancient records, gold reveal, calibration scores or independent acceptance are inferred from package formation.
+
+## Source access and delivery — 2026-10-12
+
+Current route receipts and a concrete, unsent request are recorded in [docs/SOURCE-DELIVERY-REQUESTS.md](docs/SOURCE-DELIVERY-REQUESTS.md) and [research/source-access-delivery-2026-10-12.json](research/source-access-delivery-2026-10-12.json). Access, intended-use rights, source delivery and scientific acceptance remain separate. No missing edition payload, annotation package or graphical baseline was acquired by this checkpoint.

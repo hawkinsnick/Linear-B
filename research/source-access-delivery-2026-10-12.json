@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-12",
+  "scope": "TARGETED_SOURCE_ACCESS_AND_DELIVERY; NOT_GLOBAL_EXHAUSTION",
+  "source_payload_acquired": false,
+  "source_permissions_granted_by_this_work": false,
+  "messages_sent_by_this_work": false,
+  "scientific_acceptance_granted": false,
+  "repository": "hawkinsnick/Linear-B",
+  "ordinary_http_receipts": [
+    {
+      "name": "damos-home",
+      "url": "https://damos.hf.uio.no/",
+      "observed_at": "2026-10-12T15:50:21.062028+00:00",
+      "status": 200,
+      "final_url": "https://damos.hf.uio.no/",
+      "sha256": "caeb590bd3dd502d94949eecc61f9aa5051273d4a7765728bdb514c6dbcf5d3b",
+      "bytes": 5994
+    },
+    {
+      "name": "damos-paper",
+      "url": "https://journals.uio.no/dhnbpub/article/view/12295",
+      "observed_at": "2026-10-12T15:50:21.062905+00:00",
+      "status": 200,
+      "final_url": "https://journals.uio.no/dhnbpub/article/view/12295",
+      "sha256": "95fb2cc72009257c4ccf61149b892cebc4540fa483e5ed4f444b5ff2fd0d0567",
+      "bytes": 30297
+    },
+    {
+      "name": "calibra-about",
+      "url": "https://calibra.classics.cam.ac.uk/Home/About",
+      "observed_at": "2026-10-12T15:50:26.833396+00:00",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "name": "liber",
+      "url": "https://liber.cnr.it/",
+      "observed_at": "2026-10-12T15:50:33.001693+00:00",
+      "status": 200,
+      "final_url": "https://liber.cnr.it/",
+      "sha256": "60f62f2ea86194d3e446c70edbf49ad6373ab8a7a769c591cf0badf3bcecb20c",
+      "bytes": 46115
+    },
+    {
+      "name": "aurora-contact",
+      "url": "https://www.ub.uio.no/english/about/people/uhs/uhsfagstudier/federia/",
+      "observed_at": "2026-10-12T15:52:49.190338+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "damos-howto",
+      "url": "https://damos.hf.uio.no/howto",
+      "observed_at": "2026-10-12T15:52:49.190881+00:00",
+      "status": 200,
+      "final_url": "https://damos.hf.uio.no/howto",
+      "sha256": "55adf2b053e9bc008e6a5c1984d4bc995b109f12a3f9dabedf105ab90e5fab1d",
+      "bytes": 10658
+    },
+    {
+      "name": "damos-online",
+      "url": "https://damos.hf.uio.no/about/online/",
+      "observed_at": "2026-10-12T15:52:49.191298+00:00",
+      "status": 200,
+      "final_url": "https://damos.hf.uio.no/about/online/",
+      "sha256": "cd3029ad5a19221f1721414d4a771366433b0360a46b10df901ac69be3e05141",
+      "bytes": 9620
+    }
+  ],
+  "tasks": [
+    {
+      "id": "LB-LINKED-ANNOTATIONS",
+      "work": "DAMOS source-issued item.id/phys_word.id observation crosswalk and separately linked linguistic analyses",
+      "contact": {
+        "role": "Federico Aurora, DAMOS contact",
+        "email": "federico.aurora@ub.uio.no",
+        "source_url": "https://damos.hf.uio.no/howto",
+        "verification": "OFFICIAL_CURRENT_DOCUMENTATION; linked UiO personal profile returned 404"
+      },
+      "correspondence": "DRAFTED_NOT_SENT",
+      "access": "OBSERVATION_PACKAGE_PREPARED; LINKED_ANNOTATIONS_NOT_DELIVERED",
+      "permission": "CC_BY_NC_SA_4_0_CONTENT_TERMS_DISPLAYED; DELIVERED_COMPONENT_SCOPE_STILL_TO_CONFIRM",
+      "request": "Source-issued join keys, observations and annotations from same version; all alternatives, missing/unannotated units and provenance; a bounded alignment pilot first if full export unavailable",
+      "fallback": "Maintainer-supplied source-defined pilot; no generated annotations, lexical derivatives or ordinal joins admitted as occurrence gold."
+    },
+    {
+      "id": "LB-GRAPHICAL-DELIVERY",
+      "work": "LiBER source-defined occurrence/layout evidence and separately authorized image components",
+      "contact": {
+        "role": "Maurizio Del Freo, LiBER editor",
+        "email": "maurizio.delfreo@cnr.it",
+        "source_url": "https://liber.cnr.it/",
+        "verification": "OFFICIAL_CURRENT_PROJECT_PAGE; editor is routing contact, not assumed owner of all text/image rights"
+      },
+      "correspondence": "DRAFTED_NOT_SENT",
+      "access": "PUBLIC_PROJECT_DOCUMENTATION; NO_GRAPHICAL_PACKAGE_ACQUIRED",
+      "permission": "PERSONAL_NONPROFIT_IMAGES_AND_LIMITED_SCHOLARLY_TEXT_USE_NOT_TREATED_AS_BULK_BENCHMARK_PERMISSION",
+      "request": "Existing published/source-defined sign occurrences with object/face/line/position, alternatives/damage, transcription edition and photograph/RTI IDs; explicit private-analysis/public-release permissions by component; route to owners for excluded components",
+      "fallback": "Metadata/occurrence-only delivery if photographs cannot be licensed. Photographs or deciphered transcriptions alone do not certify a graphical baseline."
+    }
+  ],
+  "rule": "Access, intended-use rights, file delivery, exact source alignment and scientific adjudication are separate states. A drafted request or HTTP 200 does not close any scientific gate.",
+  "payload_scope": "Missing edition pages, linguistic annotation exports or graphical occurrence packages. Public route/catalogue metadata are excluded from this field."
+}
