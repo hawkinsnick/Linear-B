@@ -3,7 +3,8 @@
     "Separate deciphered transcription from graphical sign identity and editorial interpretation",
     "Do not automatically transfer Linear B values to another script",
     "Gold and calibration gates follow canonical current status",
-    "Preserve source mapping qualifications and exclusions"
+    "Preserve source mapping qualifications and exclusions",
+    "A source request, copy access or contact-page HTTP success is not source delivery, publication permission, exact alignment or scholarly acceptance. Follow component-specific delivery and rights boundaries."
   ],
   "corpus": "Linear B",
   "required_authorities": [
@@ -116,6 +117,16 @@
       "role": "prepared_field_coverage",
       "path": "research/corpus-coverage-register.json",
       "required": true
+    },
+    {
+      "path": "research/source-access-delivery-2026-10-12.json",
+      "required": true,
+      "role": "source_access_and_delivery"
+    },
+    {
+      "path": "docs/SOURCE-DELIVERY-REQUESTS.md",
+      "required": true,
+      "role": "source_access_and_delivery"
     }
   ],
   "schema_version": "1.0"

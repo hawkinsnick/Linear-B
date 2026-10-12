@@ -12,9 +12,11 @@
       "status": "BLOCKED",
       "evidence": [
         "research/calibration-source-recheck-2026-10-11.json",
-        "research/gold-alignment-contract.json"
+        "research/gold-alignment-contract.json",
+        "research/source-access-delivery-2026-10-12.json",
+        "docs/SOURCE-DELIVERY-REQUESTS.md"
       ],
-      "next_action": "Acquire source-issued annotation and observation snapshots with document/word IDs; request is prepared, not sent. Use private intake checker on receipt.",
+      "next_action": "Use the current DAMOS contact and exact linked-delivery request; draft is unsent. Receive source-issued IDs and observations/annotations from the same version, then apply the private intake checker.",
       "acceptance": "Source/rights review, exact alignment report, preserved competing analyses and scope; predictions and scoring frozen before authorized reveal."
     },
     {
@@ -23,9 +25,11 @@
       "dependency": "SOURCE_DELIVERY",
       "status": "BLOCKED",
       "evidence": [
-        "research/calibration-source-recheck-2026-10-11.json"
+        "research/calibration-source-recheck-2026-10-11.json",
+        "research/source-access-delivery-2026-10-12.json",
+        "docs/SOURCE-DELIVERY-REQUESTS.md"
       ],
-      "next_action": "Acquire occurrence identities, face/line/position, damage and uncertainty, plus separate image/data rights.",
+      "next_action": "Use the LiBER editor routing contact for existing occurrence/layout components; request image/data permissions separately. Draft is unsent; photographs alone do not certify occurrences.",
       "acceptance": "Source-defined graphical baseline independently reviewed; transliteration and photographs alone do not certify it."
     },
     {
@@ -34,7 +38,9 @@
       "dependency": "ACCESS",
       "status": "BLOCKED",
       "evidence": [
-        "research/source-route-check-2026-10-11.json"
+        "research/source-route-check-2026-10-11.json",
+        "research/source-access-delivery-2026-10-12.json",
+        "docs/SOURCE-DELIVERY-REQUESTS.md"
       ],
       "next_action": "Retry a documented institutional route when available; establish component permissions before publication.",
       "acceptance": "Accessible source response and source-specific intended-use rights; no access bypass."
