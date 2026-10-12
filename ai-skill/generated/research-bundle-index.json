@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "6ab9b8146fb5932780d12637c8f229d2cd924f89",
-  "generated_at_utc": "2026-10-11T20:49:59+00:00",
+  "source_commit": "907a250f808c769b78e9ac4fb48a4eb1f06d789a",
+  "generated_at_utc": "2026-10-11T23:25:33+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,24 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "cross_corpus_dependencies",
+      "path": "research/cross-corpus-dependencies.json",
+      "sha256": "4f307ebaa67e3820c65543b5746348c4aa3c7dc1ca63f60fcb2f1835b89e865a",
+      "bytes": 449
+    },
+    {
+      "role": "sync_publication_guard",
+      "path": "ai-skill/scripts/publish_sync.py",
+      "sha256": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+      "bytes": 2836
+    },
+    {
+      "role": "ai_integrity_guide",
+      "path": "docs/AI-INTEGRITY.md",
+      "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+      "bytes": 1766
+    },
     {
       "role": "calibration_intake",
       "path": "docs/CALIBRATION-INTAKE.md",
@@ -46,8 +64,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "f96166225b8cd323e8f88edb37de87702772c73b7b87b57739eb2e2fb10d4abe",
-      "bytes": 6776
+      "sha256": "12881cd7f69a6bc8244d52c0ea82d8f25aedcc2a622cff9f7269f1b672df3a79",
+      "bytes": 7012
     },
     {
       "role": "current_summary_builder",
@@ -70,13 +88,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "dedfee0e24aa66c51ffb9c3a4daa5efa7be12c4f4732ae5d19609bb583076585",
-      "bytes": 13757
+      "sha256": "151fe0ad7fc9a4dfbf3771a2b619e9500c47db3be0a63323efc338c7a5bf617a",
+      "bytes": 13968
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "2e244d98c4c6b55cf82ff8bfe88b341bb915dff1cd3df65e5b25d1712a8ee272",
+      "sha256": "25c962192a532610246bf0e86483b54155964fc70ba06e3f44adee6a8be07dca",
       "bytes": 1841
     },
     {
@@ -106,8 +124,8 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "00dedcc3f76c8796b4f54b819870340f1ad2a7a52d91556d1472bad47510ddb4",
-      "bytes": 8304
+      "sha256": "a4a663581ebc03969c849cddf1da6f52e65c7e67b08e5deb75877f489b9ce4d2",
+      "bytes": 8587
     },
     {
       "role": "rights_and_licensing",

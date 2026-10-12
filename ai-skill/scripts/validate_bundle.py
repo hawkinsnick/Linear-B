@@ -24,3 +24,8 @@ for req in profile.get("required_authorities",[]):
 if not bundle.get("source_commit"): errors.append("missing source commit")
 if errors: print("\n".join(errors));sys.exit(1)
 print("Linear B AI integration validation PASS")
+
+# Native dependency policies are checked as part of every AI bundle validation.
+import pathlib as _guard_pathlib, runpy as _guard_runpy
+_guard_root=_guard_pathlib.Path(__file__).resolve().parents[2]
+_guard_runpy.run_path(str(_guard_root/'scripts/check_cross_corpus_dependencies.py'))['validate'](_guard_root)

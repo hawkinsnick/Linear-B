@@ -60,15 +60,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "43baf00e7d49d201c4bb2c7321b72861f02f698d3a58b6f1cb9bb154d5bd11ed"
+      "sha256": "b71bdf183ef1775ebf042b6c426b3342549bc280720d17f42c84e1c35e67c67b"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "6c0b5002a68be61b8765a00fe06337c553f4f4bb40032679b3e9f1371922c6e7"
+      "sha256": "a02216710208147e98cf1a49b2e170fcf248225b08f71fffea3348d103946487"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "535191e257ead0436f2d63870c9d1a74e38a13556c8f540edfb5c31331dca7e3"
+      "sha256": "7c1b23edadef0523cdd1e6fe57b3bcc2fccd95936e11d16b3c3d1a9bebeb794e"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -197,11 +197,19 @@
     {
       "path": "research/source-route-check-2026-10-11.json",
       "sha256": "be5a573c7e33763d027fead152d7e69b2fa760625c7fa1650210b903410149a0"
+    },
+    {
+      "path": "research/cross-corpus-dependencies.json",
+      "sha256": "4f307ebaa67e3820c65543b5746348c4aa3c7dc1ca63f60fcb2f1835b89e865a"
+    },
+    {
+      "path": "docs/AI-INTEGRITY.md",
+      "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Authenticated D\u0100MOS observation mapping is retained. The 11 October source recheck establishes that the described EpiDoc export omits linguistic annotations. Linked annotation acquisition and graphical evidence remain open; calibration has not run.",
+  "summary": "Authenticated DĀMOS observation mapping is retained. The 11 October source recheck establishes that the described EpiDoc export omits linguistic annotations. Linked annotation acquisition and graphical evidence remain open; calibration has not run.",
   "pre_expert_handoff": {
     "state": "PRE_EXPERT_HANDOFF_WITH_OPEN_SOURCE_GATES",
     "source_audit": "analysis/pre-expert-source-audit.json",
