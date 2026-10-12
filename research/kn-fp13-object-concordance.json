@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-12",
+  "scope": "SOURCE_SUPPORTED_ONE_DOCUMENT_CONCORDANCE; NOT_CERTIFIED_GRAPHICAL_GOLD",
+  "records": [
+    {
+      "id": "BM-1910-0423-1",
+      "museum": "British Museum",
+      "registration": "1910,0423.1",
+      "object_type": "ancient clay tablet",
+      "source_reported_edition_id": "CoMIK I, Fp(1) 13",
+      "source_reported_edition_page": 9,
+      "source_reported_date": "circa 1375 BCE",
+      "findspot": "Knossos, Room of the Clay Chest",
+      "material": "clay",
+      "measurements_cm": {
+        "height": 3.9,
+        "length": 15.5,
+        "width": 1.1
+      },
+      "weight_g": 112,
+      "source_url": "https://www.britishmuseum.org/collection/object/G_1910-0423-1",
+      "source_response_sha256": "6ff8d04319581d4d2efadffc8a5eddeced10894d6ade1dd3bc92bf7db675dc5b",
+      "assertion_status": "MUSEUM_CATALOGUE_REPORTED",
+      "image_rights": "NOT_ACQUIRED",
+      "physical_identity_independently_verified": false
+    },
+    {
+      "id": "MAA-Z46404B",
+      "museum": "Museum of Archaeology and Anthropology, University of Cambridge",
+      "registration": "Z 46404 B",
+      "object_type": "modern plaster cast",
+      "source_reported_document_id": "KN Fp 13",
+      "source_reported_original_registration": "British Museum 1910,0423.1",
+      "material": "plaster",
+      "source_url": "https://collections.maa.cam.ac.uk/objects/600876/",
+      "source_response_sha256": "e7c62bd6cfc0c5a97893b4b049d560303ceece81e5b2d0a29513baa165d3c80d",
+      "catalogue_analysis_date": "2024-03-15",
+      "assertion_status": "MUSEUM_REPORTED_REPLICA_CONCORDANCE",
+      "image_rights": "NOT_ACQUIRED",
+      "physical_identity_independently_verified": false
+    }
+  ],
+  "relations": [
+    {
+      "from_id": "MAA-Z46404B",
+      "to_id": "BM-1910-0423-1",
+      "relation": "SOURCE_REPORTED_REPLICA_OF",
+      "source_url": "https://collections.maa.cam.ac.uk/objects/600876/",
+      "independent_ancient_witness": false
+    }
+  ],
+  "frozen_damos_join": {
+    "source_record_id": "13",
+    "record_id": "Linear-B:13",
+    "heading_short": "KN Fp(1) 13",
+    "inventory_as_supplied": "BM (GR1910.4-23.1)",
+    "source_file_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+    "join_basis": "Exact Fp(1) 13 edition label in BM catalogue, explicit KN Fp 13/original registration in MAA catalogue, and exact heading plus BM inventory in authenticated DAMOS source record. No fuzzy title or numeric-ID-only join.",
+    "status": "SOURCE_SUPPORTED_BIBLIOGRAPHIC_AND_INVENTORY_CONCORDANCE",
+    "frozen_fields_overwritten": false
+  },
+  "chronology_assertions": [
+    {
+      "source": "BM catalogue",
+      "value": "circa 1375 BCE"
+    },
+    {
+      "source": "frozen DAMOS record",
+      "value": "LM IIIA2 or LM IIIB"
+    }
+  ],
+  "ordinary_http_receipts": [
+    {
+      "name": "bm-fp13",
+      "url": "https://www.britishmuseum.org/collection/object/G_1910-0423-1",
+      "observed_at": "2026-10-12T16:10:08.176095+00:00",
+      "status": 200,
+      "final_url": "https://www.britishmuseum.org/collection/object/G_1910-0423-1",
+      "sha256": "6ff8d04319581d4d2efadffc8a5eddeced10894d6ade1dd3bc92bf7db675dc5b",
+      "bytes": 155853
+    },
+    {
+      "name": "maa-fp13-cast",
+      "url": "https://collections.maa.cam.ac.uk/objects/600876/",
+      "observed_at": "2026-10-12T16:10:08.184340+00:00",
+      "status": 200,
+      "final_url": "https://collections.maa.cam.ac.uk/objects/600876/",
+      "sha256": "e7c62bd6cfc0c5a97893b4b049d560303ceece81e5b2d0a29513baa165d3c80d",
+      "bytes": 17295
+    }
+  ],
+  "rights": "Project-authored factual catalogue assertions with source attribution; underlying website/image rights retained; no images or protected source text redistributed.",
+  "boundary": "The Cambridge cast is a modern reproduction, not another ancient inscription or independent glyph witness. Preserve chronology assertions separately. This closes the bounded access/concordance task for one document, not photographic or occurrence certification. No calibrated experiment executed."
+}

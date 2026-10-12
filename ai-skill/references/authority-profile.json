@@ -127,6 +127,21 @@
       "path": "docs/SOURCE-DELIVERY-REQUESTS.md",
       "required": true,
       "role": "source_access_and_delivery"
+    },
+    {
+      "path": "research/kn-fp13-object-concordance.json",
+      "required": true,
+      "role": "available_evidence_growth"
+    },
+    {
+      "path": "docs/KN-FP13-CONCORDANCE.md",
+      "required": true,
+      "role": "available_evidence_growth"
+    },
+    {
+      "path": "scripts/check_kn_fp13_concordance.py",
+      "role": "object_concordance_checker",
+      "required": true
     }
   ],
   "schema_version": "1.0"

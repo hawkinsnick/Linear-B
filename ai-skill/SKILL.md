@@ -68,3 +68,7 @@ Linear B's `analysis/calibration-prepared-inputs-2026-10-12.json` reports real p
 ## Source delivery checkpoint
 
 Read `research/source-access-delivery-2026-10-12.json` and `docs/SOURCE-DELIVERY-REQUESTS.md` when planning source acquisition. Preserve contact-verification and routing uncertainty. Distinguish drafted requests from sent correspondence and explicit permissions. Log edition/version, IDs, coverage and rights per delivered component before reconciliation. Do not admit an inaccessible edition, invented word-ID join or photograph as certified gold; no scientific gate is closed by this checkpoint.
+
+## Available source evidence
+
+Read `docs/KN-FP13-CONCORDANCE.md` when querying the expanded source layer. Preserve native sampling units, unresolved source classifications, replica/derivative dependence and component rights. Source rectangles, facsimile ordinals and table rows are not automatically ancient objects, certified glyphs or independent witnesses.

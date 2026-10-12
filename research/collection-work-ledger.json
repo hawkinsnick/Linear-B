@@ -1,22 +1,24 @@
 {
   "builder_sha256": "2c5306631cb0fa09a6c1d686d5f7e7265b32cb33c1faed1edf0d519dad2f196f",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "ddf3c3a0c50c6175103d4e7b7925ca53f4f52bdf71fa97848b387731910d074f",
-  "evidence_fingerprint": "e35428088d181c48bfa7db16d25e310f217ae118c6aeeaff6f8e2dfab1331744",
+  "config_sha256": "0cdd6f4cc8b1d235de256b5029de56d6d3df6382fc80012860ce0ef15b9e44a6",
+  "evidence_fingerprint": "6799ca1d098427d58f2852e1bdfee3ab1e23b9bb4478e77b7ca99e0e12353c40",
   "input_sha256": {
     "analysis/calibration-prepared-inputs-2026-10-12.json": "03d16c594e03a3dd0a57fdf29ceaab04571588f58fec52a1797be8d5bc187204",
-    "analysis/current-status.json": "d8b0696bedf1c0fcffc8efb6f67b2cff75b8ef6f9f6491e4af19976273b710e5",
+    "analysis/current-status.json": "ba752a9c8385d544aa33b60f5268419ea550c41b5cd52c1f0ef7bf07421d761d",
     "analysis/pre-expert-source-audit.json": "4c043cc9c4cbccde5f3601d9c2ede734c14788da762b688a5a71dc65fb57ba50",
     "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
     "docs/CALIBRATION-PREPARED-INPUTS.md": "5475f6d165035f43ba632948b11cb1a2cd5aee935cc92c4f2adb6ee54b22946a",
+    "docs/KN-FP13-CONCORDANCE.md": "e947738978b81fcc1b57e1664b90b349db8b686a87257b41efabe6d05750847b",
     "docs/SOURCE-DELIVERY-REQUESTS.md": "6fe57a044f6051165b3eeadda94dbcdce610e0507d2c68cc1f6532be2fa7de44",
     "research/calibration-acquisition-2026-10-12.json": "7d60436c022b3d744a91f88d7236667b39184501b20faa91bbbd1bd17a58f4be",
     "research/corpus-coverage-register.json": "03ae95b4b1b8c63b91d7b829a826d38167fc3c99cc75719458248b62faa038e5",
     "research/cross-corpus-dependencies.json": "4f307ebaa67e3820c65543b5746348c4aa3c7dc1ca63f60fcb2f1835b89e865a",
+    "research/kn-fp13-object-concordance.json": "bdd1a7d2ddce5b1dfc0d427ef492cba0131728259f8e5e6ccec90a3ace060a36",
     "research/pre-expert-maximum.json": "d16e1e5ecb5252f0c2f9f0eb79b33de5d9f2cf21c09e96c1779fb12bb9f91eb0",
     "research/pre-expert-source-access.json": "ea7e6109364ef7f7d489ac5ed87d621561cbc089805f58cca0d32343c6e868c2",
     "research/source-access-delivery-2026-10-12.json": "ef20df987c21cdf3dfeeaeaf9cf13e5bea4615dcaf6866ac8fdb064ba9b7e5c6",
-    "research/source-action-plan.json": "70799d0b0aeaac96fec80e19441cb3bf8e722c7e20bd786628fed36d9df37d13",
+    "research/source-action-plan.json": "b39475cd2d2e3a2f0dbaf340c1461395d4f7c2291343c2966d4517a627d6c248",
     "research/source-route-check-2026-10-11.json": "be5a573c7e33763d027fead152d7e69b2fa760625c7fa1650210b903410149a0",
     "scripts/prepare_calibration_inputs.py": "77bbda887eb7cb6857463b12579f56cd1d2eb8d367c6188fa832cb2d1c3ffa81",
     "sources/registry.json": "3d8c9e5449d95a2c960fcf87a59e5962a40a92b9e37c18c99cd23894f96d8ec0"
@@ -42,9 +44,58 @@
       "representation": "RESTRICTED_LOCAL_DERIVATIVE_NOT_READ_OR_REPUBLISHED",
       "unit": "restricted_source_record",
       "view": "authenticated-records"
+    },
+    {
+      "enumerated": 2,
+      "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY",
+      "unit": "museum_catalogue_assertion",
+      "view": "kn-fp13-museum-assertions"
     }
   ],
-  "records": [],
+  "records": [
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/records/0",
+      "native_id": "BM-1910-0423-1",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "kn-fp13-museum-assertions:BM-1910-0423-1",
+      "source_file_sha256": "bdd1a7d2ddce5b1dfc0d427ef492cba0131728259f8e5e6ccec90a3ace060a36",
+      "source_lead_pointers": [
+        "/records/0/source_url"
+      ],
+      "source_path": "research/kn-fp13-object-concordance.json",
+      "source_record_sha256": "dbfa4df1d0990cb537e3cc71ab7e08d86c01b5ee83e3ee7e1db51f484571c066",
+      "unit": "museum_catalogue_assertion"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/records/1",
+      "native_id": "MAA-Z46404B",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "kn-fp13-museum-assertions:MAA-Z46404B",
+      "source_file_sha256": "bdd1a7d2ddce5b1dfc0d427ef492cba0131728259f8e5e6ccec90a3ace060a36",
+      "source_lead_pointers": [
+        "/records/1/source_url"
+      ],
+      "source_path": "research/kn-fp13-object-concordance.json",
+      "source_record_sha256": "190c878ad59016965c34491aacec184c1cad765abbf51a4be3dfbe0e45e3cedd",
+      "unit": "museum_catalogue_assertion"
+    }
+  ],
   "repository": "hawkinsnick/Linear-B",
   "review_dimensions": [
     "object_identity",
@@ -141,6 +192,48 @@
       "json_pointer": "/source",
       "kind": "source",
       "source_path": "research/corpus-coverage-register.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/records/0/source_url",
+      "kind": "source_url",
+      "source_path": "research/kn-fp13-object-concordance.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/records/1/source_url",
+      "kind": "source_url",
+      "source_path": "research/kn-fp13-object-concordance.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/relations/0/source_url",
+      "kind": "source_url",
+      "source_path": "research/kn-fp13-object-concordance.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/chronology_assertions/0/source",
+      "kind": "source",
+      "source_path": "research/kn-fp13-object-concordance.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/chronology_assertions/1/source",
+      "kind": "source",
+      "source_path": "research/kn-fp13-object-concordance.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_receipts/0/url",
+      "kind": "url",
+      "source_path": "research/kn-fp13-object-concordance.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_receipts/1/url",
+      "kind": "url",
+      "source_path": "research/kn-fp13-object-concordance.json"
     },
     {
       "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
@@ -480,13 +573,13 @@
     },
     {
       "blocker_is_not_established_by_a_label": true,
-      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
       "json_pointer": "/tasks/3",
-      "native_dependency": "ACCESS",
-      "native_status": "BLOCKED",
+      "native_dependency": "RECONCILIATION",
+      "native_status": "COMPLETE",
       "native_task_id": "LB-BM",
       "source_path": "research/source-action-plan.json",
-      "task": "Use a lawful accessible collection record for object/inventory metadata; keep any DAMOS join unresolved until exact evidence exists."
+      "task": "Use the source-supported KN Fp 13/BM 1910,0423.1 concordance; keep Cambridge cast separate, retain differing chronology assertions, and obtain separate graphical/image components before their admission."
     },
     {
       "blocker_is_not_established_by_a_label": true,
