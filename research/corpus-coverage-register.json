@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "checked": "2026-10-03",
+  "checked": "2026-10-12",
   "source": "DAMOS-DERIVATIVE-V2",
   "source_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
   "population": {
@@ -13,41 +13,64 @@
       "present": 5890,
       "missing": 42,
       "coverage_fraction": 0.99292,
-      "status": "AUTHENTICATED"
+      "status": "AUTHENTICATED_SOURCE_FIELD_COUNT",
+      "count_evidence": "analysis/calibration-prepared-inputs-2026-10-12.json"
     },
     {
       "field": "scribe",
       "present": 3945,
       "missing": 1987,
       "coverage_fraction": 0.66504,
-      "status": "AUTHENTICATED"
+      "status": "AUTHENTICATED_SOURCE_FIELD_COUNT",
+      "count_evidence": "analysis/calibration-prepared-inputs-2026-10-12.json"
     },
     {
       "field": "inventory",
       "present": 1305,
       "missing": 4627,
-      "coverage_fraction": 0.22,
-      "status": "AUTHENTICATED"
+      "coverage_fraction": 0.21999,
+      "status": "AUTHENTICATED_SOURCE_FIELD_COUNT",
+      "count_evidence": "analysis/calibration-prepared-inputs-2026-10-12.json"
     },
     {
       "field": "support",
-      "status": "MAPPED_COUNT_NOT_YET_CANONICALIZED"
+      "status": "AUTHENTICATED_SOURCE_FIELD_COUNT",
+      "present": 5932,
+      "missing": 0,
+      "coverage_fraction": 1.0,
+      "count_evidence": "analysis/calibration-prepared-inputs-2026-10-12.json"
     },
     {
       "field": "site",
-      "status": "MAPPED_COUNT_NOT_YET_CANONICALIZED"
+      "status": "AUTHENTICATED_SOURCE_FIELD_COUNT",
+      "present": 5932,
+      "missing": 0,
+      "coverage_fraction": 1.0,
+      "count_evidence": "analysis/calibration-prepared-inputs-2026-10-12.json"
     },
     {
       "field": "find_area",
-      "status": "MAPPED_COUNT_NOT_YET_CANONICALIZED"
+      "status": "AUTHENTICATED_SOURCE_FIELD_COUNT",
+      "present": 3262,
+      "missing": 2670,
+      "coverage_fraction": 0.5499,
+      "count_evidence": "analysis/calibration-prepared-inputs-2026-10-12.json"
     },
     {
       "field": "find_spot",
-      "status": "MAPPED_COUNT_NOT_YET_CANONICALIZED"
+      "status": "AUTHENTICATED_SOURCE_FIELD_COUNT",
+      "present": 732,
+      "missing": 5200,
+      "coverage_fraction": 0.1234,
+      "count_evidence": "analysis/calibration-prepared-inputs-2026-10-12.json"
     },
     {
       "field": "museum",
-      "status": "MAPPED_COUNT_NOT_YET_CANONICALIZED"
+      "status": "AUTHENTICATED_SOURCE_FIELD_COUNT",
+      "present": 5358,
+      "missing": 574,
+      "coverage_fraction": 0.90324,
+      "count_evidence": "analysis/calibration-prepared-inputs-2026-10-12.json"
     },
     {
       "field": "graphical_sign_identity",
@@ -83,7 +106,7 @@
   "rules": [
     "Unknown fields remain unknown rather than zero/empty evidence.",
     "Conventional transliteration is not a graphical sign-identity layer.",
-    "Coverage counts are properties of the pinned derivative, not necessarily current live DĀMOS."
+    "Coverage counts are properties of the pinned derivative, not necessarily current live D\u0100MOS."
   ],
-  "next": "Recompute remaining mapped-field counts directly from exact bytes and create document-identity/source-lineage register."
+  "next": "Acquire source-issued word IDs/linked annotation and graphical components; extend lawful source coverage independently of calibration. Existing mapped-field counts have been replayed."
 }

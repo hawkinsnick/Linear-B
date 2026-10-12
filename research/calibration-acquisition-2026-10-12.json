@@ -1,0 +1,93 @@
+{
+  "checked": "2026-10-12",
+  "scope": "Targeted current route and candidate audit; not global source exhaustion",
+  "ordinary_http_attempts": [
+    {
+      "source": "damos-home",
+      "url": "https://damos.hf.uio.no/",
+      "final_url": "https://damos.hf.uio.no/",
+      "http_status": 200,
+      "sha256": "caeb590bd3dd502d94949eecc61f9aa5051273d4a7765728bdb514c6dbcf5d3b",
+      "bytes": 5994,
+      "image_or_annotations_acquired": false
+    },
+    {
+      "source": "calibra-about",
+      "url": "https://calibra.classics.cam.ac.uk/Home/About",
+      "error": "HTTP Error 502: Bad Gateway",
+      "image_or_annotations_acquired": false
+    },
+    {
+      "source": "calibra-tablet",
+      "url": "https://calibra.classics.cam.ac.uk/Tablet/PY/46",
+      "error": "HTTP Error 502: Bad Gateway",
+      "image_or_annotations_acquired": false
+    },
+    {
+      "source": "liber-home",
+      "url": "https://liber.cnr.it/",
+      "final_url": "https://liber.cnr.it/",
+      "http_status": 200,
+      "sha256": "310b90597bac56b9946cea28558b105c1b0eea27b9145f8fa55ec229a00e9ff8",
+      "bytes": 46115,
+      "image_or_annotations_acquired": false
+    }
+  ],
+  "additional_primary_source_inspections": [
+    {
+      "url": "https://calibra.classics.cam.ac.uk/Home/About",
+      "retrieval_channel": "web retrieval",
+      "finding": "Institutional documentation describes 1969 photographs, later fragment joins, source-based scribal attributions and Cincinnati photograph copyright. This retrieval is distinct from the ordinary HTTP failures."
+    },
+    {
+      "url": "https://calibra.classics.cam.ac.uk/Tablet/PY/46",
+      "retrieval_channel": "web retrieval",
+      "final_url": "https://calibra.classics.cam.ac.uk/Account/Login?ReturnUrl=%2FTablet%2FPY%2F46",
+      "finding": "Retrieved page is a login destination, not an inspected tablet photograph or sign annotation."
+    },
+    {
+      "url": "https://ejournals.lib.uoc.gr/Ariadne/article/download/1847/1756",
+      "locators": [
+        "printed pp. 153-155",
+        "printed p. 157"
+      ],
+      "finding": "Publication describes competing linguistic interpretations, incomplete nominal annotation and limited search-result downloads; it does not deliver a current linked bulk annotation package."
+    }
+  ],
+  "alternate_candidate_snapshots": [
+    {
+      "repository": "tech189/tiripode",
+      "commit": "0c3c821a84bd1e48f9afbbbb218ae127f100f38b",
+      "license_files": [
+        "LICENSE"
+      ],
+      "disposition": "NOT_ADMITTED_AS_PRIMARY_CALIBRATION_GOLD",
+      "reason": "Generated lexical/inflection candidates; source warns that assumed nominatives may be incorrect. Not a source-issued occurrence annotation export. Repository MIT file does not independently clear lexicon/handbook upstream rights.",
+      "payload_redistributed": false,
+      "scored": false
+    },
+    {
+      "repository": "j-luo93/NeuroDecipher",
+      "commit": "480bad2487820e3737fecfdd108214efa769e34b",
+      "license_files": [],
+      "disposition": "NOT_ADMITTED_AS_PRIMARY_CALIBRATION_GOLD",
+      "reason": "Legacy lexical-cognate benchmark; not document/word-occurrence morphology. No root license found in this pinned checkout; no lexical payload redistributed or used as occurrence gold.",
+      "payload_redistributed": false,
+      "scored": false
+    },
+    {
+      "repository": "InsiderPhD/Linear-B-Dataset",
+      "commit": "50099082190f2b0b98ad5e15fc35cfed51161587",
+      "license_files": [],
+      "disposition": "NOT_ADMITTED_AS_PRIMARY_CALIBRATION_GOLD",
+      "reason": "CSV derivatives of an older transliteration website. No root license found in this pinned checkout; not aligned linguistic annotations or source-certified graphical occurrences.",
+      "payload_redistributed": false,
+      "scored": false
+    }
+  ],
+  "source_word_crosswalk_acquired": false,
+  "aligned_annotation_package_acquired": false,
+  "certified_graphical_occurrences_acquired": false,
+  "calibration_executed": false,
+  "next_action": "Obtain source-issued linked word IDs and linguistic annotations; obtain sign-occurrence/image components under source-specific permissions. Continue corpus materialization and evidence growth independently."
+}

@@ -1,7 +1,7 @@
 {
   "format": "corpus-source-action-plan-v1",
   "corpus": "Linear-B",
-  "checked": "2026-10-11",
+  "checked": "2026-10-12",
   "claim_scope": "BOUNDED_SOURCE_AUDIT_NOT_GLOBAL_EXHAUSTION",
   "rights_only_ready": false,
   "tasks": [
@@ -49,6 +49,19 @@
       ],
       "next_action": "Use a lawful accessible collection record for object/inventory metadata; keep any DAMOS join unresolved until exact evidence exists.",
       "acceptance": "Authoritative exact inventory/document concordance; no accession guessed from subject similarity."
+    },
+    {
+      "id": "LB-PREPARED-OBSERVATIONS",
+      "source": "Authenticated DAMOS v2 observations",
+      "dependency": "RECONCILIATION",
+      "status": "COMPLETE",
+      "evidence": [
+        "analysis/calibration-prepared-inputs-2026-10-12.json",
+        "scripts/prepare_calibration_inputs.py",
+        "docs/CALIBRATION-PREPARED-INPUTS.md"
+      ],
+      "next_action": "Use the prepared private observation package in corpus construction; acquire source word-ID and annotation components before freezing a calibrated experiment.",
+      "acceptance": "All 5932 documents mapped and audited; 5890 nonempty surfaces; absent word IDs, annotation gold and graphical certification remain explicit."
     }
   ],
   "rule": "Assess access, intended-use permission, source delivery, machine reconciliation and human adjudication separately. Never infer global exhaustion from a dated search or route failure. Do not reopen completed evidence by ignoring existing native audits."

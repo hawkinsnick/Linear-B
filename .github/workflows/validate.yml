@@ -24,6 +24,7 @@ jobs:
 
       - run: python scripts/test_epidoc_import.py
       - run: python scripts/test_calibration_intake.py
+      - run: python scripts/test_prepared_calibration_inputs.py
 
   verify-damos-asset:
     runs-on: ubuntu-latest
@@ -53,6 +54,7 @@ jobs:
           python scripts/validate_observation_export.py /tmp/damos-corpus.json /tmp/observations.json
           python scripts/audit_gold_leakage.py /tmp/observations.json
           python scripts/test_observation_source_audit.py /tmp/damos-corpus.json /tmp/observations.json
+          python scripts/prepare_calibration_inputs.py /tmp/damos-corpus.json --output /tmp/prepared-calibration-inputs
       - name: Reproduce exact pre-expert source audit
         run: |
           python scripts/build_pre_expert_audit.py /tmp/damos-corpus.json --report /tmp/pre-expert-source-audit.json

@@ -235,8 +235,8 @@
     },
     {
       "path": "docs/CALIBRATION-INPUTS.md",
-      "sha256": "38895cce1b9a79e957aa46e15881ca0163ddd8859e1a769e95d7f35536315abd",
-      "bytes": 3515,
+      "sha256": "5e87a61c26ebfe18f59431af429915dc8f584abda684cb4b23904e7712b9975d",
+      "bytes": 4119,
       "category": "docs",
       "summary": {}
     },
@@ -251,8 +251,8 @@
     },
     {
       "path": "research/source-action-plan.json",
-      "sha256": "1fbb81495a348cf18d26a548206f826272453b63c9c97818d91921d763cff7ed",
-      "bytes": 2598,
+      "sha256": "c454fa1f3663273e845a0022675a395ea99c3623a65c365c2e04ad349d1a0cbc",
+      "bytes": 3306,
       "category": "research",
       "summary": {
         "format": "corpus-source-action-plan-v1"

@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "0caa86ae00baaaeef1312d9a5802c42529af3ee9",
-  "generated_at_utc": "2026-10-12T00:30:59+00:00",
+  "source_commit": "c568d6c1b9adc45e65b9581cbf1f32720cc02cd0",
+  "generated_at_utc": "2026-10-12T12:46:50+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,36 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "prepared_field_coverage",
+      "path": "research/corpus-coverage-register.json",
+      "sha256": "03ae95b4b1b8c63b91d7b829a826d38167fc3c99cc75719458248b62faa038e5",
+      "bytes": 3467
+    },
+    {
+      "role": "prepared_calibration_inputs",
+      "path": "analysis/calibration-prepared-inputs-2026-10-12.json",
+      "sha256": "03d16c594e03a3dd0a57fdf29ceaab04571588f58fec52a1797be8d5bc187204",
+      "bytes": 2051
+    },
+    {
+      "role": "calibration_preparation",
+      "path": "scripts/prepare_calibration_inputs.py",
+      "sha256": "77bbda887eb7cb6857463b12579f56cd1d2eb8d367c6188fa832cb2d1c3ffa81",
+      "bytes": 4844
+    },
+    {
+      "role": "calibration_preparation_guide",
+      "path": "docs/CALIBRATION-PREPARED-INPUTS.md",
+      "sha256": "5475f6d165035f43ba632948b11cb1a2cd5aee935cc92c4f2adb6ee54b22946a",
+      "bytes": 2880
+    },
+    {
+      "role": "calibration_acquisition_recheck",
+      "path": "research/calibration-acquisition-2026-10-12.json",
+      "sha256": "7d60436c022b3d744a91f88d7236667b39184501b20faa91bbbd1bd17a58f4be",
+      "bytes": 4207
+    },
     {
       "role": "cross_corpus_dependencies",
       "path": "research/cross-corpus-dependencies.json",
@@ -52,8 +82,8 @@
     {
       "role": "source_action_plan",
       "path": "research/source-action-plan.json",
-      "sha256": "1fbb81495a348cf18d26a548206f826272453b63c9c97818d91921d763cff7ed",
-      "bytes": 2598
+      "sha256": "c454fa1f3663273e845a0022675a395ea99c3623a65c365c2e04ad349d1a0cbc",
+      "bytes": 3306
     },
     {
       "role": "source_action_guide",
@@ -64,8 +94,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "12881cd7f69a6bc8244d52c0ea82d8f25aedcc2a622cff9f7269f1b672df3a79",
-      "bytes": 7012
+      "sha256": "9fb4230cbec9096cd638924860d72526eb80ca8650dadd0ef6a2c8b303b5ef8c",
+      "bytes": 7514
     },
     {
       "role": "current_summary_builder",
@@ -82,19 +112,19 @@
     {
       "role": "calibration_acquisition",
       "path": "docs/CALIBRATION-INPUTS.md",
-      "sha256": "38895cce1b9a79e957aa46e15881ca0163ddd8859e1a769e95d7f35536315abd",
-      "bytes": 3515
+      "sha256": "5e87a61c26ebfe18f59431af429915dc8f584abda684cb4b23904e7712b9975d",
+      "bytes": 4119
     },
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "151fe0ad7fc9a4dfbf3771a2b619e9500c47db3be0a63323efc338c7a5bf617a",
-      "bytes": 13968
+      "sha256": "7d81ee73a701788c310f16d16a77de428fed75912b2036eec0bc9cfa5d87bbd2",
+      "bytes": 18885
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "25c962192a532610246bf0e86483b54155964fc70ba06e3f44adee6a8be07dca",
+      "sha256": "5cf2fdaf6a8e4ea975a36e27e1f359f6ca2cab99715c3b776c29764ea7badbd6",
       "bytes": 1841
     },
     {
@@ -124,8 +154,8 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "a4a663581ebc03969c849cddf1da6f52e65c7e67b08e5deb75877f489b9ce4d2",
-      "bytes": 8587
+      "sha256": "475edb29711b6981e0f49d8c885659bec0b070e01b8bcaa250c45b180fe14c85",
+      "bytes": 8591
     },
     {
       "role": "rights_and_licensing",

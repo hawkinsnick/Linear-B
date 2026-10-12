@@ -29,6 +29,11 @@
     "research/source-action-plan.json",
     "research/source-route-check-2026-10-11.json",
     "research/cross-corpus-dependencies.json",
-    "docs/AI-INTEGRITY.md"
+    "docs/AI-INTEGRITY.md",
+    "analysis/calibration-prepared-inputs-2026-10-12.json",
+    "scripts/prepare_calibration_inputs.py",
+    "docs/CALIBRATION-PREPARED-INPUTS.md",
+    "research/calibration-acquisition-2026-10-12.json",
+    "research/corpus-coverage-register.json"
   ]
 }
