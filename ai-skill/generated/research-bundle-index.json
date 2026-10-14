@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "79c832d5b4a101f38ff1aecc62a7e6b0c0645c96",
-  "generated_at_utc": "2026-10-12T18:26:30+00:00",
+  "source_commit": "e18d817d3b80751372d9e1389f91e080a6e554db",
+  "generated_at_utc": "2026-10-14T15:03:03+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,24 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "calibration_freeze",
+      "path": "scripts/freeze_calibration_run.py",
+      "sha256": "8cf6b41252df597c79188067653fcec37db210d1591983350d14fb376b0b1e4a",
+      "bytes": 3965
+    },
+    {
+      "role": "calibration_freeze",
+      "path": "docs/CALIBRATION-FREEZE-2026-10-14.md",
+      "sha256": "1db440d8082c5416ad767bc61f2c60ed56e50b5097f489984784a091d659aaa5",
+      "bytes": 3097
+    },
+    {
+      "role": "calibration_freeze",
+      "path": "research/calibration-recheck-2026-10-14.json",
+      "sha256": "642fc3081471bcae7e691605b24f96f522e51547bef0217499d01c0f926ebf79",
+      "bytes": 1870
+    },
     {
       "role": "object_concordance_checker",
       "path": "scripts/check_kn_fp13_concordance.py",
@@ -112,8 +130,8 @@
     {
       "role": "source_action_plan",
       "path": "research/source-action-plan.json",
-      "sha256": "b39475cd2d2e3a2f0dbaf340c1461395d4f7c2291343c2966d4517a627d6c248",
-      "bytes": 3954
+      "sha256": "50d854c5da321732370af75b25e0cb42990f99fee0876df2d0584ac1c3fc04b8",
+      "bytes": 4717
     },
     {
       "role": "source_action_guide",
@@ -124,8 +142,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "0efabe1169772bed7fcb61d493d3ee0774b34941cd11f34e9eb696ba97ade389",
-      "bytes": 8250
+      "sha256": "7041f564a187f13d0b338c68500e941349748271bd88c7825f4c529fa4f6af63",
+      "bytes": 8711
     },
     {
       "role": "current_summary_builder",
@@ -148,13 +166,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "f3f4459b021fc6d2bf6e293d990cdb36beb9da3193fc6ec182736c4fbf8ae53f",
-      "bytes": 26439
+      "sha256": "acc8c5e22405fa0a9655d91abf133a10cdf9ea1fca52035a62fe1cc9d8a3d5be",
+      "bytes": 27228
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "0ebd346b04378bbd8f05c5924d8b98471d5c285e698fa16a4751096f9141e58a",
+      "sha256": "4f9c5191a587833d81fe61d2e18d6a15f1d60929609d8ff8fa226e49c0d49cd3",
       "bytes": 1841
     },
     {
@@ -184,7 +202,7 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "ba752a9c8385d544aa33b60f5268419ea550c41b5cd52c1f0ef7bf07421d761d",
+      "sha256": "42cf999eeb1c8e2ced271d6bdb95a288ceca54abc43c4c10f2bbd27bdd7a68ec",
       "bytes": 8591
     },
     {
