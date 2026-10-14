@@ -72,3 +72,6 @@ Read `research/source-access-delivery-2026-10-12.json` and `docs/SOURCE-DELIVERY
 ## Available source evidence
 
 Read `docs/KN-FP13-CONCORDANCE.md` when querying the expanded source layer. Preserve native sampling units, unresolved source classifications, replica/derivative dependence and component rights. Source rectangles, facsimile ordinals and table rows are not automatically ancient objects, certified glyphs or independent witnesses.
+
+## Private pre-reveal byte binding
+Read `docs/CALIBRATION-FREEZE-2026-10-14.md` and `research/calibration-recheck-2026-10-14.json`. Use `scripts/freeze_calibration_run.py` only on private aligned packages outside the repository. Retain competing analyses and reject ambiguous/unmatched scope, altered digests and file aliases. A freeze receipt hashes sealed answers without parsing them; it grants no reveal, source authority, rights acceptance, valid scoring or calibration. Synthetic tests are engineering fixtures, never gold. Current public-route availability is not linked annotation delivery or certified graphical geometry. Keep all native calibration and scientific gates blocked until their actual prerequisites are satisfied.

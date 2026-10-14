@@ -142,6 +142,21 @@
       "path": "scripts/check_kn_fp13_concordance.py",
       "role": "object_concordance_checker",
       "required": true
+    },
+    {
+      "role": "calibration_freeze",
+      "path": "scripts/freeze_calibration_run.py",
+      "required": true
+    },
+    {
+      "role": "calibration_freeze",
+      "path": "docs/CALIBRATION-FREEZE-2026-10-14.md",
+      "required": true
+    },
+    {
+      "role": "calibration_freeze",
+      "path": "research/calibration-recheck-2026-10-14.json",
+      "required": true
     }
   ],
   "schema_version": "1.0"

@@ -42,3 +42,6 @@ Current route receipts and a concrete, unsent request are recorded in [docs/SOUR
 ## Available evidence growth — 2026-10-12
 
 See [docs/KN-FP13-CONCORDANCE.md](docs/KN-FP13-CONCORDANCE.md) for the expanded source-bound evidence layer, scope and unresolved qualifications. No new canonical readings or scientific acceptance are granted.
+
+## 2026-10-14 — private calibration freeze control
+Added exact-source-bound pre-reveal byte binding, nine engineering regression tests and dated source-route receipts. No annotation gold, graphical certification, gold reveal or calibration result.

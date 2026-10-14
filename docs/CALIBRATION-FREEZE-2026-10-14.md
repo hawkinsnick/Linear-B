@@ -1,0 +1,15 @@
+# Linear B pre-reveal byte binding — 14 October 2026
+
+`python scripts/freeze_calibration_run.py PRIVATE-FREEZE.json --out PRIVATE-RECEIPT.json` binds an answer-free source-unit alignment receipt to the exact observation, sealed annotation, prediction, scoring-protocol and predictor-implementation files. Both the package and output stay outside the repository. A new receipt is created exclusively; previous receipts and payloads are never overwritten.
+
+Required format: `linear-b-pre-reveal-freeze-v1`. Fields are `intake_manifest`, `prediction_payload`, `scoring_protocol`, `predictor_implementation`, `observation_sha256`, `annotation_sha256`, `source_snapshot`, `task`, and `experiment_id`, plus `format`. Payload descriptors contain `path` and `sha256`. The intake manifest uses the existing `linear-b-calibration-intake-v1` contract. Supported tasks are `known_answer_linguistic` and `degraded_graphical`; the latter additionally requires the graphical component in intake.
+
+The checker requires nonzero exact matches, no unresolved or unmatched identities in the declared scope, source-snapshot and payload-hash agreement, and distinct observation/answer/prediction/protocol/implementation files. Multiple analyses within one source-defined group remain alternatives; competing identity groups remain ambiguous and cannot be silently selected. Use a separately defined aligned pilot when the whole source is incomplete. A pilot is not corpus-wide coverage.
+
+The sealed answer payload is hashed, never parsed. The receipt explicitly grants no gold reveal, authority verification, rights acceptance, prediction-semantic validation, scoring-semantic validation, calibration result or change to native scientific gates. Digests cannot prove chronology or prior ignorance. Use a dated external preregistration and independent custodian/source/rights review before an authorized reveal. Synthetic regression fixtures test software only and must never be used as linguistic gold.
+
+## Acquisition recheck
+
+The 14 October ordinary HTTP check retrieved DĀMOS, LiBER and CaLiBRA About successfully. This closes the earlier transient About-route access failure at this date; it does not deliver a tablet image, linked word-ID annotation export or certified graphical occurrence set. DĀMOS's current online documentation describes transliteration, notes and word/co-occurrence search; its database documentation describes ongoing manual linguistic annotation and alternatives. Those statements are not a delivered annotation package. LiBER public document pages present edition layouts and critical apparatus; those layouts are not independently certified physical sign geometry. LiBER text/image terms remain component-specific. See `research/calibration-recheck-2026-10-14.json`.
+
+Calibration remains unexecuted. Required external inputs are source-issued word-ID alignment, linguistic annotations preserving alternatives from the same snapshot, and the separately gated certified graphical component. The existing source-delivery requests remain unsent. No correspondence was sent by this work.

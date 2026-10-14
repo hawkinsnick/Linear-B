@@ -251,8 +251,8 @@
     },
     {
       "path": "research/source-action-plan.json",
-      "sha256": "b39475cd2d2e3a2f0dbaf340c1461395d4f7c2291343c2966d4517a627d6c248",
-      "bytes": 3954,
+      "sha256": "50d854c5da321732370af75b25e0cb42990f99fee0876df2d0584ac1c3fc04b8",
+      "bytes": 4717,
       "category": "research",
       "summary": {
         "format": "corpus-source-action-plan-v1"

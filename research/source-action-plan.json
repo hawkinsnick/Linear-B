@@ -1,7 +1,7 @@
 {
   "format": "corpus-source-action-plan-v1",
   "corpus": "Linear-B",
-  "checked": "2026-10-12",
+  "checked": "2026-10-14",
   "claim_scope": "BOUNDED_SOURCE_AUDIT_NOT_GLOBAL_EXHAUSTION",
   "rights_only_ready": false,
   "tasks": [
@@ -36,13 +36,14 @@
       "id": "LB-CALIBRA",
       "source": "CaLiBRA public tablet route",
       "dependency": "ACCESS",
-      "status": "BLOCKED",
+      "status": "OPEN",
       "evidence": [
         "research/source-route-check-2026-10-11.json",
         "research/source-access-delivery-2026-10-12.json",
-        "docs/SOURCE-DELIVERY-REQUESTS.md"
+        "docs/SOURCE-DELIVERY-REQUESTS.md",
+        "research/calibration-recheck-2026-10-14.json"
       ],
-      "next_action": "Retry a documented institutional route when available; establish component permissions before publication.",
+      "next_action": "About route returned HTTP200 on 2026-10-14; acquire authorized tablet and occurrence components separately. Public descriptive metadata is not certified graphical delivery.",
       "acceptance": "Accessible source response and source-specific intended-use rights; no access bypass."
     },
     {
@@ -69,6 +70,19 @@
       ],
       "next_action": "Use the prepared private observation package in corpus construction; acquire source word-ID and annotation components before freezing a calibrated experiment.",
       "acceptance": "All 5932 documents mapped and audited; 5890 nonempty surfaces; absent word IDs, annotation gold and graphical certification remain explicit."
+    },
+    {
+      "id": "LB-FREEZE-BINDING",
+      "source": "Project-original private pre-reveal control",
+      "dependency": "RECONCILIATION",
+      "status": "COMPLETE",
+      "evidence": [
+        "scripts/freeze_calibration_run.py",
+        "scripts/test_calibration_freeze.py",
+        "docs/CALIBRATION-FREEZE-2026-10-14.md"
+      ],
+      "next_action": "Use only after exactly linked source packages arrive; externally preregister and validate prediction/scoring semantics before authorized reveal.",
+      "acceptance": "Nine synthetic engineering controls pass; no source authority, rights, gold reveal or calibration acceptance."
     }
   ],
   "rule": "Assess access, intended-use permission, source delivery, machine reconciliation and human adjudication separately. Never infer global exhaustion from a dated search or route failure. Do not reopen completed evidence by ignoring existing native audits."

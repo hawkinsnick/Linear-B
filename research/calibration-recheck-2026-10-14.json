@@ -1,0 +1,45 @@
+{
+  "checked": "2026-10-14",
+  "scope": "Three explicit ordinary HTTP routes and current public documentation; not global source exhaustion",
+  "ordinary_http_receipts": [
+    {
+      "url": "https://damos.hf.uio.no/",
+      "resolved_url": "https://damos.hf.uio.no/",
+      "status": 200,
+      "bytes": 5994,
+      "sha256": "caeb590bd3dd502d94949eecc61f9aa5051273d4a7765728bdb514c6dbcf5d3b"
+    },
+    {
+      "url": "https://liber.cnr.it/",
+      "resolved_url": "https://liber.cnr.it/",
+      "status": 200,
+      "bytes": 46115,
+      "sha256": "6a089fb004888163f2c01a2419589b4b2171c1e11c860005d36a587418da4896"
+    },
+    {
+      "url": "https://calibra.classics.cam.ac.uk/Home/About",
+      "resolved_url": "https://calibra.classics.cam.ac.uk/Home/About",
+      "status": 200,
+      "bytes": 87283,
+      "sha256": "2c77e93940e7c78e9f3a73f2e4c37cf308176a446793b1aaf806004a6662211a"
+    }
+  ],
+  "source_word_ids_acquired": false,
+  "linked_linguistic_gold_acquired": false,
+  "certified_graphical_occurrences_acquired": false,
+  "calibration_executed": false,
+  "public_document_example": "https://liber.cnr.it/tablet/view/4088",
+  "example_scope": "Accessible edition transcription/apparatus with source-specific terms; no word-ID-aligned gold or certified physical geometry acquired",
+  "documentation_urls": [
+    "https://damos.hf.uio.no/howto",
+    "https://damos.hf.uio.no/about/database/",
+    "https://damos.hf.uio.no/about/online/"
+  ],
+  "software_closed_scope": "Executable immutable pre-reveal byte binding with exact answer-free alignment and no semantic/reveal authorization",
+  "remaining_dependencies": [
+    "linked source annotation and word-ID delivery",
+    "source/rights review",
+    "graphical certification and permissions",
+    "prediction/scoring semantic validation and externally dated preregistration before authorized reveal"
+  ]
+}

@@ -89,3 +89,7 @@ Current route receipts and a concrete, unsent request are recorded in [docs/SOUR
 ## Available evidence growth — 2026-10-12
 
 See [docs/KN-FP13-CONCORDANCE.md](docs/KN-FP13-CONCORDANCE.md) for the expanded source-bound evidence layer, scope and unresolved qualifications. No new canonical readings or scientific acceptance are granted.
+
+## Calibration freeze and route recheck — 2026-10-14
+
+Added executable pre-reveal byte binding for aligned private inputs, predictions, scoring protocol and predictor code, with nine synthetic hostile/positive controls. DĀMOS, LiBER and CaLiBRA About are currently accessible; no aligned linguistic gold or certified graphical baseline was delivered. Calibration remains unexecuted. Read [scope and private workflow](docs/CALIBRATION-FREEZE-2026-10-14.md).
