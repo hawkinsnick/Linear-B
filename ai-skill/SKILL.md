@@ -75,3 +75,7 @@ Read `docs/KN-FP13-CONCORDANCE.md` when querying the expanded source layer. Pres
 
 ## Private pre-reveal byte binding
 Read `docs/CALIBRATION-FREEZE-2026-10-14.md` and `research/calibration-recheck-2026-10-14.json`. Use `scripts/freeze_calibration_run.py` only on private aligned packages outside the repository. Retain competing analyses and reject ambiguous/unmatched scope, altered digests and file aliases. A freeze receipt hashes sealed answers without parsing them; it grants no reveal, source authority, rights acceptance, valid scoring or calibration. Synthetic tests are engineering fixtures, never gold. Current public-route availability is not linked annotation delivery or certified graphical geometry. Keep all native calibration and scientific gates blocked until their actual prerequisites are satisfied.
+
+## Published DAMOS identifier example — 14 October 2026
+
+Read `research/damos-published-id-example-2026-10-14.json` and `docs/DAMOS-PUBLISHED-ID-EXAMPLE.md`. The inspected 2025 appendix provides one published item ID and seven ID-bearing units: five lexical words, one logogram, one numeral. These are publication-local identifiers, not a delivered same-snapshot crosswalk, linked linguistic gold or certified graphical evidence. Never align by text or ordinal, convert all seven to lexical words, or infer current source delivery from a paper example. Calibration remains unexecuted; delivery requests remain unsent. Component rights stay separate.

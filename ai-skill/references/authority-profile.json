@@ -157,6 +157,21 @@
       "role": "calibration_freeze",
       "path": "research/calibration-recheck-2026-10-14.json",
       "required": true
+    },
+    {
+      "path": "research/damos-published-id-example-2026-10-14.json",
+      "role": "primary_source_reconciliation",
+      "required": true
+    },
+    {
+      "path": "docs/DAMOS-PUBLISHED-ID-EXAMPLE.md",
+      "role": "primary_source_reconciliation",
+      "required": true
+    },
+    {
+      "path": "scripts/validate_published_id_example.py",
+      "role": "primary_source_reconciliation",
+      "required": true
     }
   ],
   "schema_version": "1.0"

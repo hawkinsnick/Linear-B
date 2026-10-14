@@ -1,0 +1,146 @@
+{
+  "format": "linear-b-published-id-example-v1",
+  "checked": "2026-10-14",
+  "source": {
+    "citation": "Aurora, Nedić, Nesøen and Haug (2025), Exporting Mycenaean, DOI 10.5617/dhnbpub.12295",
+    "url": "https://journals.uio.no/dhnbpub/article/download/12295/10165",
+    "sha256": "0a38522838256cdf8fbb94238ffc35dc5dbd382a1acf21b52160b6549b6e3c93",
+    "printed_pages": [
+      10,
+      11
+    ],
+    "pdf_ordinals": [
+      10,
+      11
+    ],
+    "inspection": "DIRECT_RENDERED_PDF_APPENDIX",
+    "snapshot": "PUBLISHED_APPENDIX_2025_NOT_LIVE_EXPORT",
+    "license": "CC-BY-4.0",
+    "rights_evidence": "Publisher article page meta DC.Rights and displayed CC-BY-4.0 terms; applies to the paper component only"
+  },
+  "document": {
+    "published_xml_id": "PY-Ae-27",
+    "published_damos_item_id": "4307",
+    "standard_label": "PY Ae(1) 27",
+    "locator": "p.10 XML lines 3,11–14",
+    "same_version_join_to_project_observations_verified": false
+  },
+  "units": [
+    {
+      "published_xml_id": "pwid21195",
+      "element": "w",
+      "source_line": "a",
+      "published_xml_line": 55,
+      "category": "lexical_word",
+      "locator": "p.11 appendix XML line 55",
+      "linguistic_annotation_acquired": false
+    },
+    {
+      "published_xml_id": "pwid21197",
+      "element": "w",
+      "source_line": "a",
+      "published_xml_line": 63,
+      "category": "lexical_word",
+      "locator": "p.11 appendix XML line 63",
+      "linguistic_annotation_acquired": false
+    },
+    {
+      "published_xml_id": "pwid21198",
+      "element": "w",
+      "source_line": "b",
+      "published_xml_line": 65,
+      "category": "lexical_word",
+      "locator": "p.11 appendix XML line 65",
+      "linguistic_annotation_acquired": false
+    },
+    {
+      "published_xml_id": "pwid21200",
+      "element": "w",
+      "source_line": "b",
+      "published_xml_line": 70,
+      "category": "lexical_word",
+      "locator": "p.11 appendix XML line 70",
+      "linguistic_annotation_acquired": false
+    },
+    {
+      "published_xml_id": "pwid21201",
+      "element": "w",
+      "source_line": "b",
+      "published_xml_line": 71,
+      "category": "lexical_word",
+      "locator": "p.11 appendix XML line 71",
+      "linguistic_annotation_acquired": false
+    },
+    {
+      "published_xml_id": "pwid110",
+      "element": "w",
+      "source_line": "b",
+      "published_xml_line": 74,
+      "category": "logogram",
+      "locator": "p.11 appendix XML line 74",
+      "linguistic_annotation_acquired": false
+    },
+    {
+      "published_xml_id": "pwid21203",
+      "element": "num",
+      "source_line": "b",
+      "published_xml_line": 75,
+      "category": "numeral",
+      "locator": "p.11 appendix XML line 75",
+      "linguistic_annotation_acquired": false
+    }
+  ],
+  "source_payload_current_export_acquired": false,
+  "current_snapshot_word_crosswalk_acquired": false,
+  "linked_linguistic_gold_acquired": false,
+  "certified_graphical_occurrences_acquired": false,
+  "calibration_executed": false,
+  "messages_sent": false,
+  "ordinary_http_receipts": [
+    {
+      "name": "damos-paper",
+      "url": "https://journals.uio.no/dhnbpub/article/view/12295",
+      "resolved_url": "https://journals.uio.no/dhnbpub/article/view/12295",
+      "status": 200,
+      "bytes": 30596,
+      "sha256": "b91a79bfab93e39c2d700f5be896441190d3a7cf037f44fb26875f85ca4f4d8b"
+    },
+    {
+      "name": "damos-howto",
+      "url": "https://damos.hf.uio.no/howto",
+      "resolved_url": "https://damos.hf.uio.no/howto",
+      "status": 200,
+      "bytes": 10658,
+      "sha256": "55adf2b053e9bc008e6a5c1984d4bc995b109f12a3f9dabedf105ab90e5fab1d"
+    },
+    {
+      "name": "damos-news",
+      "url": "https://damos.hf.uio.no/news/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "liber",
+      "url": "https://liber.cnr.it/",
+      "resolved_url": "https://liber.cnr.it/",
+      "status": 200,
+      "bytes": 46115,
+      "sha256": "338fd7116779a301e61de53cb2ff0755fb95e8d3ec801e16cc706065b556aed0"
+    },
+    {
+      "name": "calibra",
+      "url": "https://calibra.classics.cam.ac.uk/Home/About",
+      "error": "HTTP Error 502: Bad Gateway"
+    }
+  ],
+  "frontend_check": {
+    "url": "https://damos.hf.uio.no/dist/static/js/main.c7ff754d.js",
+    "sha256": "94b66cf940a1435ad7dfa46bf9253e90f617940531484e679beffd5f91f679ff",
+    "scope": "Public homepage-linked bundle only; no EpiDoc or annotation link identified in that inspected bundle; not proof of global endpoint absence"
+  },
+  "limits": [
+    "Seven ID-bearing units comprise five lexical words, one logogram and one numeral. Do not count all seven as lexical words.",
+    "Opaque published IDs stay literal. Never reconstruct item or word IDs from ordering, normalized words, public labels or filename similarity.",
+    "The published 2025 sample is not a same-version join to the project observation snapshot and is not linguistic gold.",
+    "Publication CC-BY-4.0 does not replace DAMOS CC-BY-NC-SA-4.0 data terms or photograph permissions."
+  ]
+}

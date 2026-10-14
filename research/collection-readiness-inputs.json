@@ -45,6 +45,9 @@
     "research/source-action-plan.json",
     "research/source-route-check-2026-10-11.json",
     "scripts/prepare_calibration_inputs.py",
-    "sources/registry.json"
+    "sources/registry.json",
+    "research/damos-published-id-example-2026-10-14.json",
+    "docs/DAMOS-PUBLISHED-ID-EXAMPLE.md",
+    "scripts/validate_published_id_example.py"
   ]
 }

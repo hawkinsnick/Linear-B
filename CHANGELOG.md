@@ -45,3 +45,7 @@ See [docs/KN-FP13-CONCORDANCE.md](docs/KN-FP13-CONCORDANCE.md) for the expanded 
 
 ## 2026-10-14 — private calibration freeze control
 Added exact-source-bound pre-reveal byte binding, nine engineering regression tests and dated source-route receipts. No annotation gold, graphical certification, gold reveal or calibration result.
+
+## Published DAMOS identifier example — 14 October 2026
+
+Read `research/damos-published-id-example-2026-10-14.json` and `docs/DAMOS-PUBLISHED-ID-EXAMPLE.md`. The inspected 2025 appendix provides one published item ID and seven ID-bearing units: five lexical words, one logogram, one numeral. These are publication-local identifiers, not a delivered same-snapshot crosswalk, linked linguistic gold or certified graphical evidence. Never align by text or ordinal, convert all seven to lexical words, or infer current source delivery from a paper example. Calibration remains unexecuted; delivery requests remain unsent. Component rights stay separate.
