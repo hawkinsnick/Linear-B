@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "e18d817d3b80751372d9e1389f91e080a6e554db",
-  "generated_at_utc": "2026-10-14T15:03:03+00:00",
+  "source_commit": "9493b9372b79e8609098017148435201a0625587",
+  "generated_at_utc": "2026-10-14T17:44:33+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,24 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "published_id_example",
+      "path": "research/damos-published-id-example-2026-10-14.json",
+      "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+      "bytes": 5034
+    },
+    {
+      "role": "published_id_example",
+      "path": "docs/DAMOS-PUBLISHED-ID-EXAMPLE.md",
+      "sha256": "fe8d8c200cf691f0184147bd19cece2d58df7954cde5b1d33ab5d94fda72e729",
+      "bytes": 2171
+    },
+    {
+      "role": "published_id_example",
+      "path": "scripts/validate_published_id_example.py",
+      "sha256": "2bbbf0e7afc2337502f5d382bd9244325e8a4d0b96d25c904e5046011ca3f9e3",
+      "bytes": 1371
+    },
     {
       "role": "calibration_freeze",
       "path": "scripts/freeze_calibration_run.py",
@@ -142,8 +160,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "7041f564a187f13d0b338c68500e941349748271bd88c7825f4c529fa4f6af63",
-      "bytes": 8711
+      "sha256": "493674ad3337baadf4c90ad3c55496d92dff60dcf30dd6b18b271723cc976eae",
+      "bytes": 9364
     },
     {
       "role": "current_summary_builder",
@@ -166,13 +184,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "acc8c5e22405fa0a9655d91abf133a10cdf9ea1fca52035a62fe1cc9d8a3d5be",
-      "bytes": 27228
+      "sha256": "21ca12a41aa97e926cc59dfa5580ae3cb84ce7b1bfbbb8356afcaaa6940c05f6",
+      "bytes": 29794
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "4f9c5191a587833d81fe61d2e18d6a15f1d60929609d8ff8fa226e49c0d49cd3",
+      "sha256": "b0599ca604506d81f4d9f93b7bc1a9bb261b9ab122509b0ceb6d7a847b91e4fa",
       "bytes": 1841
     },
     {
