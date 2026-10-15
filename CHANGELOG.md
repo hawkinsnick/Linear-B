@@ -49,3 +49,7 @@ Added exact-source-bound pre-reveal byte binding, nine engineering regression te
 ## Published DAMOS identifier example — 14 October 2026
 
 Read `research/damos-published-id-example-2026-10-14.json` and `docs/DAMOS-PUBLISHED-ID-EXAMPLE.md`. The inspected 2025 appendix provides one published item ID and seven ID-bearing units: five lexical words, one logogram, one numeral. These are publication-local identifiers, not a delivered same-snapshot crosswalk, linked linguistic gold or certified graphical evidence. Never align by text or ordinal, convert all seven to lexical words, or infer current source delivery from a paper example. Calibration remains unexecuted; delivery requests remain unsent. Component rights stay separate.
+
+## 2026-10-15 — Native evidence and alternative-reading queries
+
+Added pinned native evidence profiles, exact-ID/JSON-pointer queries, coverage replay, loss/corruption/identity/path tests and CI. Updated researcher documentation, AI instructions and evidence bundle indexing. Existing source data and scientific acceptance states are unchanged.
