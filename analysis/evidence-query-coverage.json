@@ -1,0 +1,124 @@
+{
+  "format": "corpus-native-evidence-query-coverage-v1",
+  "repository": "hawkinsnick/Linear-B",
+  "profile_sha256": "65379e1ef3456ce38cd8015a3c05b3264ab0749871dd0d064b3c8c9cb09a4ec8",
+  "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+  "collections": [
+    {
+      "name": "published-appendix-document",
+      "native_unit": "published appendix document example",
+      "record_count": 1,
+      "scope": "One 2025 publication example, not the current DAMOS observation corpus.",
+      "example_ids": [
+        "PY-Ae-27"
+      ],
+      "provenance": {
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/document",
+        "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46",
+        "role": "published-appendix-document, published-appendix-units",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "published-appendix-units",
+      "native_unit": "published XML-ID unit",
+      "record_count": 7,
+      "scope": "Five lexical words, one logogram and one numeral; not seven lexical words.",
+      "example_ids": [
+        "pwid21195",
+        "pwid21197",
+        "pwid21198"
+      ],
+      "provenance": {
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/units",
+        "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46",
+        "role": "published-appendix-document, published-appendix-units",
+        "encoding": "json"
+      }
+    }
+  ],
+  "context_resources": [
+    {
+      "path": "research/damos-published-id-example-2026-10-14.json",
+      "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46",
+      "role": "published-appendix-document, published-appendix-units",
+      "encoding": "json"
+    },
+    {
+      "path": "research/deep-evidence-manifest.json",
+      "sha256": "410b9cbbef2d0e55e2cd6428ba644f0cd5383ff89d204ea8f83f392a3a007ff5",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/damos-authority-v1.json",
+      "sha256": "5e371c0f7cb43b09c37b456aad4d56b6d9ec1ed38df28090392425ef01f59a18",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/source-access-delivery-2026-10-12.json",
+      "sha256": "ef20df987c21cdf3dfeeaeaf9cf13e5bea4615dcaf6866ac8fdb064ba9b7e5c6",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/kn-fp13-object-concordance.json",
+      "sha256": "bdd1a7d2ddce5b1dfc0d427ef492cba0131728259f8e5e6ccec90a3ace060a36",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/blind-field-policy.json",
+      "sha256": "4512d63c836c02270ce56d31572c4f8443c3eba8f2522de6c3cca1497caf0ac8",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/document-identity-lineage.json",
+      "sha256": "a7674548c769241aeab64cc6c46f05fa2c9f2c19d8b3c569b8551d09bd7eeb9b",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "text"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "1272b63e1437e4434a90b774d209aac88209e79ee4e1aa7e9fd2e140cfb671fa",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "text"
+    }
+  ],
+  "scholarly_limits": [
+    "The 5,932 authenticated observations are not committed as a record collection in this checkout; this profile does not relabel publication examples as those observations. No gold reveal, private export inspection, same-snapshot word crosswalk or calibration is performed."
+  ],
+  "alternative_pair_count": null,
+  "independent_witness_count": null,
+  "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool."
+}
