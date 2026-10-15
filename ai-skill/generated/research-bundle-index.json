@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "9493b9372b79e8609098017148435201a0625587",
-  "generated_at_utc": "2026-10-14T17:44:33+00:00",
+  "source_commit": "dda70d3dd616d8fbb409df238c89e5b1c7497e67",
+  "generated_at_utc": "2026-10-15T01:47:46+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,36 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "native_evidence_profile",
+      "path": "research/evidence-query-profile.json",
+      "sha256": "65379e1ef3456ce38cd8015a3c05b3264ab0749871dd0d064b3c8c9cb09a4ec8",
+      "bytes": 3349
+    },
+    {
+      "role": "native_evidence_coverage",
+      "path": "analysis/evidence-query-coverage.json",
+      "sha256": "1ba9d07058a20a167e6cb090824a13aef63e199b0cf76942b4f4bedf4550b01c",
+      "bytes": 5607
+    },
+    {
+      "role": "native_evidence_query",
+      "path": "scripts/evidence_query.py",
+      "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+      "bytes": 11289
+    },
+    {
+      "role": "native_evidence_query_tests",
+      "path": "scripts/test_native_evidence_query.py",
+      "sha256": "ddd2af2ce39904014c8a58122278e524e7ae9d504c47218e26f1ba581bb581f4",
+      "bytes": 6771
+    },
+    {
+      "role": "native_evidence_guide",
+      "path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "sha256": "02371c1ca8183c634afa6768b124b5638d8a73fc719cfbf26fd67e1a69f8bb67",
+      "bytes": 3991
+    },
     {
       "role": "published_id_example",
       "path": "research/damos-published-id-example-2026-10-14.json",
@@ -160,8 +190,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "493674ad3337baadf4c90ad3c55496d92dff60dcf30dd6b18b271723cc976eae",
-      "bytes": 9364
+      "sha256": "030481986f495034579d1dd01d18fb8820bc4ead74017639f686b5d6455d5cfa",
+      "bytes": 9833
     },
     {
       "role": "current_summary_builder",
