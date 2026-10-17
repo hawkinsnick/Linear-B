@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "86ce13917770dc47e10f7e3b18c1853a1bf3311f",
-  "generated_at_utc": "2026-10-17T01:06:51+00:00",
+  "source_commit": "9ed04f9315dd9c48bd98219cef073902976de0dc",
+  "generated_at_utc": "2026-10-17T11:11:32+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -220,8 +220,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "e72d12cbd0787a74214e7115689e22b12b9065de0af0a5c8e963876b705165b3",
-      "bytes": 10245
+      "sha256": "8bf09d399e3027a7c4cc6b02ce6208ef855b383d7c27b3f183c31e94859ddd4c",
+      "bytes": 10500
     },
     {
       "role": "current_summary_builder",
@@ -286,8 +286,8 @@
     {
       "role": "rights_and_licensing",
       "path": "docs/RIGHTS-AND-LICENSING.md",
-      "sha256": "a493b586a19e96de6e321355f275ac493ad09a7a10301ef78c84df2edb38941f",
-      "bytes": 972
+      "sha256": "65809050c553a152a8f4ddbff5de54af11bcf8db820211ee53ffd1cc31354ddc",
+      "bytes": 1630
     },
     {
       "role": "notice",
@@ -316,8 +316,68 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "fbe847d33f6d6886c0b0704821eab4504454e45a8c9af4900b802731655d33e0",
+      "sha256": "57be84351b1251d498fc8e8ead4bf3f4965b37dbd13e6e2f689922b3991cbfb3",
       "bytes": 6923
+    },
+    {
+      "role": "specialist_task_pilot",
+      "path": "scripts/task_pilot.py",
+      "sha256": "de580fef425bee688f6871abb7f99f0ad9473366ceddc09ae8ee8f19c9f52419",
+      "bytes": 9045
+    },
+    {
+      "role": "specialist_task_pilot",
+      "path": "scripts/test_task_pilot.py",
+      "sha256": "b770bbc312098267c99cb98bcff6aa1e672708a1b5b6c17ab2c6d7ece16e4b89",
+      "bytes": 4123
+    },
+    {
+      "role": "specialist_task_pilot",
+      "path": "docs/RESEARCH-TASK-PILOT.md",
+      "sha256": "87fb74ecf024343c9f5f58c04090f7170e658e0ec7a295625afe1721d3323081",
+      "bytes": 6141
+    },
+    {
+      "role": "specialist_task_pilot",
+      "path": "analysis/task-pilot-example.json",
+      "sha256": "10762135609f377b7eada03e0da2deeaaf380447f4382d7ca29f45a7698941c3",
+      "bytes": 3403
+    },
+    {
+      "role": "specialist_task_pilot",
+      "path": "research/task-pilot.json",
+      "sha256": "a4f339eba2097bb619a5e8559e1b4a1a5fe89d77b94aee6ac2776e0528d38f90",
+      "bytes": 2059
+    },
+    {
+      "role": "specialist_task_pilot",
+      "path": "ai-skill/SKILL.md",
+      "sha256": "27b9350d4ebb1b6b1dc915ac13811ca77c4c940a684ff8bddedc29d72c2ede36",
+      "bytes": 14240
+    },
+    {
+      "role": "specialist_task_pilot",
+      "path": "research/blind-field-policy.json",
+      "sha256": "4512d63c836c02270ce56d31572c4f8443c3eba8f2522de6c3cca1497caf0ac8",
+      "bytes": 1396
+    },
+    {
+      "role": "specialist_task_pilot",
+      "path": "scripts/blind_field_policy.py",
+      "sha256": "e95729bd9c1f3d83b1ba54999cb791524b89363a4f996b80af44946c146247b6",
+      "bytes": 498
+    },
+    {
+      "role": "specialist_task_pilot",
+      "path": "scripts/build_observation_corpus.py",
+      "sha256": "5920925336e1c341dbf1c6e5782b3bc5608daed5ee9e8e8c362860aabd354e21",
+      "bytes": 2334
+    },
+    {
+      "role": "specialist_task_pilot",
+      "path": "sources/damos-v2.json",
+      "sha256": "4b0c7e22afc5b809b2a3aa936ce94385b3f3cfbf254ecc24e6c706722369053d",
+      "bytes": 952
     }
   ]
 }
