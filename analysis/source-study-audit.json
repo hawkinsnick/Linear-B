@@ -1,0 +1,26 @@
+{
+  "format": "specialist-source-study-audit-v1",
+  "repository": "hawkinsnick/Linear-B",
+  "study_id": "LB-ANNOTATION-ACQUISITION-20261017",
+  "study_sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+  "code_sha256": "2174833f4857bc0916afe1137134cc530e737b5700e8dfb5e93f395446311935",
+  "source_count": 4,
+  "claim_count": 2,
+  "result_status": "LIVE_IDENTITY_PROGRESS_ANNOTATION_DELIVERY_STILL_REQUIRED",
+  "packet_status": "PREPARED_NOT_REVIEWED",
+  "reviewer": null,
+  "expert_acceptance_added": false,
+  "inputs": [
+    {
+      "path": "research/task-pilot.json",
+      "sha256": "a4f339eba2097bb619a5e8559e1b4a1a5fe89d77b94aee6ac2776e0528d38f90",
+      "role": "frozen pilot scope"
+    },
+    {
+      "path": "research/damos-live-pilot-2026-10-17.json",
+      "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60",
+      "role": "live identity projection"
+    }
+  ],
+  "source_replay_required_for_primary_verification": true
+}

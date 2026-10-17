@@ -55,3 +55,6 @@ For review, supply the exact result, source/version, code/spec hashes and this q
 ## Validation scope
 
 Eight adversarial software tests cover offsets/overlaps, field whitelisting, marker scope, exact Unicode, missing data, source/identity/scope rejection and HTML escaping. The real source example was executed and replayed byte-for-byte. Neither checks a primary edition nor supplies linguistic calibration or expert validation. Native scientific gates remain unchanged.
+
+
+Subsequent bounded source work: [Source study and specialist handoff](SOURCE-STUDY-2026-10-17.md). Its scope and evidence are separate from this historical pilot.

@@ -108,3 +108,8 @@ redistribution rights. Label any model-generated analysis separately and cite it
 ## Specialist task pilot
 
 Read `docs/RESEARCH-TASK-PILOT.md`, `research/task-pilot.json` and `analysis/task-pilot-example.json` for the 25-record Pylos retrieval pilot. Reproduce full local results with `scripts/task_pilot.py`; public receipts omit transcription payloads. Report literal Unicode matches and whole-record marker-screen counts separately, never as secure readings, names or people. Hand labels are source assertions. Numeric document IDs, source JSON pointers and code-point spans are not source word IDs, physical identities or edition lines. Require admitted linguistic evidence and separate identity assertions before prosopographical claims; keep interpretation outside blinded calibration. Retain upstream CC BY-NC-SA terms and local-only result defaults. No named scholar participation, endorsement or independent review is established by the pilot.
+
+
+## Source study and review handoff (2026-10-17)
+
+Route source-study questions through `docs/SOURCE-STUDY-2026-10-17.md`, `research/source-study-2026-10-17.json` and the native evidence-query `source-study` collection. Preserve source attribution, exact locators, reuse terms and uncertainty. The prepared `review/source-study-packet.json` and draft response do not establish specialist participation or acceptance. No canonical readings or calibration results are added by this study.

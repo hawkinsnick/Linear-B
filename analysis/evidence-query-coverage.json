@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Linear-B",
-  "profile_sha256": "47a4c6b406cedd281bf4ae39fea58cf2a54dba95edd9a9436fa74dc100ed409e",
+  "profile_sha256": "61a39cf47f560764d456d0bc40fb238c5baa0b73260a0171eff09b9baecb8958",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -55,6 +55,42 @@
         "pointer": "/cases",
         "native_artifacts_snapshot_commit": null,
         "role": "bounded attribution review",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "source-study",
+      "native_unit": "bounded source-acquisition or scholarly-argument study",
+      "record_count": 1,
+      "scope": "Source-specific assertions and qualifications; not canonical readings, objects, gold or independent review.",
+      "example_ids": [
+        "LB-ANNOTATION-ACQUISITION-20261017"
+      ],
+      "provenance": {
+        "path": "research/source-study-2026-10-17.json",
+        "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "live-damos-identities",
+      "native_unit": "live source identity/context projection",
+      "record_count": 26,
+      "scope": "25 pilot IDs plus one paper-example ID; not same-version word alignment, physical identity or linguistic annotations.",
+      "example_ids": [
+        "4165",
+        "4166",
+        "4167"
+      ],
+      "provenance": {
+        "path": "research/damos-live-pilot-2026-10-17.json",
+        "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60",
+        "pointer": "/rows",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
         "encoding": "json"
       }
     }
@@ -139,11 +175,28 @@
       "native_artifacts_snapshot_commit": null,
       "role": "bounded attribution review",
       "encoding": "json"
+    },
+    {
+      "path": "research/source-study-2026-10-17.json",
+      "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "bounded directly consulted source study",
+      "encoding": "json"
+    },
+    {
+      "path": "research/damos-live-pilot-2026-10-17.json",
+      "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "bounded directly consulted source study",
+      "encoding": "json"
     }
   ],
   "scholarly_limits": [
     "The 5,932 authenticated observations are not committed as a record collection in this checkout; this profile does not relabel publication examples as those observations. No gold reveal, private export inspection, same-snapshot word crosswalk or calibration is performed.",
-    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+    "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance."
   ],
   "alternative_pair_count": null,
   "independent_witness_count": null,

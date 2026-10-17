@@ -26,6 +26,23 @@
       "id_pointer": "/review_id",
       "unit": "bounded documentary attribution review task",
       "scope": "Two documentary controls: the published DAMOS example is not the live observation snapshot, and the Cambridge cast is not a second ancient witness. No native alternative apparatus is supplied by these packets."
+    },
+    {
+      "name": "source-study",
+      "path": "research/source-study-2026-10-17.json",
+      "pointer": "",
+      "id_pointer": "/study_id",
+      "singleton": true,
+      "unit": "bounded source-acquisition or scholarly-argument study",
+      "scope": "Source-specific assertions and qualifications; not canonical readings, objects, gold or independent review."
+    },
+    {
+      "name": "live-damos-identities",
+      "path": "research/damos-live-pilot-2026-10-17.json",
+      "pointer": "/rows",
+      "id_pointer": "/source_record_id",
+      "unit": "live source identity/context projection",
+      "scope": "25 pilot IDs plus one paper-example ID; not same-version word alignment, physical identity or linguistic annotations."
     }
   ],
   "relations": [],
@@ -99,11 +116,26 @@
       "encoding": "json",
       "role": "bounded attribution review",
       "source_snapshot_commit": null
+    },
+    {
+      "path": "research/source-study-2026-10-17.json",
+      "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+      "encoding": "json",
+      "role": "bounded directly consulted source study",
+      "source_snapshot_commit": null
+    },
+    {
+      "path": "research/damos-live-pilot-2026-10-17.json",
+      "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60",
+      "encoding": "json",
+      "role": "bounded directly consulted source study",
+      "source_snapshot_commit": null
     }
   ],
   "scholarly_limits": [
     "The 5,932 authenticated observations are not committed as a record collection in this checkout; this profile does not relabel publication examples as those observations. No gold reveal, private export inspection, same-snapshot word crosswalk or calibration is performed.",
-    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+    "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance."
   ],
   "native_artifacts_snapshot_commit": null,
   "snapshot_commit_scope": "Mixed inputs retain their per-artifact anchors. New original review artifacts are byte-pinned and identified by published repository history, not assigned to an earlier commit."

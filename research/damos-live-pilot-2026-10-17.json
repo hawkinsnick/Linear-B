@@ -1,0 +1,1199 @@
+{
+  "retrieved_utc": "2026-10-17T15:12:56.085352+00:00",
+  "requests": 26,
+  "rows": [
+    {
+      "source_record_id": "4165",
+      "url": "https://damos.hf.uio.no/ajaxitem/4165/",
+      "status": 200,
+      "raw_sha256": "5deb587b85c6b1a4383131f73d9973938e6582931ad094a95f5ddd99ff5c5a2b",
+      "raw_bytes": 6222,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4165"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 60 $60$ (4)",
+        "heading_short": "PY Aa(1) 60",
+        "heading_short_new": "PY Aa 60(1)",
+        "inventory": "NMA (23372)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "4",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1322B + 8.1332 + 8.1366",
+        "Inv. no.": "NMA (23372)"
+      },
+      "bibliography": [
+        "Doria(1965) 1"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4166",
+      "url": "https://damos.hf.uio.no/ajaxitem/4166/",
+      "status": 200,
+      "raw_sha256": "9ed807f0fc9723db49ea47fa65e61423c759ec3b3263ca721acad0110fb6ad7a",
+      "raw_bytes": 6285,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4166"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 61 $60$ (4)",
+        "heading_short": "PY Aa(1) 61",
+        "heading_short_new": "PY Aa 61(1)",
+        "inventory": "NMA (23373)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "4",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1322B + 8.1303B + 8.1312B + 8.1325B",
+        "Inv. no.": "NMA (23373)"
+      },
+      "bibliography": [
+        "Interpretation1 1T",
+        "Kasussystem 157"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4167",
+      "url": "https://damos.hf.uio.no/ajaxitem/4167/",
+      "status": 200,
+      "raw_sha256": "6d9bfb720d5f0d4f03662ac27228527f58b60f70464a73ffe2ef935eeadabb7f",
+      "raw_bytes": 6185,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4167"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 62 $60$ (4)",
+        "heading_short": "PY Aa(1) 62",
+        "heading_short_new": "PY Aa 62(1)",
+        "inventory": "NMA (23374)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "4",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1322B + 8.1312B",
+        "Inv. no.": "NMA (23374)"
+      },
+      "bibliography": [
+        "Companion-1 61",
+        "Docs2 1"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4168",
+      "url": "https://damos.hf.uio.no/ajaxitem/4168/",
+      "status": 200,
+      "raw_sha256": "00f41f1930becb174d0ba11777413c111fb9a2716184baa538575393229ee589",
+      "raw_bytes": 6226,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4168"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 63 $60$ (4)",
+        "heading_short": "PY Aa(1) 63",
+        "heading_short_new": "PY Aa 63(1)",
+        "inventory": "NMA (23375)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "4",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1322B + 8.1312B + 8.1303B + 8.B + 8.1332",
+        "Inv. no.": "NMA (23375)"
+      },
+      "bibliography": null,
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4169",
+      "url": "https://damos.hf.uio.no/ajaxitem/4169/",
+      "status": 200,
+      "raw_sha256": "cdb9e95c6790b48e947b9850d16ccb766781bd06b67fdc5d982712853d6431f8",
+      "raw_bytes": 6306,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4169"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 76 $60$ (4)",
+        "heading_short": "PY Aa(1) 76",
+        "heading_short_new": "PY Aa 76(1)",
+        "inventory": "NMA (23382)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "4",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1312B + 8.1324B + 8.1304B + 8.1314B + 8.1325B + 8.1315B",
+        "Inv. no.": "NMA (23382)"
+      },
+      "bibliography": [
+        "Local Cases 79",
+        "Kasussystem 155"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4170",
+      "url": "https://damos.hf.uio.no/ajaxitem/4170/",
+      "status": 200,
+      "raw_sha256": "28ff1dc89478f5ecd7970f852af6bb30b6fe2b537b21587c750ee012bb90879e",
+      "raw_bytes": 6257,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4170"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 85 $60$ (4)",
+        "heading_short": "PY Aa(1) 85",
+        "heading_short_new": "PY Aa 85(1)",
+        "inventory": "NMA (12572)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "4",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1323B + 8.12",
+        "Inv. no.": "NMA (12572)"
+      },
+      "bibliography": [
+        "Manuale(2019) 293",
+        "Introducción(2020) 333",
+        "Introduction 195"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4171",
+      "url": "https://damos.hf.uio.no/ajaxitem/4171/",
+      "status": 200,
+      "raw_sha256": "74ddf28a99e9f29dfe4d79bcf41d247fff9a5fc89a92accecd1f0da11b31557b",
+      "raw_bytes": 6275,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4171"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 89 $60$ (4)",
+        "heading_short": "PY Aa(1) 89",
+        "heading_short_new": "PY Aa 89(1)",
+        "inventory": "NMA (23384)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "4",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1324B + 8.1313B + 8.1304B + 8.1303B",
+        "Inv. no.": "NMA (23384)"
+      },
+      "bibliography": [
+        "Companion-1 19",
+        "Introducción(2020) 333"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4172",
+      "url": "https://damos.hf.uio.no/ajaxitem/4172/",
+      "status": 200,
+      "raw_sha256": "963d15dc26e718cc1e5717d0a4a207deb3cd7f7de8e80519e2238c7e513eaf0b",
+      "raw_bytes": 6201,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4172"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 93 $60$ (4)",
+        "heading_short": "PY Aa(1) 93",
+        "heading_short_new": "PY Aa 93(1)",
+        "inventory": "NMA (23386)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "4",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1304B",
+        "Inv. no.": "NMA (23386)"
+      },
+      "bibliography": [
+        "Local Cases 79",
+        "Kasussystem 155n.196/232"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4173",
+      "url": "https://damos.hf.uio.no/ajaxitem/4173/",
+      "status": 200,
+      "raw_sha256": "cbb9afd04300f9e517e38990478d946bf8c05ed4dd9cc38d6ddf9e78215b0f19",
+      "raw_bytes": 6233,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4173"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 94 $60$ (4)",
+        "heading_short": "PY Aa(1) 94",
+        "heading_short_new": "PY Aa 94(1)",
+        "inventory": "NMA (23387)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "4",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1312B + 8.1313B + 8.1332",
+        "Inv. no.": "NMA (23387)"
+      },
+      "bibliography": [
+        "Kasussystem 232"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4174",
+      "url": "https://damos.hf.uio.no/ajaxitem/4174/",
+      "status": 200,
+      "raw_sha256": "a36b48d8f2e3b5d68e44d971e08274d697f6564ec9950e818258d0685e2be771",
+      "raw_bytes": 6256,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4174"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 95 + fr. $60$ (4)",
+        "heading_short": "PY Aa(1) 95",
+        "heading_short_new": "PY Aa 95(1)",
+        "inventory": "NMA (12598)",
+        "timestamp": "2026-05-20 14:39:51"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "4",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1314B + 8.1315B",
+        "Inv. no.": "NMA (12598)"
+      },
+      "bibliography": null,
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4175",
+      "url": "https://damos.hf.uio.no/ajaxitem/4175/",
+      "status": 200,
+      "raw_sha256": "726de98e119e308f63a91655c8bd6085a836defa927341560583c6686467a96a",
+      "raw_bytes": 6232,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4175"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 96 $60$ (4)",
+        "heading_short": "PY Aa(2) 96",
+        "heading_short_new": "PY Aa 96(2)",
+        "inventory": "NMA (23388)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "1",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1305B + 8.1314B + 8.B",
+        "Inv. no.": "NMA (23388)"
+      },
+      "bibliography": [
+        "Interpretation1 19T"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4176",
+      "url": "https://damos.hf.uio.no/ajaxitem/4176/",
+      "status": 200,
+      "raw_sha256": "33ea876a002a089c75c095b48686c6eb69c21cea4fc2bad0def5f5194c0d0af3",
+      "raw_bytes": 6153,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4176"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 98 $60$ (4)",
+        "heading_short": "PY Aa(1) 98",
+        "heading_short_new": "PY Aa 98(1)",
+        "inventory": "NMA (23389)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "4",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1315B + 8.1314B",
+        "Inv. no.": "NMA (23389)"
+      },
+      "bibliography": null,
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4177",
+      "url": "https://damos.hf.uio.no/ajaxitem/4177/",
+      "status": 200,
+      "raw_sha256": "1650c057f75c249b8bfaa9e42fdf44c8496e123dd79b75139582de318e87b0aa",
+      "raw_bytes": 6241,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4177"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 240 $240$ (1)",
+        "heading_short": "PY Aa(2) 240",
+        "heading_short_new": "PY Aa 240(2)",
+        "inventory": "NMA (23455)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "1",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1398 + 8.33",
+        "Inv. no.": "NMA (23455)"
+      },
+      "bibliography": [
+        "Ruipérez-Melena(1990) 225",
+        "Melena(2001) 21",
+        "Docs2 4"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4178",
+      "url": "https://damos.hf.uio.no/ajaxitem/4178/",
+      "status": 200,
+      "raw_sha256": "2c36c28ae04974a12703ccd5cb83611bd4962a6a8fd576727fe35a40c1e3d724",
+      "raw_bytes": 6220,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4178"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 313 $240$ (1)",
+        "heading_short": "PY Aa(2) 313",
+        "heading_short_new": "PY Aa 313(2)",
+        "inventory": "NMA (23496)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "1",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.2310 + 8.2333 + 8.2355",
+        "Inv. no.": "NMA (23496)"
+      },
+      "bibliography": null,
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4179",
+      "url": "https://damos.hf.uio.no/ajaxitem/4179/",
+      "status": 200,
+      "raw_sha256": "9b72ab09cc120f1c205fd66a23f7358bba2dde478d9caf56962a1a435876f18e",
+      "raw_bytes": 6154,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4179"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 354 $240$ (1)",
+        "heading_short": "PY Aa(2) 354",
+        "heading_short_new": "PY Aa 354(2)",
+        "inventory": "NMA (23527)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "1",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.2333",
+        "Inv. no.": "NMA (23527)"
+      },
+      "bibliography": null,
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4180",
+      "url": "https://damos.hf.uio.no/ajaxitem/4180/",
+      "status": 200,
+      "raw_sha256": "f784bf3688b0ef685a022d642535013a7a713890e2e384b2d44ac2a32ee43d8e",
+      "raw_bytes": 6079,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4180"
+      },
+      "reported_metadata": {
+        "heading": "PY Aa 506 $240$ (1)",
+        "heading_short": "PY Aa(2) 506",
+        "heading_short_new": "PY Aa 506(2)",
+        "inventory": "NMA (23619)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "1",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.2328",
+        "Inv. no.": "NMA (23619)"
+      },
+      "bibliography": null,
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4214",
+      "url": "https://damos.hf.uio.no/ajaxitem/4214/",
+      "status": 200,
+      "raw_sha256": "dc65a2a2174a67690d3c8952adcb27905e4d7b4b1fafed0c672f3fad7bfb7e6e",
+      "raw_bytes": 6682,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4214"
+      },
+      "reported_metadata": {
+        "heading": "PY Ab 186 $186$ (21)",
+        "heading_short": "PY Ab(-) 186",
+        "heading_short_new": "PY Ab 186(-)",
+        "inventory": "NMA (23428)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "21",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.2299 + 8.3346",
+        "Inv. no.": "NMA (23428)"
+      },
+      "bibliography": null,
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4215",
+      "url": "https://damos.hf.uio.no/ajaxitem/4215/",
+      "status": 200,
+      "raw_sha256": "c6575a7945c45400d97f4f06ca2c37ddcf797415af6b5c62e46fe59045d70250",
+      "raw_bytes": 6725,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4215"
+      },
+      "reported_metadata": {
+        "heading": "PY Ab 189 $186$ (21)",
+        "heading_short": "PY Ab(-) 189",
+        "heading_short_new": "PY Ab 189(-)",
+        "inventory": "NMA (23430)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "21",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.2390",
+        "Inv. no.": "NMA (23430)"
+      },
+      "bibliography": [
+        "Introducción(2020) 333",
+        "Introduction 195"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4216",
+      "url": "https://damos.hf.uio.no/ajaxitem/4216/",
+      "status": 200,
+      "raw_sha256": "146013460007878901a0af0ca022fe06c0f7b658395f3d1c2234146422ae00c0",
+      "raw_bytes": 6916,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4216"
+      },
+      "reported_metadata": {
+        "heading": "PY Ab 190 $186$ (21)",
+        "heading_short": "PY Ab(-) 190",
+        "heading_short_new": "PY Ab 190(-)",
+        "inventory": "NMA (23431)",
+        "timestamp": "2026-05-20 14:39:51"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "21",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.2380 + 8.3325",
+        "Inv. no.": "NMA (23431)"
+      },
+      "bibliography": [
+        "Interpretation1 14T"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4217",
+      "url": "https://damos.hf.uio.no/ajaxitem/4217/",
+      "status": 200,
+      "raw_sha256": "b467651e1e9ecae22e0ea9400f169e32e1de005adf623334879f4993f9d10b0e",
+      "raw_bytes": 6860,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4217"
+      },
+      "reported_metadata": {
+        "heading": "PY Ab 194 $186$ (21)",
+        "heading_short": "PY Ab(-) 194",
+        "heading_short_new": "PY Ab 194(-)",
+        "inventory": "NMA (23434)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "21",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.3312 + 8.3302 + 8.3301 + 8.3334 + 8.3332",
+        "Inv. no.": "NMA (23434)"
+      },
+      "bibliography": [
+        "Companion-1 218"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4218",
+      "url": "https://damos.hf.uio.no/ajaxitem/4218/",
+      "status": 200,
+      "raw_sha256": "85f70dae5693f48f531ece5d6243e35887c1312ca42b5ff950b309d19dd6380f",
+      "raw_bytes": 6710,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4218"
+      },
+      "reported_metadata": {
+        "heading": "PY Ab 210 $186$ (21)",
+        "heading_short": "PY Ab(-) 210",
+        "heading_short_new": "PY Ab 210(-)",
+        "inventory": "NMA (23444)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "21",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.2278",
+        "Inv. no.": "NMA (23444)"
+      },
+      "bibliography": [
+        "Doria(1965) 5",
+        "Introducción(2020) 334"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4219",
+      "url": "https://damos.hf.uio.no/ajaxitem/4219/",
+      "status": 200,
+      "raw_sha256": "daa4c72f8fc8008139cd0cfb6c3a6dd9a04bdde083ea405bfd5fddbd462e69a8",
+      "raw_bytes": 6892,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4219"
+      },
+      "reported_metadata": {
+        "heading": "PY Ab 217 $186$ (21)",
+        "heading_short": "PY Ab(-) 217",
+        "heading_short_new": "PY Ab 217(-)",
+        "inventory": "NMA (23447)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "21",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1395 + 8.2320 + 8.2314",
+        "Inv. no.": "NMA (23447)"
+      },
+      "bibliography": null,
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4220",
+      "url": "https://damos.hf.uio.no/ajaxitem/4220/",
+      "status": 200,
+      "raw_sha256": "575b6719e85f7744ef5d7ad8b269081a12b86b084ee771af1e8e835bad2d1a95",
+      "raw_bytes": 6605,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4220"
+      },
+      "reported_metadata": {
+        "heading": "PY Ab 277 $186$ (21)",
+        "heading_short": "PY Ab(-) 277",
+        "heading_short_new": "PY Ab 277(-)",
+        "inventory": "NMA (23473)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "21",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.1319B + 8.1366 + 8.1367 + 8.1359 + 8.23",
+        "Inv. no.": "NMA (23473)"
+      },
+      "bibliography": null,
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4221",
+      "url": "https://damos.hf.uio.no/ajaxitem/4221/",
+      "status": 200,
+      "raw_sha256": "0f6efb137278e10d5ded109cf74951f128cf006014aac2f292d451ee8228701c",
+      "raw_bytes": 6068,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4221"
+      },
+      "reported_metadata": {
+        "heading": "PY Ab 355 $186$ (21)",
+        "heading_short": "PY Ab(-) 355",
+        "heading_short_new": "PY Ab 355(-)",
+        "inventory": "NMA (23528)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "21",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.2322",
+        "Inv. no.": "NMA (23528)"
+      },
+      "bibliography": null,
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4222",
+      "url": "https://damos.hf.uio.no/ajaxitem/4222/",
+      "status": 200,
+      "raw_sha256": "f07ca1e3a33cd8a806589d238159c5c17ef876c8b1f7b2916a91bb6a46ab808c",
+      "raw_bytes": 6783,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4222"
+      },
+      "reported_metadata": {
+        "heading": "PY Ab 356 [+] 1049 $186$ (21)",
+        "heading_short": "PY Ab(-) 356",
+        "heading_short_new": "PY Ab 356(-)",
+        "inventory": "NMA (23529)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "21/42",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.2322 + 8.2333",
+        "Inv. no.": "NMA (23529)"
+      },
+      "bibliography": [
+        "Doria(1965) 6"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    },
+    {
+      "source_record_id": "4307",
+      "url": "https://damos.hf.uio.no/ajaxitem/4307/",
+      "status": 200,
+      "raw_sha256": "bbce17e3727778c78ff12e782886147ff9f0d7ef943edb04f04237d0bb963ce2",
+      "raw_bytes": 6781,
+      "source_id_assertion": {
+        "pointer": "/item/id",
+        "value": "4307"
+      },
+      "reported_metadata": {
+        "heading": "PY Ae 27 $8$ (42)",
+        "heading_short": "PY Ae(1) 27",
+        "heading_short_new": "PY Ae 27(1)",
+        "inventory": "NMA (23350)",
+        "timestamp": "2022-06-12 17:17:55"
+      },
+      "reported_context": {
+        "Site": "Pylos",
+        "Hand": "42",
+        "Find-area": "PY, Room 8",
+        "Find-spot": "8.3155B",
+        "Inv. no.": "NMA (23350)"
+      },
+      "bibliography": [
+        "Companion-1 294",
+        "Introducción(2020) 338"
+      ],
+      "response_top_level_keys": [
+        "bibliography",
+        "item",
+        "legends",
+        "meta"
+      ],
+      "linguistic_annotation_payload_acquired": false,
+      "physical_word_ids_acquired": false,
+      "snapshot_compatibility_with_registered_derivative": null,
+      "physical_identity_certified": false,
+      "rights": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded.",
+      "field_scope": "Allowlisted identity/context only; source content, image links, comment and legend fields not projected.",
+      "baseline_field_comparison": {
+        "site": true,
+        "hand_label": true,
+        "find_area": true,
+        "inventory_number": true
+      }
+    }
+  ],
+  "format": "damos-live-identity-projection-v1",
+  "source_attribution": "Federico Aurora and the DAMOS scholarly/database team, University of Oslo. Registered derivative by Ryan Pavlicek/pyaegean remains a separate source version.",
+  "license": "CC BY-NC-SA 4.0",
+  "derivative_input_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "scope": "25 frozen Pylos pilot source IDs plus the published-example source ID4307. A live source ID and matching metadata do not establish same-snapshot word alignment or physical identity."
+}

@@ -25,6 +25,7 @@ CANDIDATES=[('attribution_review', 'research/attribution-review.json'), ('attrib
 ]
 CANDIDATES += [("research_delivery", p) for p in ['scripts/research_delivery.py','scripts/test_research_delivery.py','docs/RESEARCH-DELIVERY.md','analysis/research-delivery.json']]
 CANDIDATES += [("specialist_task_pilot", p) for p in ['scripts/task_pilot.py', 'scripts/test_task_pilot.py', 'docs/RESEARCH-TASK-PILOT.md', 'analysis/task-pilot-example.json', 'research/task-pilot.json', 'ai-skill/SKILL.md', 'research/blind-field-policy.json', 'scripts/blind_field_policy.py', 'scripts/build_observation_corpus.py', 'sources/damos-v2.json']]
+CANDIDATES += [("bounded_source_study", p) for p in ['research/source-study-2026-10-17.json', 'scripts/source_study.py', 'scripts/test_source_study.py', 'docs/SOURCE-STUDY-2026-10-17.md', 'review/source-study-packet.json', 'review/source-study-response.json', 'analysis/source-study-audit.json', 'research/damos-live-pilot-2026-10-17.json']]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

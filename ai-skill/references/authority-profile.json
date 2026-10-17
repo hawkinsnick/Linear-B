@@ -4,7 +4,8 @@
     "Do not automatically transfer Linear B values to another script",
     "Gold and calibration gates follow canonical current status",
     "Preserve source mapping qualifications and exclusions",
-    "A source request, copy access or contact-page HTTP success is not source delivery, publication permission, exact alignment or scholarly acceptance. Follow component-specific delivery and rights boundaries."
+    "A source request, copy access or contact-page HTTP success is not source delivery, publication permission, exact alignment or scholarly acceptance. Follow component-specific delivery and rights boundaries.",
+    "Source-study author assertions and prepared review packets are not canonical readings, independent witnesses, delivered linguistic annotations or expert acceptance."
   ],
   "corpus": "Linear B",
   "required_authorities": [
@@ -221,6 +222,46 @@
     {
       "path": "sources/damos-v2.json",
       "role": "specialist_task_pilot",
+      "required": true
+    },
+    {
+      "path": "research/source-study-2026-10-17.json",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "scripts/source_study.py",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "scripts/test_source_study.py",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "docs/SOURCE-STUDY-2026-10-17.md",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "review/source-study-packet.json",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "review/source-study-response.json",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "analysis/source-study-audit.json",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "research/damos-live-pilot-2026-10-17.json",
+      "role": "bounded_source_study",
       "required": true
     }
   ],
