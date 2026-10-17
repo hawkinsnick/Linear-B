@@ -104,3 +104,7 @@ Prepare bounded review drafts with `--review-template`; validate submissions wit
 and deterministic answer tests as engineering checks, not empirical LLM validation
 or completion of scholarly/source-permission work. Local packaging grants no new
 redistribution rights. Label any model-generated analysis separately and cite it.
+
+## Specialist task pilot
+
+Read `docs/RESEARCH-TASK-PILOT.md`, `research/task-pilot.json` and `analysis/task-pilot-example.json` for the 25-record Pylos retrieval pilot. Reproduce full local results with `scripts/task_pilot.py`; public receipts omit transcription payloads. Report literal Unicode matches and whole-record marker-screen counts separately, never as secure readings, names or people. Hand labels are source assertions. Numeric document IDs, source JSON pointers and code-point spans are not source word IDs, physical identities or edition lines. Require admitted linguistic evidence and separate identity assertions before prosopographical claims; keep interpretation outside blinded calibration. Retain upstream CC BY-NC-SA terms and local-only result defaults. No named scholar participation, endorsement or independent review is established by the pilot.

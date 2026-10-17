@@ -4,3 +4,7 @@ __pycache__/
 *.pyc
 
 data/generated/
+
+# Local task-pilot observations and results retain upstream component rights.
+data/derived/
+output/task-pilot/

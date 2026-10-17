@@ -1,19 +1,11 @@
 # Rights and licensing
 
-Software license and corpus-content rights are separate.
+Software licensing and corpus-content rights are separate. Current project-original software is governed by [LICENSE-CODE](../LICENSE-CODE), PolyForm Noncommercial 1.0.0. Current project-owned non-software material is CC BY-NC 4.0 as scoped by [LICENSE-CONTENT.md](../LICENSE-CONTENT.md). Preserve attribution, the applicable license and indications of changes. See [LICENSING.md](../LICENSING.md).
 
-- project-authored software: MIT unless stated otherwise;
-- original non-software contributions the owner can license: CC BY 4.0 as scoped in [LICENSE-CONTENT.md](../LICENSE-CONTENT.md);
-- third-party corpus/annotation content: upstream terms;
-- modern photographs/facsimiles/drawings: do not redistribute without documented permission or license;
-- derived records: preserve source attribution and rights lineage.
+Earlier material already released under broader irrevocable terms retains any rights previously granted. Historical MIT/CC0/CC BY statements do not relicense new contributions or third-party material.
 
-No release-level license statement overrides third-party rights.
+Imported transcriptions, annotations, database compilations, photographs, facsimiles and drawings retain their own upstream terms. The registered DĀMOS derivative and applicable aggregates retain CC BY-NC-SA 4.0; they are not relicensed by project CC BY-NC terms. Preserve the source/version and derivative-provider attribution in [the source registry](../sources/damos-v2.json) and [NOTICE](../NOTICE).
 
-## Reuse and citation
+Ancient texts and factual observations are distinct from modern editions and protected compilations or images. Repository access, local acquisition, generated packages and AI interfaces grant no additional reuse or redistribution rights. Assess the intended use and each component before publication, service upload or reuse. Missing rights information remains unresolved.
 
-CC BY 4.0 permits academic and commercial reuse of covered original content
-with attribution, a license link and disclosure of changes. Preserve upstream
-notices for source-derived content. The repository has mixed rights; its
-software license does not license all corpus content. Existing MIT/CC0 grants
-are retained. See [NOTICE](../NOTICE) and [rights policy](../rights/README.md).
+The [task pilot](RESEARCH-TASK-PILOT.md) keeps raw input and full record-level results local by default. Its public aggregate receipt does not publish those payloads. No release-level statement overrides third-party rights.

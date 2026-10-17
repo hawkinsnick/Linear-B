@@ -1,0 +1,67 @@
+{
+  "format": "linear-b-task-pilot-v1",
+  "pilot_id": "PY-ROOM8-25-v1",
+  "source_registry": "sources/damos-v2.json",
+  "input_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "source_records": 5932,
+  "document_ids": [
+    "4165",
+    "4166",
+    "4167",
+    "4168",
+    "4169",
+    "4170",
+    "4171",
+    "4172",
+    "4173",
+    "4174",
+    "4175",
+    "4176",
+    "4177",
+    "4178",
+    "4179",
+    "4180",
+    "4214",
+    "4215",
+    "4216",
+    "4217",
+    "4218",
+    "4219",
+    "4220",
+    "4221",
+    "4222"
+  ],
+  "selection": {
+    "site": "Pylos",
+    "find_area": "PY, Room 8",
+    "method": "First 25 matching records in pinned source document-array order; IDs frozen explicitly. Convenience sample, not representative or a tablet series."
+  },
+  "example_literal": "ko-wa",
+  "query_method": "Case-sensitive literal Unicode substring search; no normalization, tokenization, lemma or linguistic word segmentation.",
+  "marker_characters": [
+    "[",
+    "]",
+    "?",
+    "̣",
+    "⟦",
+    "⟧"
+  ],
+  "marker_policy": "Conservative whole-record screen of the transcription surface only. Presence/absence of these characters is not an epigraphic certainty judgment. Other notation may remain unscreened.",
+  "rights": {
+    "input": "CC BY-NC-SA 4.0, retained from DAMOS-DERIVATIVE-V2; upstream attribution in sources/damos-v2.json and NOTICE",
+    "raw_and_record_results": "Local only by default; no new redistribution permission; excluded from public AI bundle."
+  },
+  "unsupported": [
+    "person or name classification",
+    "same-name person identity",
+    "occupation or commodity identification",
+    "linguistic morphology",
+    "source word IDs",
+    "physical tablet identity",
+    "edition page/line locators",
+    "collated alternative readings",
+    "calibration or expert acceptance"
+  ],
+  "scientific_status": "SOURCE_BOUND_RETRIEVAL_PILOT_NOT_VALIDATED_PROSOPOGRAPHY",
+  "scholar_relationship": "Research-use hypothesis only; no request, participation or endorsement by named academics."
+}

@@ -1,0 +1,107 @@
+{
+  "format": "linear-b-task-query-v1",
+  "pilot_id": "PY-ROOM8-25-v1",
+  "query": {
+    "literal": "ko-wa",
+    "source_hand_label": null,
+    "method": "Case-sensitive literal Unicode substring search; no normalization, tokenization, lemma or linguistic word segmentation."
+  },
+  "selection": {
+    "site": "Pylos",
+    "find_area": "PY, Room 8",
+    "method": "First 25 matching records in pinned source document-array order; IDs frozen explicitly. Convenience sample, not representative or a tablet series."
+  },
+  "marker_policy": "Conservative whole-record screen of the transcription surface only. Presence/absence of these characters is not an epigraphic certainty judgment. Other notation may remain unscreened.",
+  "summary": {
+    "selected_source_records": 25,
+    "records_after_hand_filter": 25,
+    "missing_surface_record_ids": [],
+    "marker_screened_record_ids": [
+      "4167",
+      "4171",
+      "4173",
+      "4175",
+      "4176",
+      "4177",
+      "4180",
+      "4216",
+      "4217",
+      "4218",
+      "4219",
+      "4221",
+      "4222"
+    ],
+    "all_surface_matches": 23,
+    "all_matching_record_ids": [
+      "4165",
+      "4166",
+      "4167",
+      "4168",
+      "4169",
+      "4170",
+      "4171",
+      "4172",
+      "4173",
+      "4174",
+      "4175",
+      "4176",
+      "4177",
+      "4178",
+      "4179",
+      "4180",
+      "4214",
+      "4215",
+      "4217",
+      "4218",
+      "4219",
+      "4220",
+      "4222"
+    ],
+    "matches_after_whole_record_marker_screen": 12,
+    "matching_record_ids_after_marker_screen": [
+      "4165",
+      "4166",
+      "4168",
+      "4169",
+      "4170",
+      "4172",
+      "4174",
+      "4178",
+      "4179",
+      "4214",
+      "4215",
+      "4220"
+    ],
+    "persons_identified": null,
+    "validated_name_occurrences": null
+  },
+  "unsupported": [
+    "person or name classification",
+    "same-name person identity",
+    "occupation or commodity identification",
+    "linguistic morphology",
+    "source word IDs",
+    "physical tablet identity",
+    "edition page/line locators",
+    "collated alternative readings",
+    "calibration or expert acceptance"
+  ],
+  "rights": {
+    "input": "CC BY-NC-SA 4.0, retained from DAMOS-DERIVATIVE-V2; upstream attribution in sources/damos-v2.json and NOTICE",
+    "raw_and_record_results": "Local only by default; no new redistribution permission; excluded from public AI bundle."
+  },
+  "scientific_status": "SOURCE_BOUND_RETRIEVAL_PILOT_NOT_VALIDATED_PROSOPOGRAPHY",
+  "reproduction": {
+    "source_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+    "spec_sha256": "a4f339eba2097bb619a5e8559e1b4a1a5fe89d77b94aee6ac2776e0528d38f90",
+    "code_sha256": "de580fef425bee688f6871abb7f99f0ad9473366ceddc09ae8ee8f19c9f52419",
+    "observation_mapper_sha256": "5920925336e1c341dbf1c6e5782b3bc5608daed5ee9e8e8c362860aabd354e21",
+    "blind_policy_sha256": "4512d63c836c02270ce56d31572c4f8443c3eba8f2522de6c3cca1497caf0ac8",
+    "field_policy_code_sha256": "e95729bd9c1f3d83b1ba54999cb791524b89363a4f996b80af44946c146247b6",
+    "offset_unit": "zero-based Unicode code point; half-open interval",
+    "raw_document_count": 5932
+  },
+  "result_sha256": "66d92c7b8fe00a43b9f1c4285c1f3ef28dfa60a37996ae4aaeef2419bb8761dc",
+  "result_payload_published": false,
+  "aggregate_terms": "DAMOS-derived aggregate context retains CC BY-NC-SA 4.0; see NOTICE."
+}

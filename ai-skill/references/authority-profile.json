@@ -172,6 +172,56 @@
       "path": "scripts/validate_published_id_example.py",
       "role": "primary_source_reconciliation",
       "required": true
+    },
+    {
+      "path": "scripts/task_pilot.py",
+      "role": "specialist_task_pilot",
+      "required": true
+    },
+    {
+      "path": "scripts/test_task_pilot.py",
+      "role": "specialist_task_pilot",
+      "required": true
+    },
+    {
+      "path": "docs/RESEARCH-TASK-PILOT.md",
+      "role": "specialist_task_pilot",
+      "required": true
+    },
+    {
+      "path": "analysis/task-pilot-example.json",
+      "role": "specialist_task_pilot",
+      "required": true
+    },
+    {
+      "path": "research/task-pilot.json",
+      "role": "specialist_task_pilot",
+      "required": true
+    },
+    {
+      "path": "ai-skill/SKILL.md",
+      "role": "specialist_task_pilot",
+      "required": true
+    },
+    {
+      "path": "research/blind-field-policy.json",
+      "role": "specialist_task_pilot",
+      "required": true
+    },
+    {
+      "path": "scripts/blind_field_policy.py",
+      "role": "specialist_task_pilot",
+      "required": true
+    },
+    {
+      "path": "scripts/build_observation_corpus.py",
+      "role": "specialist_task_pilot",
+      "required": true
+    },
+    {
+      "path": "sources/damos-v2.json",
+      "role": "specialist_task_pilot",
+      "required": true
     }
   ],
   "schema_version": "1.0"
