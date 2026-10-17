@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "9ed04f9315dd9c48bd98219cef073902976de0dc",
-  "generated_at_utc": "2026-10-17T11:11:32+00:00",
+  "source_commit": "48abcc96c29b64865f09258a7ea84fe0bd07db32",
+  "generated_at_utc": "2026-10-17T15:22:19+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -46,14 +46,14 @@
     {
       "role": "native_evidence_profile",
       "path": "research/evidence-query-profile.json",
-      "sha256": "47a4c6b406cedd281bf4ae39fea58cf2a54dba95edd9a9436fa74dc100ed409e",
-      "bytes": 5083
+      "sha256": "61a39cf47f560764d456d0bc40fb238c5baa0b73260a0171eff09b9baecb8958",
+      "bytes": 6579
     },
     {
       "role": "native_evidence_coverage",
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "5918b17206836cb388870699606b913ce9485d81b63db15e3690aff9889f6a8e",
-      "bytes": 6442
+      "sha256": "20931197c37d0034702b9df84969e6e88a55bfc0c9ed673a86b5b3dcc5a8116b",
+      "bytes": 8636
     },
     {
       "role": "native_evidence_query",
@@ -316,8 +316,8 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "57be84351b1251d498fc8e8ead4bf3f4965b37dbd13e6e2f689922b3991cbfb3",
-      "bytes": 6923
+      "sha256": "10adbdc3585935f94459c4796305952191fab9911f6aab84a5ac86169465402e",
+      "bytes": 8856
     },
     {
       "role": "specialist_task_pilot",
@@ -334,8 +334,8 @@
     {
       "role": "specialist_task_pilot",
       "path": "docs/RESEARCH-TASK-PILOT.md",
-      "sha256": "87fb74ecf024343c9f5f58c04090f7170e658e0ec7a295625afe1721d3323081",
-      "bytes": 6141
+      "sha256": "64d6604b260d504f8314a7822e557d08851183367daecbb3f19b25ad643e02e4",
+      "bytes": 6306
     },
     {
       "role": "specialist_task_pilot",
@@ -352,8 +352,8 @@
     {
       "role": "specialist_task_pilot",
       "path": "ai-skill/SKILL.md",
-      "sha256": "27b9350d4ebb1b6b1dc915ac13811ca77c4c940a684ff8bddedc29d72c2ede36",
-      "bytes": 14240
+      "sha256": "4cc18114426b38e1a3dd7865bd1c37010bec070813ccb2d4bd135a9b53d29888",
+      "bytes": 14727
     },
     {
       "role": "specialist_task_pilot",
@@ -378,6 +378,54 @@
       "path": "sources/damos-v2.json",
       "sha256": "4b0c7e22afc5b809b2a3aa936ce94385b3f3cfbf254ecc24e6c706722369053d",
       "bytes": 952
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "research/source-study-2026-10-17.json",
+      "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+      "bytes": 7019
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "scripts/source_study.py",
+      "sha256": "2174833f4857bc0916afe1137134cc530e737b5700e8dfb5e93f395446311935",
+      "bytes": 9394
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "scripts/test_source_study.py",
+      "sha256": "35147745472ec2eaed4fdf8ce594d3987b12d03900650a34cd0a11461d3a6743",
+      "bytes": 2415
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "docs/SOURCE-STUDY-2026-10-17.md",
+      "sha256": "57b8fe34ad27e95fd25d287e86337f090281fe31c16ba035cf037fa7bea8dbc9",
+      "bytes": 3114
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "review/source-study-packet.json",
+      "sha256": "ceb26186159c7a29cb7578f2cabd4e2775fb092259624b4f11b01f0cdf3cc313",
+      "bytes": 4806
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "review/source-study-response.json",
+      "sha256": "a59c3f3fe546a8de4ff50a0aea6e2be9ff620c6cc88566123ff8b8bdf9d9e46f",
+      "bytes": 1017
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "analysis/source-study-audit.json",
+      "sha256": "3d8d2a82170aafa8da9270c21f76100bd5a7c61c6e90ed48bd173f20ee9f3b05",
+      "bytes": 983
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "research/damos-live-pilot-2026-10-17.json",
+      "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60",
+      "bytes": 41102
     }
   ]
 }
