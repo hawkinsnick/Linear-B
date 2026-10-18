@@ -304,6 +304,16 @@
       "path": "analysis/review-walkthrough-audit.json",
       "role": "source_followup_and_review_teaching",
       "required": true
+    },
+    {
+      "path": "research/damos-supplied-structure-2026-10-18.json",
+      "role": "source_page_and_structure_check",
+      "required": true
+    },
+    {
+      "path": "docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md",
+      "role": "source_page_and_structure_check",
+      "required": true
     }
   ],
   "schema_version": "1.0"

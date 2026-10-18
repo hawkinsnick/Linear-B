@@ -1,0 +1,56 @@
+{
+  "format": "bounded-source-structure-check-v1",
+  "case_id": "LB-DAMOS-SUPPLIED-STRUCTURE-20261018",
+  "checked_date": "2026-10-18",
+  "repository": "hawkinsnick/Linear-B",
+  "source_filename": "damos-corpus.json",
+  "reported_file_bytes": 3104186,
+  "declared_version": 2,
+  "declared_generated_date": "2026-06-11",
+  "declared_rights": "CC BY-NC-SA 4.0",
+  "inspection": "FULL_JSON_STRUCTURAL_READ_NOT_BYTE_IDENTITY_PROOF",
+  "top_level_keys": [
+    "_meta",
+    "documents"
+  ],
+  "record_count": 5932,
+  "union_document_keys": [
+    "chronology",
+    "content",
+    "find_area",
+    "find_spot",
+    "heading",
+    "heading_short",
+    "id",
+    "inventory",
+    "joins",
+    "lost",
+    "museum",
+    "permalink",
+    "scribe",
+    "series",
+    "set",
+    "site",
+    "subseries",
+    "support",
+    "trismegistos"
+  ],
+  "annotation_keys_found": [],
+  "linked_annotation_package_delivered": false,
+  "same_snapshot_word_crosswalk_delivered": false,
+  "byte_identity_with_registered_derivative_established": false,
+  "canonical_readings_added": 0,
+  "expert_acceptance_added": false,
+  "messages_sent": false,
+  "conclusion": "Full supplied JSON structure inspected. Flat document transliterations and metadata do not deliver the linked physical-word/linguistic-word layer.",
+  "unsent_request": {
+    "scope": "25 frozen Pylos pilot IDs plus documentary example4307, as already pinned in research/task-pilot.json and research/damos-live-pilot-2026-10-17.json",
+    "required_delivery": [
+      "Versioned linked physical-word and linguistic-word records with stable IDs",
+      "Same-snapshot document/line/word crosswalk and documented granularity",
+      "Lemma, morphological analyses, ambiguity and missingness retained",
+      "Schema, source timestamp/version, licence and redistribution scope"
+    ],
+    "acceptance": "Validate exact IDs, snapshot compatibility and join cardinality before annotation use; no graphical gold inferred."
+  }
+}

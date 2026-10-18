@@ -74,3 +74,7 @@ Added attributed source-study records, reproducible native evidence bindings and
 ## 2026-10-18 — documentary follow-up and reviewer walkthrough
 
 Added an evidence-bound [reviewer walkthrough](docs/REVIEWER-WALKTHROUGH.md), explicitly simulated practice assessment, blank real response and replay controls. Made the26-record identity-versus-annotation distinction executable in the reviewer exercise; linked annotation delivery remains open. Updated the individual AI authorities and combined routing. No canonical reading, expert acceptance or outreach added.
+
+## Source access checkpoint — 2026-10-18
+
+Added `research/damos-supplied-structure-2026-10-18.json` and guide, native evidence-query route and individual AI authorities. Retained all unresolved acquisition, rights and scholarly acceptance gates.

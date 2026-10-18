@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Linear-B",
-  "profile_sha256": "61a39cf47f560764d456d0bc40fb238c5baa0b73260a0171eff09b9baecb8958",
+  "profile_sha256": "078d47f56ad6af36a1e1d76bf815b4cb19405846884e6fd2c2ce0043284db2cc",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -91,6 +91,23 @@
         "pointer": "/rows",
         "native_artifacts_snapshot_commit": null,
         "role": "bounded directly consulted source study",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "damos-supplied-structure",
+      "native_unit": "bounded source access or structure inspection",
+      "record_count": 1,
+      "scope": "Preserve actual page/snapshot scope. No canonical readings, physical joins, linked annotation delivery or human acceptance inferred.",
+      "example_ids": [
+        "LB-DAMOS-SUPPLIED-STRUCTURE-20261018"
+      ],
+      "provenance": {
+        "path": "research/damos-supplied-structure-2026-10-18.json",
+        "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded source access or structure check",
         "encoding": "json"
       }
     }
@@ -190,6 +207,14 @@
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "bounded directly consulted source study",
+      "encoding": "json"
+    },
+    {
+      "path": "research/damos-supplied-structure-2026-10-18.json",
+      "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "bounded source access or structure check",
       "encoding": "json"
     }
   ],

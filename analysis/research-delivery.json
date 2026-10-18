@@ -97,6 +97,23 @@
         "role": "bounded directly consulted source study",
         "encoding": "json"
       }
+    },
+    {
+      "name": "damos-supplied-structure",
+      "native_unit": "bounded source access or structure inspection",
+      "record_count": 1,
+      "scope": "Preserve actual page/snapshot scope. No canonical readings, physical joins, linked annotation delivery or human acceptance inferred.",
+      "example_ids": [
+        "LB-DAMOS-SUPPLIED-STRUCTURE-20261018"
+      ],
+      "provenance": {
+        "path": "research/damos-supplied-structure-2026-10-18.json",
+        "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded source access or structure check",
+        "encoding": "json"
+      }
     }
   ],
   "scholarly_limits": [
@@ -132,8 +149,8 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "29ef118707641a5d9a9a0bb3bdc2a030018a1ae14004bbd8b6aefb5c9cfedb01",
-      "bytes": 15189
+      "sha256": "06df5f6813a81834e1ca9fe7e07c8fe2314cd78d80fd30f4b8a09e66d0153aee",
+      "bytes": 15712
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
@@ -176,6 +193,11 @@
       "bytes": 5034
     },
     {
+      "path": "research/damos-supplied-structure-2026-10-18.json",
+      "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
+      "bytes": 1959
+    },
+    {
       "path": "research/deep-evidence-manifest.json",
       "sha256": "410b9cbbef2d0e55e2cd6428ba644f0cd5383ff89d204ea8f83f392a3a007ff5",
       "bytes": 1090
@@ -187,8 +209,8 @@
     },
     {
       "path": "research/evidence-query-profile.json",
-      "sha256": "61a39cf47f560764d456d0bc40fb238c5baa0b73260a0171eff09b9baecb8958",
-      "bytes": 6579
+      "sha256": "078d47f56ad6af36a1e1d76bf815b4cb19405846884e6fd2c2ce0043284db2cc",
+      "bytes": 7239
     },
     {
       "path": "research/kn-fp13-object-concordance.json",

@@ -43,6 +43,15 @@
       "id_pointer": "/source_record_id",
       "unit": "live source identity/context projection",
       "scope": "25 pilot IDs plus one paper-example ID; not same-version word alignment, physical identity or linguistic annotations."
+    },
+    {
+      "name": "damos-supplied-structure",
+      "path": "research/damos-supplied-structure-2026-10-18.json",
+      "pointer": "",
+      "id_pointer": "/case_id",
+      "singleton": true,
+      "unit": "bounded source access or structure inspection",
+      "scope": "Preserve actual page/snapshot scope. No canonical readings, physical joins, linked annotation delivery or human acceptance inferred."
     }
   ],
   "relations": [],
@@ -130,6 +139,12 @@
       "encoding": "json",
       "role": "bounded directly consulted source study",
       "source_snapshot_commit": null
+    },
+    {
+      "path": "research/damos-supplied-structure-2026-10-18.json",
+      "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
+      "encoding": "json",
+      "role": "bounded source access or structure check"
     }
   ],
   "scholarly_limits": [
