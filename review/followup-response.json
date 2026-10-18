@@ -1,0 +1,35 @@
+{
+  "format": "native-review-submission-v1",
+  "repository": "hawkinsnick/Linear-B",
+  "target": {
+    "collection": "source-study",
+    "id": "LB-ANNOTATION-ACQUISITION-20261017",
+    "provenance": {
+      "path": "research/source-study-2026-10-17.json",
+      "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "bounded directly consulted source study",
+      "encoding": "json"
+    }
+  },
+  "profile_sha256": "61a39cf47f560764d456d0bc40fb238c5baa0b73260a0171eff09b9baecb8958",
+  "status": "DRAFT_NOT_REVIEWED",
+  "reviewer": {
+    "name": "",
+    "affiliation": "",
+    "expertise": "",
+    "identity_reference": "",
+    "conflicts": "",
+    "source_dependence": "",
+    "date": ""
+  },
+  "evidence_consulted": [],
+  "decision": "",
+  "reasoning": "",
+  "confidence": "",
+  "counterevidence": "",
+  "unresolved_objections": "",
+  "scientific_approval_granted": false,
+  "native_changes_applied": false
+}

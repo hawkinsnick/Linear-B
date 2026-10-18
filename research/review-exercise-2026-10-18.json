@@ -1,0 +1,14 @@
+{
+  "format": "review-exercise-v1",
+  "repository": "hawkinsnick/Linear-B",
+  "demonstration_only": true,
+  "human_review_occurred": false,
+  "scientific_approval_granted": false,
+  "record_path": "research/source-study-2026-10-17.json",
+  "target": {
+    "collection": "source-study",
+    "id": "LB-ANNOTATION-ACQUISITION-20261017"
+  },
+  "question": "Does a successful26-record live identity check establish delivered linked linguistic annotation?",
+  "practice_assessment": "The26 documentary identity projections do not supply physical-word IDs, linked linguistic analyses, a same-snapshot crosswalk or a certified baseline. Request the versioned linked package and preserve the current source layer separately. The proposed decision is a teaching example, not a specialist finding."
+}

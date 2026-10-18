@@ -1,0 +1,26 @@
+{
+  "format": "review-teaching-example-v1",
+  "status": "SIMULATED_MAINTAINER_EXERCISE_NOT_REVIEW",
+  "demonstration_only": true,
+  "human_review_occurred": false,
+  "reviewer": null,
+  "target": {
+    "collection": "source-study",
+    "id": "LB-ANNOTATION-ACQUISITION-20261017"
+  },
+  "profile_sha256": "61a39cf47f560764d456d0bc40fb238c5baa0b73260a0171eff09b9baecb8958",
+  "provenance": {
+    "path": "research/source-study-2026-10-17.json",
+    "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+    "pointer": "",
+    "native_artifacts_snapshot_commit": null,
+    "role": "bounded directly consulted source study",
+    "encoding": "json"
+  },
+  "practice_decision": "MORE_SOURCE_REQUIRED",
+  "practice_assessment": "The26 documentary identity projections do not supply physical-word IDs, linked linguistic analyses, a same-snapshot crosswalk or a certified baseline. Request the versioned linked package and preserve the current source layer separately. The proposed decision is a teaching example, not a specialist finding.",
+  "evidence_inspected_for_this_exercise": "Committed documentary register only; this example is not a new primary-source consultation or a specialist response.",
+  "scientific_approval_granted": false,
+  "native_changes_applied": false,
+  "submission_warning": "Do not submit or reformat this example as a real review. A real reviewer must independently inspect sources, identify themselves and provide their own assessment."
+}

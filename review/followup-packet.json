@@ -1,0 +1,121 @@
+{
+  "format": "followup-review-packet-v1",
+  "repository": "hawkinsnick/Linear-B",
+  "status": "PREPARED_NOT_REVIEWED",
+  "target": {
+    "collection": "source-study",
+    "id": "LB-ANNOTATION-ACQUISITION-20261017"
+  },
+  "provenance": {
+    "path": "research/source-study-2026-10-17.json",
+    "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+    "pointer": "",
+    "native_artifacts_snapshot_commit": null,
+    "role": "bounded directly consulted source study",
+    "encoding": "json"
+  },
+  "profile_sha256": "61a39cf47f560764d456d0bc40fb238c5baa0b73260a0171eff09b9baecb8958",
+  "question": "Does a successful26-record live identity check establish delivered linked linguistic annotation?",
+  "review_questions": [
+    "Are the source IDs and literal context fields faithfully projected, with versions kept separate?",
+    "Can the source editor supply an annotated bounded package with item.id and phys_word.id from the same version, or identify a documented public route?",
+    "Does any proposed alignment preserve alternative analyses, missing/unannotated units, source provenance and the existing blind-field firewall?"
+  ],
+  "remaining_gates": [
+    "Source-editor delivery of separately linked linguistic analyses and a same-version word crosswalk",
+    "Intended-use/component rights confirmation for delivered packages",
+    "Independent scholarly validation and the separate graphical baseline"
+  ],
+  "guide": "docs/REVIEWER-WALKTHROUGH.md",
+  "source_access": [
+    {
+      "source_id": "DAMOS2025",
+      "citation": "Aurora, Nedić, Nesøen and Haug (2025), Exporting Mycenaean, DOI 10.5617/dhnbpub.12295.",
+      "receipt": {
+        "id": "damos-paper",
+        "url": "https://journals.uio.no/dhnbpub/article/download/12295/10165",
+        "final_url": "https://journals.uio.no/dhnbpub/article/download/12295/10165",
+        "status": 200,
+        "bytes": 1000621,
+        "sha256": "0a38522838256cdf8fbb94238ffc35dc5dbd382a1acf21b52160b6549b6e3c93",
+        "content_type": "application/pdf; charset=utf-8"
+      },
+      "local_verification_filename": "damos-paper.pdf",
+      "rights": "Publisher/source terms retained; only original short source-attributed findings and locators are published here.",
+      "consultation_pages": [
+        {
+          "pdf_ordinal": 5,
+          "section": "2.2 Linguistic analysis",
+          "inspection": "Text and rendered page checked"
+        },
+        {
+          "pdf_ordinal": 7,
+          "section": "5 Outlook",
+          "inspection": "Text and rendered page checked"
+        }
+      ],
+      "source_payload_redistributed": false,
+      "independent_object_witness_established": false
+    },
+    {
+      "source_id": "DAMOS_HOME",
+      "citation": "DAMOS, University of Oslo, official public homepage.",
+      "receipt": {
+        "id": "damos-home",
+        "url": "https://damos.hf.uio.no/",
+        "final_url": "https://damos.hf.uio.no/",
+        "status": 200,
+        "bytes": 5994,
+        "sha256": "caeb590bd3dd502d94949eecc61f9aa5051273d4a7765728bdb514c6dbcf5d3b",
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "local_verification_filename": "damos-home.html",
+      "rights": "Official displayed content terms: CC BY-NC-SA 4.0; software GPL-3.0.",
+      "consultation_pages": [],
+      "source_payload_redistributed": false,
+      "independent_object_witness_established": false
+    },
+    {
+      "source_id": "DAMOS_APP",
+      "citation": "DAMOS public application script linked by official homepage.",
+      "receipt": {
+        "id": "damos-app",
+        "url": "https://damos.hf.uio.no/dist/static/js/main.c7ff754d.js",
+        "final_url": "https://damos.hf.uio.no/dist/static/js/main.c7ff754d.js",
+        "status": 200,
+        "bytes": 802456,
+        "sha256": "94b66cf940a1435ad7dfa46bf9253e90f617940531484e679beffd5f91f679ff",
+        "content_type": "application/javascript"
+      },
+      "local_verification_filename": "damos-app.html",
+      "rights": "Application software GPL-3.0 as displayed on official homepage; source code is not republished.",
+      "consultation_pages": [],
+      "source_payload_redistributed": false,
+      "independent_object_witness_established": false
+    },
+    {
+      "source_id": "DAMOS_CONTACT",
+      "citation": "Federico Aurora, University of Oslo Library official profile.",
+      "receipt": {
+        "id": "damos-aurora",
+        "url": "https://www.ub.uio.no/english/about/people/research/op/federia/",
+        "final_url": "https://www.ub.uio.no/english/about/people/research/op/federia/",
+        "status": 200,
+        "bytes": 96648,
+        "sha256": "d2fe1d992582970c508d77b9b740cd130bdf4c454ec29ae3efa29b1f7ff0fe25",
+        "content_type": "text/html;charset=utf-8"
+      },
+      "local_verification_filename": "damos-aurora.html",
+      "rights": "Public professional routing metadata only; no correspondence sent.",
+      "consultation_pages": [],
+      "source_payload_redistributed": false,
+      "independent_object_witness_established": false
+    }
+  ],
+  "real_response_form": "review/followup-response.json",
+  "teaching_example": "review/teaching-example.json",
+  "reviewer": null,
+  "assessment": null,
+  "human_review_occurred": false,
+  "scientific_approval_granted": false
+}

@@ -5,7 +5,8 @@
     "Gold and calibration gates follow canonical current status",
     "Preserve source mapping qualifications and exclusions",
     "A source request, copy access or contact-page HTTP success is not source delivery, publication permission, exact alignment or scholarly acceptance. Follow component-specific delivery and rights boundaries.",
-    "Source-study author assertions and prepared review packets are not canonical readings, independent witnesses, delivered linguistic annotations or expert acceptance."
+    "Source-study author assertions and prepared review packets are not canonical readings, independent witnesses, delivered linguistic annotations or expert acceptance.",
+    "Keep review teaching examples distinct from actual submissions; preserve the PKZb21 text-rendition limit or Luwian reference-candidate scope where applicable."
   ],
   "corpus": "Linear B",
   "required_authorities": [
@@ -262,6 +263,46 @@
     {
       "path": "research/damos-live-pilot-2026-10-17.json",
       "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "research/review-exercise-2026-10-18.json",
+      "role": "source_followup_and_review_teaching",
+      "required": true
+    },
+    {
+      "path": "scripts/review_walkthrough.py",
+      "role": "source_followup_and_review_teaching",
+      "required": true
+    },
+    {
+      "path": "scripts/test_review_walkthrough.py",
+      "role": "source_followup_and_review_teaching",
+      "required": true
+    },
+    {
+      "path": "docs/REVIEWER-WALKTHROUGH.md",
+      "role": "source_followup_and_review_teaching",
+      "required": true
+    },
+    {
+      "path": "review/teaching-example.json",
+      "role": "source_followup_and_review_teaching",
+      "required": true
+    },
+    {
+      "path": "review/followup-packet.json",
+      "role": "source_followup_and_review_teaching",
+      "required": true
+    },
+    {
+      "path": "review/followup-response.json",
+      "role": "source_followup_and_review_teaching",
+      "required": true
+    },
+    {
+      "path": "analysis/review-walkthrough-audit.json",
+      "role": "source_followup_and_review_teaching",
       "required": true
     }
   ],
