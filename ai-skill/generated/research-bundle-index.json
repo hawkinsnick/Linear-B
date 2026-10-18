@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "ae574f2438a0a154b951fe3ec4de790671e2ce2d",
-  "generated_at_utc": "2026-10-18T13:36:49+00:00",
+  "source_commit": "066403d7502a473b40ad9436dd2f834fad5a769d",
+  "generated_at_utc": "2026-10-18T18:59:49+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -46,14 +46,14 @@
     {
       "role": "native_evidence_profile",
       "path": "research/evidence-query-profile.json",
-      "sha256": "61a39cf47f560764d456d0bc40fb238c5baa0b73260a0171eff09b9baecb8958",
-      "bytes": 6579
+      "sha256": "078d47f56ad6af36a1e1d76bf815b4cb19405846884e6fd2c2ce0043284db2cc",
+      "bytes": 7239
     },
     {
       "role": "native_evidence_coverage",
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "20931197c37d0034702b9df84969e6e88a55bfc0c9ed673a86b5b3dcc5a8116b",
-      "bytes": 8636
+      "sha256": "f7c9189c72f0d64f068e4f9b0f560bb54865816bf54a879c7881a2b0a6110b10",
+      "bytes": 9677
     },
     {
       "role": "native_evidence_query",
@@ -316,8 +316,8 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "c359514f2c3f1b27169730e8b7c5ee2b72678f5deea5bab05bddce92e3deffc6",
-      "bytes": 8856
+      "sha256": "ec155420c955ceb490da5a46bbf35d1bd09792b1d7ba622be41dd0b3c0a22567",
+      "bytes": 9765
     },
     {
       "role": "specialist_task_pilot",
@@ -352,8 +352,8 @@
     {
       "role": "specialist_task_pilot",
       "path": "ai-skill/SKILL.md",
-      "sha256": "29ef118707641a5d9a9a0bb3bdc2a030018a1ae14004bbd8b6aefb5c9cfedb01",
-      "bytes": 15189
+      "sha256": "06df5f6813a81834e1ca9fe7e07c8fe2314cd78d80fd30f4b8a09e66d0153aee",
+      "bytes": 15712
     },
     {
       "role": "specialist_task_pilot",
@@ -406,13 +406,13 @@
     {
       "role": "bounded_source_study",
       "path": "review/source-study-packet.json",
-      "sha256": "ceb26186159c7a29cb7578f2cabd4e2775fb092259624b4f11b01f0cdf3cc313",
+      "sha256": "cebc0f7b01983b41927d7e9ed39f048021135c5babdee1ac8cefb303066e987d",
       "bytes": 4806
     },
     {
       "role": "bounded_source_study",
       "path": "review/source-study-response.json",
-      "sha256": "a59c3f3fe546a8de4ff50a0aea6e2be9ff620c6cc88566123ff8b8bdf9d9e46f",
+      "sha256": "103e7e3a7888a233c3803cb7400a2c4a5233680e7a343b2de7ed274bfd45a94c",
       "bytes": 1017
     },
     {
@@ -454,26 +454,38 @@
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/teaching-example.json",
-      "sha256": "c3f7fdbc3b2b4e53ab4e8dfd9c6d353fd21f7f5ef9924e5897ba921d84e92b6b",
+      "sha256": "dfb205eea0fc21bd8306aa65d448e822942eabcb5115ec7be7c3123b8db933ac",
       "bytes": 1485
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-packet.json",
-      "sha256": "82bba2b0d07379049912ed9cdb793052b15bc75d2a2ca9fdf5e7f1c900981ffe",
+      "sha256": "f099c8b1e11d3ce2b840ac3e0bfafa048cd45f7bcbb22ca6cbaf5e27a4f57a6d",
       "bytes": 5290
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-response.json",
-      "sha256": "a59c3f3fe546a8de4ff50a0aea6e2be9ff620c6cc88566123ff8b8bdf9d9e46f",
+      "sha256": "103e7e3a7888a233c3803cb7400a2c4a5233680e7a343b2de7ed274bfd45a94c",
       "bytes": 1017
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "analysis/review-walkthrough-audit.json",
-      "sha256": "78f63fe05af95ed329da90f6d7a0d6e6b3f003b558c2cb7f204857b0434d4af5",
+      "sha256": "e9ff91a90e2027ca0302949d5c3a2cb97f6f347d8ebe9643b7baf08e99153ca3",
       "bytes": 709
+    },
+    {
+      "role": "source_page_and_structure_check",
+      "path": "research/damos-supplied-structure-2026-10-18.json",
+      "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
+      "bytes": 1959
+    },
+    {
+      "role": "source_page_and_structure_check",
+      "path": "docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md",
+      "sha256": "641292cb274b58861c49eab0dd2c41eb8678660a2c3e2efca56196df0f3a4c8b",
+      "bytes": 1180
     }
   ]
 }
