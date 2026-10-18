@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "48abcc96c29b64865f09258a7ea84fe0bd07db32",
-  "generated_at_utc": "2026-10-17T15:22:19+00:00",
+  "source_commit": "ae574f2438a0a154b951fe3ec4de790671e2ce2d",
+  "generated_at_utc": "2026-10-18T13:36:49+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -316,7 +316,7 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "10adbdc3585935f94459c4796305952191fab9911f6aab84a5ac86169465402e",
+      "sha256": "c359514f2c3f1b27169730e8b7c5ee2b72678f5deea5bab05bddce92e3deffc6",
       "bytes": 8856
     },
     {
@@ -352,8 +352,8 @@
     {
       "role": "specialist_task_pilot",
       "path": "ai-skill/SKILL.md",
-      "sha256": "4cc18114426b38e1a3dd7865bd1c37010bec070813ccb2d4bd135a9b53d29888",
-      "bytes": 14727
+      "sha256": "29ef118707641a5d9a9a0bb3bdc2a030018a1ae14004bbd8b6aefb5c9cfedb01",
+      "bytes": 15189
     },
     {
       "role": "specialist_task_pilot",
@@ -400,8 +400,8 @@
     {
       "role": "bounded_source_study",
       "path": "docs/SOURCE-STUDY-2026-10-17.md",
-      "sha256": "57b8fe34ad27e95fd25d287e86337f090281fe31c16ba035cf037fa7bea8dbc9",
-      "bytes": 3114
+      "sha256": "66a63726d360831e11368c324ca416fe08c76ef30aff080d62542ad50e01e30a",
+      "bytes": 3298
     },
     {
       "role": "bounded_source_study",
@@ -426,6 +426,54 @@
       "path": "research/damos-live-pilot-2026-10-17.json",
       "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60",
       "bytes": 41102
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "research/review-exercise-2026-10-18.json",
+      "sha256": "c348ec65a65a9cbaad7cd097067b1ce1d9d2ec2bca1f687b033fdb8258da6990",
+      "bytes": 790
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "scripts/review_walkthrough.py",
+      "sha256": "fe919dac5b73a6426af4d7240d90b6cdc65646dc477b6384654143c39537403b",
+      "bytes": 8485
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "scripts/test_review_walkthrough.py",
+      "sha256": "b018dc513ba3e1e030f79f2421ad812edfcf13382cbb66400aa86b5260694ff4",
+      "bytes": 2230
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "docs/REVIEWER-WALKTHROUGH.md",
+      "sha256": "f75acd50fbef2f711e2258dbd97e7d280fbdafe7f1c8a184f7052f85f2bff90c",
+      "bytes": 3658
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "review/teaching-example.json",
+      "sha256": "c3f7fdbc3b2b4e53ab4e8dfd9c6d353fd21f7f5ef9924e5897ba921d84e92b6b",
+      "bytes": 1485
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "review/followup-packet.json",
+      "sha256": "82bba2b0d07379049912ed9cdb793052b15bc75d2a2ca9fdf5e7f1c900981ffe",
+      "bytes": 5290
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "review/followup-response.json",
+      "sha256": "a59c3f3fe546a8de4ff50a0aea6e2be9ff620c6cc88566123ff8b8bdf9d9e46f",
+      "bytes": 1017
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "analysis/review-walkthrough-audit.json",
+      "sha256": "78f63fe05af95ed329da90f6d7a0d6e6b3f003b558c2cb7f204857b0434d4af5",
+      "bytes": 709
     }
   ]
 }
