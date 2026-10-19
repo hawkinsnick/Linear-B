@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "066403d7502a473b40ad9436dd2f834fad5a769d",
-  "generated_at_utc": "2026-10-18T18:59:49+00:00",
+  "source_commit": "4994d587daeaaa9dd41fc0fb26e4d3f3956a5943",
+  "generated_at_utc": "2026-10-19T01:16:13+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -46,14 +46,14 @@
     {
       "role": "native_evidence_profile",
       "path": "research/evidence-query-profile.json",
-      "sha256": "078d47f56ad6af36a1e1d76bf815b4cb19405846884e6fd2c2ce0043284db2cc",
-      "bytes": 7239
+      "sha256": "13a1f459f62fb33cbe166aa6bbd5d852ffb5670ffc01134adc1b88ab52f99b1f",
+      "bytes": 7905
     },
     {
       "role": "native_evidence_coverage",
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "f7c9189c72f0d64f068e4f9b0f560bb54865816bf54a879c7881a2b0a6110b10",
-      "bytes": 9677
+      "sha256": "ad668cfda07e1534a2acdc75c4dc394b8a26e4d259bd42cd94090b46e3db702c",
+      "bytes": 10724
     },
     {
       "role": "native_evidence_query",
@@ -316,8 +316,8 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "ec155420c955ceb490da5a46bbf35d1bd09792b1d7ba622be41dd0b3c0a22567",
-      "bytes": 9765
+      "sha256": "e39c7d4fd66d9571a73ecadccc82d4721f0f251892cdf054cc23d24493b8f100",
+      "bytes": 10675
     },
     {
       "role": "specialist_task_pilot",
@@ -352,8 +352,8 @@
     {
       "role": "specialist_task_pilot",
       "path": "ai-skill/SKILL.md",
-      "sha256": "06df5f6813a81834e1ca9fe7e07c8fe2314cd78d80fd30f4b8a09e66d0153aee",
-      "bytes": 15712
+      "sha256": "5638838cd247589e0a26af097ced2eaaf25d96301882b8a8e9c06d42271e1229",
+      "bytes": 16214
     },
     {
       "role": "specialist_task_pilot",
@@ -406,13 +406,13 @@
     {
       "role": "bounded_source_study",
       "path": "review/source-study-packet.json",
-      "sha256": "cebc0f7b01983b41927d7e9ed39f048021135c5babdee1ac8cefb303066e987d",
+      "sha256": "eb06d1a2552a00a5371026fabfb15bf8a3c92c7bc2bd6a7b6bfe52f312441176",
       "bytes": 4806
     },
     {
       "role": "bounded_source_study",
       "path": "review/source-study-response.json",
-      "sha256": "103e7e3a7888a233c3803cb7400a2c4a5233680e7a343b2de7ed274bfd45a94c",
+      "sha256": "a4e67f7f57906cbdf3e0c9f49b6af76845a3e83c88feaa5c457797cee74eea4d",
       "bytes": 1017
     },
     {
@@ -454,25 +454,25 @@
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/teaching-example.json",
-      "sha256": "dfb205eea0fc21bd8306aa65d448e822942eabcb5115ec7be7c3123b8db933ac",
+      "sha256": "9aebf52759869f084641a4462926d98e23469e53a72ade5290683e9905833c26",
       "bytes": 1485
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-packet.json",
-      "sha256": "f099c8b1e11d3ce2b840ac3e0bfafa048cd45f7bcbb22ca6cbaf5e27a4f57a6d",
+      "sha256": "08a8b372367e6785f7bf5dc0e0cff1054d751604de4498e3ba6ef9552eba08e4",
       "bytes": 5290
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-response.json",
-      "sha256": "103e7e3a7888a233c3803cb7400a2c4a5233680e7a343b2de7ed274bfd45a94c",
+      "sha256": "a4e67f7f57906cbdf3e0c9f49b6af76845a3e83c88feaa5c457797cee74eea4d",
       "bytes": 1017
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "analysis/review-walkthrough-audit.json",
-      "sha256": "e9ff91a90e2027ca0302949d5c3a2cb97f6f347d8ebe9643b7baf08e99153ca3",
+      "sha256": "1f76e05e74ce3aa669fecd662ead4b8b2d47fa3dfe8b9c1e72639335a5a47870",
       "bytes": 709
     },
     {
@@ -486,6 +486,18 @@
       "path": "docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md",
       "sha256": "641292cb274b58861c49eab0dd2c41eb8678660a2c3e2efca56196df0f3a4c8b",
       "bytes": 1180
+    },
+    {
+      "role": "public_source_route_inspection",
+      "path": "research/damos-public-routes-2026-10-19.json",
+      "sha256": "dd327cd5924759b13ef4a441221a66d06894bce21737e64bd3cc7fe16635cf5d",
+      "bytes": 5920
+    },
+    {
+      "role": "public_source_route_inspection",
+      "path": "docs/DAMOS-PUBLIC-ROUTES-2026-10-19.md",
+      "sha256": "5ca1826aa65022eb64e30d1e0a5942d32cf11bef64656e7dcf671123c394ae5c",
+      "bytes": 1252
     }
   ]
 }
