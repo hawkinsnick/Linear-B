@@ -28,6 +28,7 @@ CANDIDATES += [("specialist_task_pilot", p) for p in ['scripts/task_pilot.py', '
 CANDIDATES += [("bounded_source_study", p) for p in ['research/source-study-2026-10-17.json', 'scripts/source_study.py', 'scripts/test_source_study.py', 'docs/SOURCE-STUDY-2026-10-17.md', 'review/source-study-packet.json', 'review/source-study-response.json', 'analysis/source-study-audit.json', 'research/damos-live-pilot-2026-10-17.json']]
 CANDIDATES += [("source_followup_and_review_teaching", p) for p in ['research/review-exercise-2026-10-18.json', 'scripts/review_walkthrough.py', 'scripts/test_review_walkthrough.py', 'docs/REVIEWER-WALKTHROUGH.md', 'review/teaching-example.json', 'review/followup-packet.json', 'review/followup-response.json', 'analysis/review-walkthrough-audit.json']]
 CANDIDATES += [("source_page_and_structure_check", p) for p in ['research/damos-supplied-structure-2026-10-18.json', 'docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md']]
+CANDIDATES += [("public_source_route_inspection", p) for p in ['research/damos-public-routes-2026-10-19.json', 'docs/DAMOS-PUBLIC-ROUTES-2026-10-19.md']]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

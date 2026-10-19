@@ -314,6 +314,16 @@
       "path": "docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md",
       "role": "source_page_and_structure_check",
       "required": true
+    },
+    {
+      "path": "research/damos-public-routes-2026-10-19.json",
+      "required": true,
+      "role": "public_source_route_inspection"
+    },
+    {
+      "path": "docs/DAMOS-PUBLIC-ROUTES-2026-10-19.md",
+      "required": true,
+      "role": "public_source_route_inspection"
     }
   ],
   "schema_version": "1.0"

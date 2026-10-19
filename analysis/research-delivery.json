@@ -114,6 +114,23 @@
         "role": "bounded source access or structure check",
         "encoding": "json"
       }
+    },
+    {
+      "name": "damos-public-routes",
+      "native_unit": "bounded source-route inspection",
+      "record_count": 1,
+      "scope": "Actual consulted pages/responses only; no unique-object counts, clause/line equivalence, linked annotation delivery, new canonical readings or independent review.",
+      "example_ids": [
+        "LB-DAMOS-PUBLIC-ROUTES-20261019"
+      ],
+      "provenance": {
+        "path": "research/damos-public-routes-2026-10-19.json",
+        "sha256": "dd327cd5924759b13ef4a441221a66d06894bce21737e64bd3cc7fe16635cf5d",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded visual/public-route source inspection",
+        "encoding": "json"
+      }
     }
   ],
   "scholarly_limits": [
@@ -149,8 +166,8 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "06df5f6813a81834e1ca9fe7e07c8fe2314cd78d80fd30f4b8a09e66d0153aee",
-      "bytes": 15712
+      "sha256": "5638838cd247589e0a26af097ced2eaaf25d96301882b8a8e9c06d42271e1229",
+      "bytes": 16214
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
@@ -188,6 +205,11 @@
       "bytes": 41102
     },
     {
+      "path": "research/damos-public-routes-2026-10-19.json",
+      "sha256": "dd327cd5924759b13ef4a441221a66d06894bce21737e64bd3cc7fe16635cf5d",
+      "bytes": 5920
+    },
+    {
       "path": "research/damos-published-id-example-2026-10-14.json",
       "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
       "bytes": 5034
@@ -209,8 +231,8 @@
     },
     {
       "path": "research/evidence-query-profile.json",
-      "sha256": "078d47f56ad6af36a1e1d76bf815b4cb19405846884e6fd2c2ce0043284db2cc",
-      "bytes": 7239
+      "sha256": "13a1f459f62fb33cbe166aa6bbd5d852ffb5670ffc01134adc1b88ab52f99b1f",
+      "bytes": 7905
     },
     {
       "path": "research/kn-fp13-object-concordance.json",

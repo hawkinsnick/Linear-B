@@ -52,6 +52,15 @@
       "singleton": true,
       "unit": "bounded source access or structure inspection",
       "scope": "Preserve actual page/snapshot scope. No canonical readings, physical joins, linked annotation delivery or human acceptance inferred."
+    },
+    {
+      "name": "damos-public-routes",
+      "path": "research/damos-public-routes-2026-10-19.json",
+      "pointer": "",
+      "id_pointer": "/case_id",
+      "singleton": true,
+      "unit": "bounded source-route inspection",
+      "scope": "Actual consulted pages/responses only; no unique-object counts, clause/line equivalence, linked annotation delivery, new canonical readings or independent review."
     }
   ],
   "relations": [],
@@ -145,6 +154,12 @@
       "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
       "encoding": "json",
       "role": "bounded source access or structure check"
+    },
+    {
+      "path": "research/damos-public-routes-2026-10-19.json",
+      "sha256": "dd327cd5924759b13ef4a441221a66d06894bce21737e64bd3cc7fe16635cf5d",
+      "encoding": "json",
+      "role": "bounded visual/public-route source inspection"
     }
   ],
   "scholarly_limits": [

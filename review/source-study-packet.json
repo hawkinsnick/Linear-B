@@ -11,7 +11,7 @@
     "role": "bounded directly consulted source study",
     "encoding": "json"
   },
-  "profile_sha256": "078d47f56ad6af36a1e1d76bf815b4cb19405846884e6fd2c2ce0043284db2cc",
+  "profile_sha256": "13a1f459f62fb33cbe166aa6bbd5d852ffb5670ffc01134adc1b88ab52f99b1f",
   "question": "Can the Pylos pilot acquire source-linked linguistic analyses without fabricating a same-snapshot alignment?",
   "review_questions": [
     "Are the source IDs and literal context fields faithfully projected, with versions kept separate?",
