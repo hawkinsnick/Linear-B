@@ -11,5 +11,6 @@
   "version": "0.3.1",
   "authority_profile": "ai-skill/references/authority-profile.json",
   "bundle_schema": "0.3.1",
-  "validation_policy": "Required authorities, hashes, skill version and source commit must validate before use."
+  "validation_policy": "Required authorities, hashes, skill version and source commit must validate before use.",
+  "function_validation": "scripts/validate_ai_skill.py"
 }
