@@ -1,0 +1,110 @@
+{
+  "format": "corpus-ai-skill-function-check-v1",
+  "repository": "hawkinsnick/Linear-B",
+  "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+  "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+  "skill_name": "linear-b-research",
+  "skill_version": "0.3.1",
+  "skill_sha256": "566865e1fa610ebbec2ae8efdaf25e6136655894dc0241b8ef784c324d4afe67",
+  "bundle_source_commit": "80adc65b01f2cc146bed7338703cbff7e101cde4",
+  "bundle_sha256": "8965049c601aeb993b684627d8181a71a015dab813b3a4c90158acd56054dee8",
+  "indexed_artifact_entries_checked": 90,
+  "unique_indexed_paths_checked": 89,
+  "lookups": [
+    {
+      "collection": "published-appendix-document",
+      "id": "PY-Ae-27",
+      "native_unit": "published appendix document example",
+      "provenance": {
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/document",
+        "native_artifacts_snapshot_commit": null,
+        "role": "published-appendix-document, published-appendix-units",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "published-appendix-units",
+      "id": "pwid21195",
+      "native_unit": "published XML-ID unit",
+      "provenance": {
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/units/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "published-appendix-document, published-appendix-units",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "attribution-review",
+      "id": "LB-PUBLISHED-EXAMPLE",
+      "native_unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "c090a75b7ceb145b7b12feb809d4ee9451d2c8ec3b0a0599a729e582a0134329",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "source-study",
+      "id": "LB-ANNOTATION-ACQUISITION-20261017",
+      "native_unit": "bounded source-acquisition or scholarly-argument study",
+      "provenance": {
+        "path": "research/source-study-2026-10-17.json",
+        "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "live-damos-identities",
+      "id": "4165",
+      "native_unit": "live source identity/context projection",
+      "provenance": {
+        "path": "research/damos-live-pilot-2026-10-17.json",
+        "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60",
+        "pointer": "/rows/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "damos-supplied-structure",
+      "id": "LB-DAMOS-SUPPLIED-STRUCTURE-20261018",
+      "native_unit": "bounded source access or structure inspection",
+      "provenance": {
+        "path": "research/damos-supplied-structure-2026-10-18.json",
+        "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded source access or structure check",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "damos-public-routes",
+      "id": "LB-DAMOS-PUBLIC-ROUTES-20261019",
+      "native_unit": "bounded source-route inspection",
+      "provenance": {
+        "path": "research/damos-public-routes-2026-10-19.json",
+        "sha256": "dd327cd5924759b13ef4a441221a66d06894bce21737e64bd3cc7fe16635cf5d",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded visual/public-route source inspection",
+        "encoding": "json"
+      }
+    }
+  ],
+  "missing_id_rejected": true,
+  "scholarly_acceptance_granted": false,
+  "empirical_model_accuracy_established": false,
+  "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+}
