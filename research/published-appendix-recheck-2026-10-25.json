@@ -1,0 +1,164 @@
+{
+  "format": "linear-b-published-appendix-documentary-recheck-v1",
+  "date": "2026-10-25",
+  "native_input_commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+  "native_path": "research/damos-published-id-example-2026-10-14.json",
+  "native_sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+  "citation": "Federico Aurora, Damir Nedić, Asgeir Nesøen and Dag Haug (2025), Exporting Mycenaean: From a Relational Database to EpiDoc XML files (and back again?), DHNB Publications7(2), DOI10.5617/dhnbpub.12295",
+  "publication": {
+    "date": "2026-10-25",
+    "url": "https://journals.uio.no/dhnbpub/article/download/12295/10165",
+    "method": "Ordinary unauthenticated HTTP GET; no bypass",
+    "status": 200,
+    "bytes": 1000621,
+    "sha256": "0a38522838256cdf8fbb94238ffc35dc5dbd382a1acf21b52160b6549b6e3c93",
+    "pdf_magic": true,
+    "page_count": 11,
+    "printed_pages_inspected": [
+      10,
+      11
+    ],
+    "one_based_pdf_pages_inspected": [
+      10,
+      11
+    ],
+    "render_sha256": {
+      "10": "6aa3a0002366ad164a787322d523cdc25e046a576fae09157f9cfec8d65a8b29",
+      "11": "1a40631ba4da9b20df73dad8b34df2cd396ecbd3386b797237d3d68963dce242"
+    },
+    "license": "CC-BY-4.0",
+    "rights_source": "https://journals.uio.no/dhnbpub/article/view/12295",
+    "inspection": "Pages locally rendered at scale1.5 and visually inspected by the authoring assistant. PDF source bytes match the native earlier copy. This is a fresh replication of the existing documentary assertions, not a new reading discovery."
+  },
+  "assertions": [
+    {
+      "native_pointer": "/document/published_xml_id",
+      "expected": "PY-Ae-27",
+      "printed_page": 10,
+      "xml_line": 3,
+      "comparison": "MATCH"
+    },
+    {
+      "native_pointer": "/document/published_damos_item_id",
+      "expected": "4307",
+      "printed_page": 10,
+      "xml_line": 11,
+      "comparison": "MATCH"
+    },
+    {
+      "native_pointer": "/document/standard_label",
+      "expected": "PY Ae(1) 27",
+      "printed_page": 10,
+      "xml_line": 12,
+      "comparison": "MATCH"
+    },
+    {
+      "native_pointer": "/units/0",
+      "expected": {
+        "published_xml_id": "pwid21195",
+        "element": "w",
+        "source_line": "a",
+        "published_xml_line": 55,
+        "category": "lexical_word"
+      },
+      "printed_page": 11,
+      "xml_line": 55,
+      "comparison": "MATCH"
+    },
+    {
+      "native_pointer": "/units/1",
+      "expected": {
+        "published_xml_id": "pwid21197",
+        "element": "w",
+        "source_line": "a",
+        "published_xml_line": 63,
+        "category": "lexical_word"
+      },
+      "printed_page": 11,
+      "xml_line": 63,
+      "comparison": "MATCH"
+    },
+    {
+      "native_pointer": "/units/2",
+      "expected": {
+        "published_xml_id": "pwid21198",
+        "element": "w",
+        "source_line": "b",
+        "published_xml_line": 65,
+        "category": "lexical_word"
+      },
+      "printed_page": 11,
+      "xml_line": 65,
+      "comparison": "MATCH"
+    },
+    {
+      "native_pointer": "/units/3",
+      "expected": {
+        "published_xml_id": "pwid21200",
+        "element": "w",
+        "source_line": "b",
+        "published_xml_line": 70,
+        "category": "lexical_word"
+      },
+      "printed_page": 11,
+      "xml_line": 70,
+      "comparison": "MATCH"
+    },
+    {
+      "native_pointer": "/units/4",
+      "expected": {
+        "published_xml_id": "pwid21201",
+        "element": "w",
+        "source_line": "b",
+        "published_xml_line": 71,
+        "category": "lexical_word"
+      },
+      "printed_page": 11,
+      "xml_line": 71,
+      "comparison": "MATCH"
+    },
+    {
+      "native_pointer": "/units/5",
+      "expected": {
+        "published_xml_id": "pwid110",
+        "element": "w",
+        "source_line": "b",
+        "published_xml_line": 74,
+        "category": "logogram"
+      },
+      "printed_page": 11,
+      "xml_line": 74,
+      "comparison": "MATCH"
+    },
+    {
+      "native_pointer": "/units/6",
+      "expected": {
+        "published_xml_id": "pwid21203",
+        "element": "num",
+        "source_line": "b",
+        "published_xml_line": 75,
+        "category": "numeral"
+      },
+      "printed_page": 11,
+      "xml_line": 75,
+      "comparison": "MATCH"
+    }
+  ],
+  "summary": {
+    "document_fields_checked": 3,
+    "unit_records_checked": 7,
+    "lexical_word_units": 5,
+    "logogram_units": 1,
+    "numeral_units": 1,
+    "mismatches": 0
+  },
+  "source_access_for_this_copy_resolved": true,
+  "current_damos_export_delivered": false,
+  "same_version_word_crosswalk_verified": false,
+  "linguistic_gold_acquired": false,
+  "calibration_executed": false,
+  "external_specialist_review": false,
+  "reading_changes": 0,
+  "source_pdf_or_images_redistributed": false,
+  "boundary": "The published appendix is a 2025 sample export; its identifiers and element categories are confirmed as publication facts. It is not an aligned current DAMOS linguistic gold dataset, graphical sign control or independent acceptance of an ancient reading. The previous failed-access receipt remains historically accurate."
+}

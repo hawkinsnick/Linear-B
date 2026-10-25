@@ -31,6 +31,7 @@ CANDIDATES += [("source_page_and_structure_check", p) for p in ['research/damos-
 CANDIDATES += [("public_source_route_inspection", p) for p in ['research/damos-public-routes-2026-10-19.json', 'docs/DAMOS-PUBLIC-ROUTES-2026-10-19.md']]
 CANDIDATES += [('skill_function_validation', p) for p in ['ai-skill/SKILL.md', 'ai-skill/manifest.json', 'scripts/validate_ai_skill.py', 'scripts/test_ai_skill_validation.py', 'docs/AI-SKILL-VALIDATION.md', '.github/workflows/ai-skill-function.yml']]
 CANDIDATES += [('skill_validator_code', p) for p in ['ai-skill/scripts/build_bundle.py', 'ai-skill/scripts/validate_bundle.py', 'ai-skill/scripts/sync_skill.py']]
+CANDIDATES += [('published_appendix_recheck', p) for p in ['research/published-appendix-recheck-2026-10-25.json','scripts/check_published_appendix_recheck.py','ai-skill/references/authority-profile.json']]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

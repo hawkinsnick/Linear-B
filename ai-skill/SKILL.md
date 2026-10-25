@@ -146,3 +146,18 @@ Read `docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md` and `research/damos-supplied-
 ## Public source routes checked (2026-10-19 UTC)
 
 Read `docs/DAMOS-PUBLIC-ROUTES-2026-10-19.md` and `research/damos-public-routes-2026-10-19.json`; query `damos-public-routes` for exact receipt/scope. Public access, a successful HTTP response, a field name, a drawing label or physical line number does not establish linked linguistic analyses or an edition clause. Preserve source dependence, method limits and component-specific reuse terms. No raw source payload is redistributed by this register.
+
+## Preserve review provenance
+
+Reject malformed JSON-pointer escapes and negative or leading-zero array indices
+when verifying source citations; literal object keys retain their own spelling.
+Read the [master hostile-review report](https://github.com/hawkinsnick/Master-Corpus-AI-Skill/blob/main/references/hostile-review-2026-10-25.md)
+for this member's pinned retrieval scope and the limits of the source-fidelity
+and development checks. Complete retrieval-view traversal does not certify
+corpus completeness, accepted readings, independent witnesses or expert review.
+
+For the fresh printed appendix check, read `research/published-appendix-recheck-2026-10-25.json`.
+The previously failed paper download succeeded; three document identifiers and
+seven ID-bearing units match printed pp.10–11. Keep five lexical words, one
+logogram and one numeral distinct. This confirms publication attribution only;
+current export delivery, word crosswalk, gold and calibration remain unexecuted.

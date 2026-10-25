@@ -324,6 +324,11 @@
       "path": "docs/DAMOS-PUBLIC-ROUTES-2026-10-19.md",
       "required": true,
       "role": "public_source_route_inspection"
+    },
+    {
+      "path": "research/published-appendix-recheck-2026-10-25.json",
+      "required": true,
+      "role": "published_appendix_documentary_recheck"
     }
   ],
   "schema_version": "1.0"
