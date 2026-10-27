@@ -166,8 +166,13 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "7c571bf8638541318b8f8adc8c349cead078072af45d8336186205130c53f901",
-      "bytes": 18566
+      "sha256": "4e70acecfaadff683c15d48087fa8b8c3eafb43eabc3b7a13fcd88f4ff8fc969",
+      "bytes": 20213
+    },
+    {
+      "path": "docs/NONREVIEW-WORK.md",
+      "sha256": "c90efa26da29fb3edc84f78dccd95821fb6b827378bb7bbdb44a085705778d97",
+      "bytes": 2981
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
@@ -261,8 +266,8 @@
     },
     {
       "path": "scripts/research_delivery.py",
-      "sha256": "2c82a9f1fdac786da4b9583c3d463002a77d45fcdd604be86e4234b09070d756",
-      "bytes": 10387
+      "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+      "bytes": 10514
     },
     {
       "path": "scripts/test_research_delivery.py",

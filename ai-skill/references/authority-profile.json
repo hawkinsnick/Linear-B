@@ -329,6 +329,11 @@
       "path": "research/published-appendix-recheck-2026-10-25.json",
       "required": true,
       "role": "published_appendix_documentary_recheck"
+    },
+    {
+      "role": "nonreview_workflow",
+      "path": "docs/NONREVIEW-WORK.md",
+      "required": true
     }
   ],
   "schema_version": "1.0"
