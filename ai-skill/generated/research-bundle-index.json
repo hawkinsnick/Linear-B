@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "c08788adb8d497780d1a770a82de7ddcfb9228a7",
-  "generated_at_utc": "2026-10-25T19:28:35+00:00",
+  "source_commit": "cc151df470252f30d66ab3c4ba45708eba283546",
+  "generated_at_utc": "2026-10-27T13:07:54+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -298,8 +298,8 @@
     {
       "role": "research_delivery",
       "path": "scripts/research_delivery.py",
-      "sha256": "2c82a9f1fdac786da4b9583c3d463002a77d45fcdd604be86e4234b09070d756",
-      "bytes": 10387
+      "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+      "bytes": 10514
     },
     {
       "role": "research_delivery",
@@ -316,8 +316,8 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "56eae9d04ca026a16119223c1e7a250f7f92552c88a3f5aaa8245aff89373bdb",
-      "bytes": 10675
+      "sha256": "265979c8c9f92bc6bbab1eb1a5aac07defd00ccf8a1cd8612e403ae777ed29f2",
+      "bytes": 10832
     },
     {
       "role": "specialist_task_pilot",
@@ -352,8 +352,8 @@
     {
       "role": "specialist_task_pilot",
       "path": "ai-skill/SKILL.md",
-      "sha256": "7c571bf8638541318b8f8adc8c349cead078072af45d8336186205130c53f901",
-      "bytes": 18566
+      "sha256": "4e70acecfaadff683c15d48087fa8b8c3eafb43eabc3b7a13fcd88f4ff8fc969",
+      "bytes": 20213
     },
     {
       "role": "specialist_task_pilot",
@@ -502,8 +502,8 @@
     {
       "role": "skill_function_validation",
       "path": "ai-skill/SKILL.md",
-      "sha256": "7c571bf8638541318b8f8adc8c349cead078072af45d8336186205130c53f901",
-      "bytes": 18566
+      "sha256": "4e70acecfaadff683c15d48087fa8b8c3eafb43eabc3b7a13fcd88f4ff8fc969",
+      "bytes": 20213
     },
     {
       "role": "skill_function_validation",
@@ -538,8 +538,8 @@
     {
       "role": "skill_validator_code",
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "f024579ce45ba73a64e7241f8eaf1e21711433f778d323aace249c94980a47ea",
-      "bytes": 7116
+      "sha256": "7bc437520a2cca81f283b6a1dabbbb9a5a9afb4cb60a66e8a0dcf0043b49247f",
+      "bytes": 7181
     },
     {
       "role": "skill_validator_code",
@@ -568,8 +568,14 @@
     {
       "role": "published_appendix_recheck",
       "path": "ai-skill/references/authority-profile.json",
-      "sha256": "30eec73b2bde0641c0922614afe692785ddf12ddd51306e1dac18c5238bb1645",
-      "bytes": 9242
+      "sha256": "2acda262e1a298505066055bae94eda2fa6476821a5a838e527669638339f2a8",
+      "bytes": 9354
+    },
+    {
+      "role": "nonreview_workflow",
+      "path": "docs/NONREVIEW-WORK.md",
+      "sha256": "c90efa26da29fb3edc84f78dccd95821fb6b827378bb7bbdb44a085705778d97",
+      "bytes": 2981
     }
   ]
 }
